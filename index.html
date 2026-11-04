@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SoloRejs – Velkommen</title>
+  <meta name="description" content="Velkommen til SoloRejs – rejser for dig, der rejser på egen hånd. Mere følger snart.">
+  <meta property="og:title" content="SoloRejs">
+  <meta property="og:description" content="Rejser for dig, der rejser på egen hånd. Mere følger snart.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🧭%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#top">Solo<span>Rejs</span></a>
+    <nav>
+      <a href="#om">Om</a>
+      <a href="#snart">Snart</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="sun" aria-hidden="true"></div>
+      <svg class="hills" viewBox="0 0 1440 320" preserveAspectRatio="none" aria-hidden="true">
+        <path class="h1" d="M0 220 C240 120 420 260 700 180 C980 100 1180 240 1440 150 L1440 320 L0 320Z"/>
+        <path class="h2" d="M0 270 C260 200 480 300 760 240 C1040 180 1220 290 1440 230 L1440 320 L0 320Z"/>
+      </svg>
+      <div class="hero-inner">
+        <p class="eyebrow">Velkommen</p>
+        <h1>Rejs alene.<br><em>Aldrig ensom.</em></h1>
+        <p class="lead">SoloRejs er til dig, der vil ud i verden på egen hånd – med nysgerrighed i rygsækken og friheden til selv at bestemme retningen.</p>
+        <a class="btn" href="#snart">Hold dig opdateret</a>
+      </div>
+    </section>
+
+    <section id="om" class="section">
+      <h2>Om SoloRejs</h2>
+      <div class="cols">
+        <p>At rejse alene handler ikke om at være alene. Det handler om at tage dine egne valg, møde nye mennesker og komme hjem som en lidt anden udgave af dig selv.</p>
+        <p>Her vil du snart kunne finde inspiration og rejser, der passer til dig, der rejser solo. Vi er stadig ved at pakke kufferten.</p>
+      </div>
+    </section>
+
+    <section id="snart" class="section soon">
+      <div class="card">
+        <span class="badge">Kommer snart</span>
+        <h2>Vi gør klar til afrejse</h2>
+        <p>Siden er under opbygning. Kig forbi igen om lidt – der kommer mere her.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year">2026</span> SoloRejs</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
