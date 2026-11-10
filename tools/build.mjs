@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const trips = JSON.parse(readFileSync(join(root, 'data', 'trips.json'), 'utf8'));
-const SITE_URL = 'https://thomasardal.github.io/solorejs'; // bruges kun i sitemap
+const SITE_URL = 'https://solorejs.dk'; // bruges kun i sitemap (matcher CNAME)
 
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const kr = (n) => (n == null ? null : new Intl.NumberFormat('da-DK', { maximumFractionDigits: 0 }).format(n) + ' kr.');
