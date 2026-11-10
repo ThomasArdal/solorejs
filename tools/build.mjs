@@ -65,8 +65,8 @@ const head = (title, desc, css, extra = '') => `<!doctype html>
 </head>`;
 
 const header = (base) => `<header class="top">
-  <a class="logo" href="${base}index.html">Solo<span>Rejs</span></a>
-  <nav><a href="${base}index.html#rejser">Alle rejser</a><a href="${base}index.html#om">Om siden</a></nav>
+  <a class="logo" href="/">Solo<span>Rejs</span></a>
+  <nav><a href="/#rejser">Alle rejser</a><a href="/#om">Om siden</a></nav>
 </header>`;
 
 const footer = () => `<footer>
@@ -210,7 +210,7 @@ function detail(t) {
 <body class="detail">
 ${header('../')}
 <main class="wrap">
-  <nav class="crumbs" aria-label="Brødkrumme"><a href="../index.html">Alle rejser</a> › <span>${esc(t.country)}</span></nav>
+  <nav class="crumbs" aria-label="Brødkrumme"><a href="/">Alle rejser</a> › <span>${esc(t.country)}</span></nav>
 
   <div class="d-hero${t.image ? ' has-img' : ''}" style="--g1:${t.grad[0]};--g2:${t.grad[1]}">
     ${t.image ? `<img class="d-img" src="${esc(t.image)}" alt="" referrerpolicy="no-referrer" onerror="this.remove();this.parentNode.classList.remove('has-img')">` : ''}
