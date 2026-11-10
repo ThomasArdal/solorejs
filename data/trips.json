@@ -2325,5 +2325,125 @@
     "terms": "Depositum 10 %. Kun nye bookinger; tilbuddet gælder til 30. november 2026. Konkrete afgangsdatoer fremgår ikke af siden.",
     "sourceUrl": "https://www.hurtigruten.com/da-dk/tilbud/rejs-alene-uden-tillaeg",
     "priceCheckedDate": "2026-11-10"
+  },
+  {
+    "id": "spies-gran-canaria-2027-05-26",
+    "operator": "Spies",
+    "title": "Ferie alene på Gran Canaria (Playa del Inglés)",
+    "country": "Spanien",
+    "destination": "Playa del Inglés, Gran Canaria",
+    "tripType": "Solferie",
+    "departureDate": "2027-05-26",
+    "alternativeDepartures": [],
+    "nights": 7,
+    "days": 8,
+    "board": "Halvpension",
+    "soloType": "solo-gruppe",
+    "soloPriceDKK": 9295,
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": false,
+    "soloNote": "Prisen gælder én person i eget enkeltbelagt lejlighedsværelse; intet separat enkeltværelsestillæg er angivet. Rejsen er for solorejsende i en gruppe på samme hotel.",
+    "guide": "Spies-guides med velkomstmøde og fællesspisning",
+    "groupSize": null,
+    "flightIncluded": true,
+    "includes": [
+      "Direkte returfly med Sunclass Airlines",
+      "25 kg indchecket bagage og 5 kg håndbagage",
+      "Bustransfer mellem lufthavn og hotel",
+      "Lejlighed med ét soveværelse til alenebrug",
+      "Halvpension",
+      "Søndagsudflugten \"Et kontinent i miniatureformat\""
+    ],
+    "excludes": [
+      "Frokost",
+      "Valgfri udflugt til Las Palmas",
+      "Afbestillingsforsikring (valgfri): 439 kr.",
+      "Rejseforsikring (valgfri): 420 kr."
+    ],
+    "highlights": [
+      "Hotel kun for voksne med udsigt til Maspalomas-klitterne",
+      "Tre pools og loungebar med levende musik",
+      "Heldagsudflugt gennem Fataga-dalen og Teror"
+    ],
+    "itinerary": [
+      {
+        "day": "Dag 1",
+        "title": "Ankomst, transfer til hotel, velkomstmøde og fællesmiddag"
+      },
+      {
+        "day": "Søndag",
+        "title": "Heldagsudflugt gennem Fataga-dalen til Teror"
+      },
+      {
+        "day": "Sidste dag",
+        "title": "Udtjekning og hjemrejse"
+      }
+    ],
+    "description": "En uge på Sunprime Atlantic View i Playa del Inglés for solorejsende, med halvpension, fællesspisning ved reserverede borde og en heldagsudflugt i øens bjerge.",
+    "terms": "1.500 kr. i depositum ved tilmelding; restbeløbet forfalder 40 dage før afrejse. Afbestillingsvilkår fremgår ikke af siden.",
+    "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/gran-canaria-26-maj2027",
+    "priceCheckedDate": "2026-11-10"
+  },
+  {
+    "id": "spies-gran-canaria-2027-06-02",
+    "operator": "Spies",
+    "title": "Ferie alene på Gran Canaria (Playa del Inglés)",
+    "country": "Spanien",
+    "destination": "Playa del Inglés, Gran Canaria",
+    "tripType": "Solferie",
+    "departureDate": "2027-06-02",
+    "alternativeDepartures": [],
+    "nights": 7,
+    "days": 8,
+    "board": "Halvpension",
+    "soloType": "solo-gruppe",
+    "soloPriceDKK": 9150,
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": false,
+    "soloNote": "Prisen gælder én person i eget enkeltbelagt lejlighedsværelse; intet separat enkeltværelsestillæg er angivet. Rejsen er for solorejsende i en gruppe på samme hotel.",
+    "guide": "Spies-guides med velkomstmøde og fællesspisning",
+    "groupSize": null,
+    "flightIncluded": true,
+    "includes": [
+      "Direkte returfly med Sunclass Airlines",
+      "25 kg indchecket bagage og 5 kg håndbagage",
+      "Bustransfer mellem lufthavn og hotel",
+      "Lejlighed med ét soveværelse til alenebrug",
+      "Halvpension",
+      "Søndagsudflugten \"Et kontinent i miniatureformat\""
+    ],
+    "excludes": [
+      "Frokost",
+      "Valgfri udflugt til Las Palmas",
+      "Afbestillingsforsikring (valgfri): 439 kr.",
+      "Rejseforsikring (valgfri): 420 kr."
+    ],
+    "highlights": [
+      "Hotel kun for voksne med udsigt til Maspalomas-klitterne",
+      "Tre pools og loungebar med levende musik",
+      "Heldagsudflugt gennem Fataga-dalen og Teror"
+    ],
+    "itinerary": [
+      {
+        "day": "Dag 1",
+        "title": "Ankomst, transfer til hotel, velkomstmøde og fællesmiddag"
+      },
+      {
+        "day": "Søndag",
+        "title": "Heldagsudflugt gennem Fataga-dalen til Teror"
+      },
+      {
+        "day": "Sidste dag",
+        "title": "Udtjekning og hjemrejse"
+      }
+    ],
+    "description": "En uge på Sunprime Atlantic View i Playa del Inglés for solorejsende, med halvpension, fællesspisning ved reserverede borde og en heldagsudflugt i øens bjerge.",
+    "terms": "1.500 kr. i depositum ved tilmelding; restbeløbet forfalder 40 dage før afrejse. Afbestillingsvilkår fremgår ikke af siden.",
+    "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/gran-canaria-2-juni2027",
+    "priceCheckedDate": "2026-11-10"
   }
 ]
