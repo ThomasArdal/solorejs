@@ -170,7 +170,8 @@ ${header('')}
 
   <section id="om" class="about">
     <h2>Om SoloRejs</h2>
-    <p>At rejse alene handler ikke om at være alene. Men enkeltværelsestillægget kan gøre det dyrt. Her samler vi rejser og viser den samlede solopris, så du kan sammenligne på tværs af udbydere.</p>
+    <p>At rejse alene handler ikke om at være alene. Det handler om at tage dine egne valg, møde nye mennesker og komme hjem som en lidt anden udgave af dig selv.</p>
+    <p>Men enkeltværelsestillægget kan gøre det dyrt. Her samler vi rejser og viser den samlede solopris, så du kan sammenligne på tværs af udbydere.</p>
     <p>Vi sælger ikke rejser selv. Når du klikker videre, kommer du til udbyderens egen hjemmeside, hvor du booker og får den endelige pris og de fulde rejsevilkår. Siden kan indeholde links, hvor vi får en kommission – det koster dig ikke noget.</p>
   </section>
 </main>
