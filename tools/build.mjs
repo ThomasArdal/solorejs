@@ -149,7 +149,7 @@ ${header('')}
       <div class="f-group"><span class="f-title">Rejsetype</span>${checks('type', types, (v) => trips.filter((t) => t.tripType === v).length)}</div>
       <div class="f-group"><span class="f-title">Land</span><div class="scroll">${checks('country', countries, (v) => trips.filter((t) => t.country === v).length)}</div></div>
       ${boards.length ? `<div class="f-group"><span class="f-title">Forplejning</span>${checks('board', boards, (v) => trips.filter((t) => t.board === v).length)}</div>` : ''}
-      <div class="f-group"><span class="f-title">Rejseudbyder</span>${checks('operator', operators, (v) => trips.filter((t) => t.operator === v).length)}</div>
+      <div class="f-group"><span class="f-title">Rejseudbyder</span><div class="scroll">${checks('operator', operators, (v) => trips.filter((t) => t.operator === v).length)}</div></div>
     </aside>
 
     <div class="results">
