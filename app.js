@@ -41,7 +41,6 @@
   const sorters = {
     date: (a, b) => (a.date || '9999').localeCompare(b.date || '9999'),
     price: (a, b) => (a.price ?? Infinity) - (b.price ?? Infinity),
-    pct: (a, b) => (a.pct ?? Infinity) - (b.pct ?? Infinity),
     nights: (a, b) => (b.nights ?? 0) - (a.nights ?? 0),
   };
 
@@ -49,7 +48,6 @@
     const solo = SOLO[t.solo] || SOLO.ukendt;
     const meta = [t.date ? fmtDate(t.date) : null, t.nights ? `${t.nights} nætter` : (t.days ? `${t.days} dage` : null), t.board].filter(Boolean).join(' · ');
     const price = t.price != null ? `<span class="p-from">${t.from ? 'fra' : 'solopris'}</span><span class="p-val">${fmtKr(t.price)}</span>` : '<span class="p-na">Pris hos udbyder</span>';
-    const delta = t.pct != null ? `<span class="p-delta ${t.pct <= 0 ? 'good' : ''}">${t.pct > 0 ? '+' : ''}${t.pct} % ift. 2 rejsende</span>` : '';
     return `<a class="card" href="rejse/${esc(t.id)}.html">
       <div class="thumb${t.img ? ' has-img' : ''}" style="--g1:${t.grad[0]};--g2:${t.grad[1]}">${t.img ? `<img src="${esc(t.img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove();this.parentNode.classList.remove('has-img')">` : ''}<span aria-hidden="true">${t.icon}</span><em>${esc(t.type)}</em></div>
       <div class="body">
@@ -57,7 +55,7 @@
         <h3>${esc(t.title)}</h3>
         <p class="meta">${esc(meta)}</p>
         <span class="solo ${solo.cls}">${solo.label}</span>
-        <div class="price">${price}${delta}</div>
+        <div class="price">${price}</div>
       </div>
     </a>`;
   }

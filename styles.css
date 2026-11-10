@@ -139,8 +139,6 @@ button, input, select { font: inherit; color: inherit; }
 .p-from { font-size: .8rem; color: var(--muted); }
 .p-val { font-family: "Fraunces", serif; font-size: 1.5rem; font-weight: 600; }
 .p-na { color: var(--muted); font-size: .9rem; }
-.p-delta { font-size: .76rem; color: var(--muted); width: 100%; }
-.p-delta.good { color: var(--good); font-weight: 600; }
 
 /* ---------- About ---------- */
 .about { max-width: 46rem; margin: 0 auto; padding: 2rem 1.5rem 3rem; color: var(--muted); }

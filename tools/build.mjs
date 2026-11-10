@@ -159,7 +159,6 @@ ${header('')}
           <select id="sort">
             <option value="date">Afrejse (tidligst)</option>
             <option value="price">Solopris (lavest)</option>
-            <option value="pct">Mindst solo-tillæg i %</option>
             <option value="nights">Varighed (længst)</option>
           </select>
         </label>
