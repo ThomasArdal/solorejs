@@ -122,7 +122,7 @@
     "description": "Fastprisrejse i Sri Lanka med kultur, tog, safari og afslutning på stranden. Der er ingen fast dansk rejseleder, men man deler transport og udflugter med andre gæster.",
     "terms": "Depositum 2.500 kr. pr. person. Kun muligt hvis flyet også bookes hos Jysk Rejsebureau. Ikke en gruppetur. Ikke egnet for gangbesværede.",
     "sourceUrl": "https://www.jysk-rejsebureau.dk/sri-lanka/faerdigpakket-rejse/sri-lanka-rundrejse-safari-og-strandferie/",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "spies-kap-verde-2027-01-25",
@@ -182,7 +182,7 @@
     "description": "Syv nætter med all inclusive på Sal for solorejsende, der gerne vil have selskab. Gruppen mødes til velkomstmøde og fælles middage, og en halvdagstur på øen er med.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/kap-verde-25jan-2027",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "jysk-vietnam-2027-02-13",
@@ -265,7 +265,7 @@
     "description": "Fastprisrejse gennem Vietnam fra nord til syd med fly, hoteller og flere guidede udflugter, men uden fast dansk rejseleder. Man deler transport og udflugter med andre gæster, hvilket giver kontakt uden at være bundet til en gruppe.",
     "terms": "Depositum 2.500 kr. Fast pris; tilmeldingsfrist pr. afgang. Pas skal være gyldigt 6 måneder efter hjemkomst. Ikke egnet for gangbesværede.",
     "sourceUrl": "https://www.jysk-rejsebureau.dk/vietnam/faerdigpakket-rejse/vietnam-rundrejse-kultur-og-halong-bay/",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "nadana-syd-vietnam-2027-02-24",
@@ -322,7 +322,7 @@
     "description": "En lille gruppe på højst 12 rejser sammen med dansk rejseleder gennem det sydlige Vietnam. Eget værelse er med i prisen. Fra-pris 22.999 kr.; antal dage fremstår modstridende på siden.",
     "terms": "Depositum 4.500 kr. Afbestilling skriftligt: mere end 90 dage før afrejse mistes depositum; under 90 dage før mistes hele rejsens pris.",
     "sourceUrl": "https://nadana.dk/vietnam-2027/",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "stjernegaard-mexico-2027-03-13",
@@ -397,7 +397,7 @@
     "description": "Femten dages rundrejse i Mexico med togtur gennem Kobberkløften og kulturbyerne Oaxaca og Puebla. Kun morgenmad er inkluderet, så der er plads til at spise selv. Enkeltværelsestillægget er det højeste blandt de mindre rejser.",
     "terms": "Booking via knappen på siden. Ikke egnet for gangbesværede.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/mexico/rejser/mexicos-hjerte-og-togrejse-gennem-kobberkloeften/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "stjernegaard-madagaskar-2027-03-29",
@@ -465,7 +465,7 @@
     "description": "Tretten dages naturrejse til det nordlige Madagaskar med lemurer, nationalparker og afslutning på Nosy Be. Gruppen er lille (10-17), og rejsen kræver normal kondition.",
     "terms": "Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af siden.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/madagaskar/rejser/madagaskar-lemurernes-land/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "stjernegaard-bhutan-2027-03-29",
@@ -549,66 +549,7 @@
     "description": "Seksten dages rundrejse i Himalaya-kongeriget med få, små grupper og dansk rejseleder. Rejsen går gennem de vestlige og centrale dale med klostre, fæstninger og vandreture. Tillægget for eneværelse er moderat i forhold til rejsens pris.",
     "terms": "Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af rejsesiden.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/bhutan/rejser/tordendragens-kongerige/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-13"
-  },
-  {
-    "id": "spies-tenerife-2027-03-30",
-    "operator": "Spies",
-    "title": "Ferie alene på Tenerife (Puerto de la Cruz)",
-    "country": "Spanien",
-    "destination": "Puerto de la Cruz, Tenerife",
-    "tripType": "Solferie",
-    "departureDate": "2027-03-30",
-    "alternativeDepartures": [],
-    "nights": 7,
-    "days": 8,
-    "board": "Halvpension",
-    "soloType": "solo-gruppe",
-    "soloPriceDKK": 9295,
-    "soloPriceBasis": "stated",
-    "pricePerPersonDoubleDKK": null,
-    "singleSupplementDKK": null,
-    "priceIsFrom": false,
-    "soloNote": "Prisen er opgivet for én person i eget værelse; der vises intet separat enkeltværelsestillæg. Rejsen er for solorejsende (primært 65+) i en gruppe på samme hotel.",
-    "guide": "Skandinavisktalende rejseleder/guide med velkomstmøde og fællesspisning",
-    "groupSize": "Min. 15, maks. 20 deltagere.",
-    "flightIncluded": true,
-    "includes": [
-      "Returfly med Sunclass Airlines",
-      "Gratis måltid i flyet",
-      "15 kg indchecket bagage og 5 kg håndbagage",
-      "Bustransfer",
-      "Eget 1-rums lejlighedsværelse på Masaru",
-      "Halvpension",
-      "Guidet UNESCO-udflugt (La Laguna, Teide)"
-    ],
-    "excludes": [
-      "Afbestillingsforsikring (valgfri): 399 kr.",
-      "Rejseforsikring (valgfri): 350 kr."
-    ],
-    "highlights": [
-      "Afrejse fra København eller Billund",
-      "Udflugt til Teide Nationalpark",
-      "Laveste pris blandt de fundne Spies-solorejser"
-    ],
-    "itinerary": [
-      {
-        "day": "Dag 1",
-        "title": "Ankomst, transfer til hotel, velkomstmøde kl. 18 og fællesmiddag"
-      },
-      {
-        "day": "Midtvejs",
-        "title": "UNESCO-udflugt fredag"
-      },
-      {
-        "day": "Sidste dag",
-        "title": "Udtjekning og hjemrejse"
-      }
-    ],
-    "description": "En uges ferie for solorejsende i egen lejlighed på et hotel over Puerto de la Cruz. Halvpension og en guidet udflugt til La Laguna og Teide er med. Siden har enkelte datofejl i programteksten.",
-    "terms": "Depositum og afbestillingsvilkår er ikke angivet på siden.",
-    "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/tenerife-30marts2027",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "spies-madeira-2027-04-05",
@@ -669,7 +610,7 @@
     "description": "Syv nætter på Madeira i eget værelse med havudsigt og halvpension. Gruppen spiser sammen ved reserverede borde, og en tur til Blandy's Gardens er med.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/madeira-05apr-2027",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "egons-foraar-rhinen-2027-04-11",
@@ -713,7 +654,7 @@
     "description": "Femdages busrejse til Rhindalen med base i Rüdesheim for dem, der rejser alene. Normalpris 6.898 kr. pr. person (6.399 kr. for Ældre Sagen-medlemmer).",
     "terms": "Booking via Egons Rejser tlf. 70 20 18 47.",
     "sourceUrl": "https://www.aeldresagen.dk/tilbud-og-rabatter/samarbejdspartnere/ferie-i-danmark/egons-rejser/offers/ferie-alene-foraar-ved-rhinen-egons-rejser",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "stjernegaard-japan-2027-04-12",
@@ -792,7 +733,7 @@
     "description": "Femten dages rundrejse med dansk rejseleder gennem Japans klassiske steder og mindre besøgte egne som Tottori og Matsue. Rejsen kombinerer storbyerne med ryokan, slotte og kunst. Gruppen er på 15-25 personer, så der er gode muligheder for at falde i snak.",
     "terms": "Booking via knappen på siden; ekspeditionsgebyr 295 kr. pr. ordre. Detaljerede afbestillingsregler fremgår ikke af rejsesiden. Ikke egnet for gangbesværede.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/japan/rejser/kejserens-japan/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "albatros-albanien-2027-04-14",
@@ -847,7 +788,7 @@
     "description": "En otte dages rundrejse i Albanien for dem, der rejser alene. Alle bor i enkeltværelse uden tillæg, og der er dansk rejseleder med. Turen går forbi både historiske byer, ruiner og kystlandskab. Pris fra 10.998 kr. afhængigt af afrejsedato (11.998 kr. for nogle datoer).",
     "terms": "Minimum antal deltagere kræves (typisk aflysning 4-6 uger før afrejse, hvorefter rejsens pris refunderes). Depositum og afbestillingsregler fremgår ikke af rejsesiden; der henvises til Albatros' almindelige bestemmelser. Prisen er fra-pris; flere afgange har højere pris (op til 11.998 kr.). Ikke egnet for gangbesværede.",
     "sourceUrl": "https://www.albatros.dk/rejser/albaniens-hemmeligheder-ferie-alene-i-faellesskab",
-    "priceCheckedDate": "2026-11-12"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "spies-gran-canaria-2027-04-14",
@@ -907,7 +848,7 @@
     "description": "Solorejse til Gran Canaria, hvor alle bor i egen lejlighed på et voksenhotel. Halvpension og en heldagsudflugt til øens indre er med i prisen.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/gran-canaria-14-april2027",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "albatros-faeroeerne-2027-04-15",
@@ -959,7 +900,7 @@
     "description": "Et kort ophold på Færøerne for solorejsende med dansk rejseleder. Alle har eget værelse uden tillæg, og programmet samler øens mest kendte naturoplevelser. Fra-pris 11.998 kr.",
     "terms": "Minimum antal deltagere kræves (typisk aflysning 4-6 uger før afrejse, hvorefter rejsens pris refunderes). Depositum og afbestillingsregler fremgår ikke af rejsesiden; der henvises til Albatros' almindelige bestemmelser. Prisen er fra-pris (12.998 kr. for efterårsafgange).",
     "sourceUrl": "https://www.albatros.dk/rejser/nordatlantens-oeje-faeroeerne-ferie-alene-i-faellesskab",
-    "priceCheckedDate": "2026-11-12"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "spies-cypern-2027-04-19",
@@ -1019,7 +960,7 @@
     "description": "En uge i Ayia Napa for solorejsende med halvpension og en heldagsudflugt til bjerglandsbyer og vingård. Siden nævner ved en fejl også et hotel på Lesbos, så hotellet bør bekræftes.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/cypern-19-apr-2027",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "albatros-groenland-2027-04-21",
@@ -1071,7 +1012,7 @@
     "description": "En seks dages tur til Vestgrønland med base i Ilulissat. Du bor i enkeltværelse, og dansk rejseleder følger gruppen. Fra-pris 19.998 kr.; efterårsafgange er dyrere (op til 24.998 kr.).",
     "terms": "Minimum antal deltagere kræves (typisk aflysning 4-6 uger før afrejse, hvorefter rejsens pris refunderes). Depositum og afbestillingsregler fremgår ikke af rejsesiden; der henvises til Albatros' almindelige bestemmelser.",
     "sourceUrl": "https://www.albatros.dk/rejser/eventyrlige-groenland-ferie-alene-i-faellesskab",
-    "priceCheckedDate": "2026-11-12"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "albatros-kroatien-2027-04-24",
@@ -1122,7 +1063,7 @@
     "description": "En otte dages singlerejse til Dalmatiens kyst med base i Vodice. Du bor i eget værelse uden tillæg, og programmet kombinerer byer, nationalpark og lokale smagsoplevelser. Fra-pris 9.998 kr.",
     "terms": "Minimum antal deltagere kræves (typisk aflysning 4-6 uger før afrejse, hvorefter rejsens pris refunderes). Depositum og afbestillingsregler fremgår ikke af rejsesiden; der henvises til Albatros' almindelige bestemmelser.",
     "sourceUrl": "https://www.albatros.dk/rejser/singlerejse-i-kroatien-ferie-alene-i-faellesskab",
-    "priceCheckedDate": "2026-11-12"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "albatros-sydafrika-2027-05-03",
@@ -1233,7 +1174,7 @@
     "description": "Syv nætter på Kreta med enkel all inclusive og afrejse fra Aalborg. Siden er uklar om værelsestypen (nævner også en to-rums lejlighed), så den bør bekræftes hos Spies.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/kreta-6maj2027",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "jysk-japan-2027-05-07",
@@ -1317,7 +1258,7 @@
     "description": "Fastprisrejse med fly, hoteller og tog, men uden fast gruppe eller dansk rejseleder, så man bestemmer selv tempoet. Passer til dem, der gerne rejser alene og selv vil styre dagene. Siden har en mulig fejl i antal nætter i Osaka.",
     "terms": "Depositum 2.500 kr. for at reservere pladsen. Hotel og aktiviteter kan kun købes sammen med fly via Jysk Rejsebureau. Ikke en gruppetur; program- og prisændringer forbeholdes.",
     "sourceUrl": "https://www.jysk-rejsebureau.dk/japan/faerdigpakket-rejse/japan-tokyo-kyoto-og-idyllisk-natur/",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "spies-rhodos-2027-05-09",
@@ -1376,7 +1317,7 @@
     "description": "Uge i Rhodos by i eget værelse med halvpension. Gruppen får en smagsudflugt med olivenolie og vin. Ældre Sagen-medlemmer kan få 250 kr. i rabat.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/rhodos-09maj-2027",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "spies-gran-canaria-2027-05-19",
@@ -1435,7 +1376,7 @@
     "description": "Uge i Puerto de Mogán for solorejsende med halvpension og en heldagsudflugt gennem øens bjerge. Hotellet har spa og aktivitetsprogram.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/gran-canaria-19maj2027",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "spies-cypern-2027-05-24",
@@ -1495,7 +1436,7 @@
     "description": "Samme koncept som aprilafgangen: en uge i Ayia Napa som solorejsende med halvpension og en bjergudflugt. Siden er uklar om værelsestypen, så bekræft ved booking.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/cypern-24-maj-2027",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "nadana-samos-2027-05-29",
@@ -1559,7 +1500,7 @@
     "description": "En uges social ferie på Samos for dem, der rejser alene, med dansk rejseleder og et lille fælles program. Fra-pris 8.899 kr. for den billigste afgang; op til 9.999 kr. i højsæsonen.",
     "terms": "Depositum 4.500 kr. Afbestilling skriftligt: mere end 90 dage før afrejse mistes depositum; under 90 dage før mistes hele rejsens pris.",
     "sourceUrl": "https://nadana.dk/samos-2027/",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "stjernegaard-mongoliet-2027-08-16",
@@ -1640,7 +1581,7 @@
     "description": "Tretten dages rundrejse gennem Mongoliets stepper og Gobi med ger-overnatninger og dansk rejseleder. Siden oplyser, at programmet og priser for 2027 stadig kan ændre sig. Tillægget for eneværelse er relativt højt.",
     "terms": "Siden angiver, at priser og nyt dagsprogram stadig færdiggøres. Booking via knappen. Ikke egnet for gangbesværede. Bemærk datoafvigelse (16. vs. 17. august) på siden.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/mongoliet/rejser/eventyrlige-mongoliet/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "spies-gran-canaria-2027-08-18",
@@ -1700,7 +1641,7 @@
     "description": "August-afgang til voksenhotel på Gran Canaria, hvor alle bor alene i egen lejlighed med halvpension. Afrejse også fra Aalborg.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/gran-canaria-18aug2027",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "stjernegaard-kina-2027-08-30",
@@ -1777,7 +1718,7 @@
     "description": "Seksten dages rundrejse i Kina med mange afgange, helpension og dansk rejseleder. Gruppen er på 10-25 deltagere. Mange afgange gør det let at finde en dato, der passer.",
     "terms": "Booking via knappen på siden. Visumregler for 2027 er endnu ikke afklaret. Ikke egnet for gangbesværede.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/kina/rejser-til-kina/eventyrlige-kina/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "stjernegaard-groenland-2027-09-21",
@@ -1847,7 +1788,7 @@
     "description": "Elleve dages rundrejse langs Grønlands vestkyst med isfjord, hovedstad og de norrøne spor i syd. Dansk rejseleder og en gruppe på højst 23. Prisen er høj, og enkeltværelsestillægget er også stort.",
     "terms": "Booking via knappen på siden. Ikke egnet for gangbesværede.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/groenland/rejser/inuitkultur-fjord-og-vikingespor-den-store-groenlandsrejse/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "spies-rhodos-2027-10-03",
@@ -1907,7 +1848,7 @@
     "description": "Uge på Rhodos i oktober for solorejsende med halvpension og en smagsudflugt. Prisen er baseret på alenebrug af dobbeltværelse.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/rhodos-3okt-2027",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "stjernegaard-oman-2027-11-18",
@@ -1978,7 +1919,7 @@
     "description": "Ni dages rundrejse i Oman med helpension og dansk rejseleder, der kombinerer byliv i Muscat med bjerge, forter og ørken. Rejsen er velegnet til alenerejsende, der vil have et fuldt program og en lille gruppe.",
     "terms": "Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af siden.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/oman/rejser/fortryllende-oman/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "nadana-sydafrika-2027-11-26",
@@ -2023,7 +1964,7 @@
     "description": "Ti dage på safarilodge i Greater Kruger for solorejsende i lille gruppe. Alt er inkluderet, og der er ingen tillæg for eget værelse.",
     "terms": "Depositum/afbestilling for 2027 er ikke angivet på siden.",
     "sourceUrl": "https://nadana.dk/sydafrika-2027/",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "hurtigruten-bergen-kirkenes-bergen-solo",
@@ -2060,7 +2001,7 @@
     "description": "Hele den norske kyst frem og tilbage på 12 dage med anløb af 34 havne. Singletilbuddet giver egen kahyt uden det sædvanlige tillæg på udvalgte afgange.",
     "terms": "Depositum 10 %. Kun nye bookinger; tilbuddet gælder til 30. november 2026. Konkrete afgangsdatoer fremgår ikke af siden.",
     "sourceUrl": "https://www.hurtigruten.com/da-dk/tilbud/rejs-alene-uden-tillaeg",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "hurtigruten-bergen-kirkenes-trondheim-solo",
@@ -2097,7 +2038,7 @@
     "description": "Elleve dages rundrejse Bergen-Kirkenes-Trondheim med fuld forplejning. Det er uklart om alle afgange er omfattet af singletilbuddet.",
     "terms": "Depositum 10 %. Kun nye bookinger; tilbuddet gælder til 30. november 2026. Konkrete afgangsdatoer fremgår ikke af siden.",
     "sourceUrl": "https://www.hurtigruten.com/da-dk/tilbud/rejs-alene-uden-tillaeg",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "hurtigruten-bergen-kirkenes-nordgaaende-solo",
@@ -2134,7 +2075,7 @@
     "description": "Syv dage nordover fra Bergen til Kirkenes med fuld forplejning. Egen kahyt uden tillæg på udvalgte afgange.",
     "terms": "Depositum 10 %. Kun nye bookinger; tilbuddet gælder til 30. november 2026. Konkrete afgangsdatoer fremgår ikke af siden.",
     "sourceUrl": "https://www.hurtigruten.com/da-dk/tilbud/rejs-alene-uden-tillaeg",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "hurtigruten-kirkenes-bergen-sydgaaende-solo",
@@ -2171,7 +2112,7 @@
     "description": "Seks dage sydover fra Kirkenes til Bergen med fuld forplejning. Egen kahyt uden tillæg på udvalgte afgange; en af de billigste måder at sejle alene på.",
     "terms": "Depositum 10 %. Kun nye bookinger; tilbuddet gælder til 30. november 2026. Konkrete afgangsdatoer fremgår ikke af siden.",
     "sourceUrl": "https://www.hurtigruten.com/da-dk/tilbud/rejs-alene-uden-tillaeg",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "hurtigruten-nordkaplinjen-oslo-solo",
@@ -2208,7 +2149,7 @@
     "description": "Femten dages vinterrejse fra Oslo til Nordkap og retur, all inclusive. Siden nævner kun 'udvalgte Signature-rejser', så om tilbuddet gælder skal bekræftes.",
     "terms": "Depositum 10 %. Kun nye bookinger; tilbuddet gælder til 30. november 2026. Konkrete afgangsdatoer fremgår ikke af siden.",
     "sourceUrl": "https://www.hurtigruten.com/da-dk/tilbud/rejs-alene-uden-tillaeg",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "spies-gran-canaria-2027-05-26",
@@ -2268,7 +2209,7 @@
     "description": "En uge på Sunprime Atlantic View i Playa del Inglés for solorejsende, med halvpension, fællesspisning ved reserverede borde og en heldagsudflugt i øens bjerge.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløbet forfalder 40 dage før afrejse. Afbestillingsvilkår fremgår ikke af siden.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/gran-canaria-26-maj2027",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "spies-gran-canaria-2027-06-02",
@@ -2328,7 +2269,7 @@
     "description": "En uge på Sunprime Atlantic View i Playa del Inglés for solorejsende, med halvpension, fællesspisning ved reserverede borde og en heldagsudflugt i øens bjerge.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløbet forfalder 40 dage før afrejse. Afbestillingsvilkår fremgår ikke af siden.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/gran-canaria-2-juni2027",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "nadana-algarve-2027-04-07",
@@ -2407,7 +2348,7 @@
     "description": "En uges social ferie i Albufeira for dem, der rejser alene, med dansk rejseleder, fælles middage og valgfrie udflugter mod særskilt betaling.",
     "terms": "Depositum 4.500 kr. Afbestilling skriftligt: mere end 90 dage før afrejse mistes depositum; under 90 dage før mistes hele rejsens pris.",
     "sourceUrl": "https://nadana.dk/algarve-portugal-2027/",
-    "priceCheckedDate": "2026-11-12"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "nadana-istanbul-2027-03-17",
@@ -2473,7 +2414,7 @@
     "description": "Fem dage i Istanbul for solorejsende med dansk rejseleder, hotel i Sultanahmet og et fælles program med de store seværdigheder.",
     "terms": "Depositum 4.500 kr. Afbestilling mere end 90 dage før afrejse mistes depositum; inden for 90 dage mistes hele rejsens pris.",
     "sourceUrl": "https://nadana.dk/istanbul/",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
   },
   {
     "id": "spies-cypern-2027-10-04",
@@ -2533,6 +2474,70 @@
     "description": "En uge i Ayia Napa som solorejsende med halvpension og bjergudflugt til Troodos. Afrejse fra København. Siden er uklar om værelsestypen (enkeltbrug af dobbeltværelse mod pool), så bekræft ved booking.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/cypern-4-oktober-2027",
-    "priceCheckedDate": "2026-11-13"
+    "priceCheckedDate": "2026-11-14"
+  },
+  {
+    "id": "spies-madeira-2027-03-29",
+    "operator": "Spies",
+    "title": "Ferie alene på Madeira (Caniço)",
+    "country": "Portugal",
+    "destination": "Caniço, Madeira",
+    "tripType": "Solferie",
+    "departureDate": "2027-03-29",
+    "alternativeDepartures": [],
+    "nights": 7,
+    "days": 8,
+    "board": "Halvpension",
+    "soloType": "solo-gruppe",
+    "soloPriceDKK": 11850,
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": true,
+    "soloNote": "Prisen er pr. person og forudsætter eneværelse mod havet. Rejsen er for solorejsende, der ikke kender de andre deltagere.",
+    "guide": "Spies-guider mødes med deltagerne ved ankomst og leder velkomstmødet",
+    "groupSize": null,
+    "flightIncluded": true,
+    "includes": [
+      "Returfly med Sunclass Airlines",
+      "15 kg indchecket bagage og 5 kg håndbagage",
+      "Bustransfer mellem lufthavn og hotel",
+      "Ophold på The Views Oasis i værelse mod havet",
+      "Halvpension",
+      "Udflugt til Blandy Gardens med eftermiddagste"
+    ],
+    "excludes": [
+      "Afbestillingsforsikring (valgfri): 419 kr.",
+      "Rejseforsikring (valgfri): 420 kr.",
+      "Turistskat ca. 4,40 EUR pr. person pr. nat betales på hotellet",
+      "Valgfrie udflugter"
+    ],
+    "highlights": [
+      "Afrejse fra København",
+      "Halvpension",
+      "Blandy Gardens"
+    ],
+    "itinerary": [
+      {
+        "day": "29/3",
+        "title": "Ankomst, velkomstmøde kl. 18 og fællesmiddag"
+      },
+      {
+        "day": "30/3",
+        "title": "Udflugt til Blandy Gardens med eftermiddagste"
+      },
+      {
+        "day": "31/3 - 3/4",
+        "title": "Fridage med fælles morgenmad og middag"
+      },
+      {
+        "day": "5/4",
+        "title": "Udtjekning og hjemrejse"
+      }
+    ],
+    "description": "En uge på Madeira med halvpension og direkte fly fra København. Hotellet ligger i Caniço, og der er fælles måltider og aftenunderholdning på hotellet. Siden er uklar om værelsestypen, så den bør bekræftes hos Spies.",
+    "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
+    "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/madeira-29mar-2027",
+    "priceCheckedDate": "2026-11-14"
   }
 ]
