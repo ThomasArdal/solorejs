@@ -30,6 +30,7 @@ function pick(html, base) {
 
 const out = {};
 for (const t of trips) {
+  if (t.imageUrl) continue; // billedet ligger allerede på rejsen (Sembo-feedet); undgå at hente trackinglinket
   try {
     const res = await fetch(t.sourceUrl, { headers: { 'user-agent': UA, 'accept-language': 'da' }, redirect: 'follow', signal: AbortSignal.timeout(20000) });
     const html = res.ok ? await res.text() : '';
@@ -42,4 +43,4 @@ for (const t of trips) {
   await sleep(1500);
 }
 writeFileSync(join(root, 'data', 'images.json'), JSON.stringify(out, null, 2) + '\n');
-console.log(`\n${Object.keys(out).length} af ${trips.length} rejser har et billede.`);
+console.log(`\n${Object.keys(out).length} af ${trips.filter((t) => !t.imageUrl).length} rejser uden egen imageUrl har et billede.`);

@@ -33,10 +33,11 @@ const TYPE_GRAD = {
 
 // Billeder (hotlinket preview – se tools/fetch-images.mjs). Frasorter dem der ser forkerte ud.
 const images = existsSync(join(root, 'data', 'images.json')) ? JSON.parse(readFileSync(join(root, 'data', 'images.json'), 'utf8')) : {};
+const imgOf = (t) => t.imageUrl || images[t.id]; // imageUrl (fx Sembo-feedet) går forud for hotlinket og:image
 const countriesByImg = {};
-for (const t of trips) if (images[t.id]) (countriesByImg[images[t.id]] ??= new Set()).add(t.country);
+for (const t of trips) if (imgOf(t)) (countriesByImg[imgOf(t)] ??= new Set()).add(t.country);
 for (const t of trips) {
-  const u = images[t.id];
+  const u = imgOf(t);
   const bad = !u || u.endsWith('/undefined') || countriesByImg[u].size > 1 || /skiathos/i.test(u);
   t.image = bad ? null : u;
 }

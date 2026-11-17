@@ -16,7 +16,7 @@ if (!obsFile || !token) { console.error('Brug: ADTRACTION_TOKEN=... node tools/s
 
 const PROGRAM_ID = 1970763849, CHANNEL_ID = 2126866054;
 const cands = JSON.parse(readFileSync(join(root, 'tools', 'sembo-candidates.json'), 'utf8'));
-const obs = JSON.parse(readFileSync(obsFile, 'utf8'));
+const obs = obsFile === '--images' ? [] : JSON.parse(readFileSync(obsFile, 'utf8')); // --images: kun billeder
 const tripsPath = join(root, 'data', 'trips.json');
 const trips = JSON.parse(readFileSync(tripsPath, 'utf8'));
 
@@ -65,6 +65,12 @@ for (const o of obs) {
     });
     log.created.push(`${o.id}: ${patch.soloPriceDKK} kr. (${o.departureDate})`);
   }
+}
+// Headerbillede fra Sembos feed (promotionsbillede for destinationen). Gemmes på rejsen, så fetch-images ikke overskriver det.
+for (const t of trips) {
+  if (t.operator !== 'Sembo') continue;
+  const p = feed.get(cands.find((x) => x.id === t.id)?.sku);
+  if (p?.imageUrl) t.imageUrl = p.imageUrl;
 }
 trips.sort((a, b) => (a.departureDate || '9999').localeCompare(b.departureDate || '9999') || a.title.localeCompare(b.title, 'da'));
 writeFileSync(tripsPath, JSON.stringify(trips, null, 2) + '\n');

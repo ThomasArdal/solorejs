@@ -42,7 +42,7 @@ Spring kandidaten over og skriv den som "kunne ikke aflæses". Opdater aldrig en
 1. Skriv en observationsfil i scratchpad (ikke i repoet):
    `[{ "id", "price" (tal), "departureDate", "nights", "hotelName", "roomType", "board", "flight", "checkedDate", "description", "highlights", "includes" }]`
    `description/highlights/includes` er kun nødvendige for nye rejser, men skal opdateres, hvis hotellet er skiftet (fx morgenmad er ikke længere med). Dansk, egne ord, kun fakta du har set.
-2. Kør `node tools/sembo-upsert.mjs <fil>` med `ADTRACTION_TOKEN` sat. Scriptet opretter/opdaterer pr. stabilt id, sætter `sourceUrl` til Adtraction-trackinglinket og `soloType: "soegepris"`.
+2. Kør `node tools/sembo-upsert.mjs <fil>` med `ADTRACTION_TOKEN` sat. Scriptet opretter/opdaterer pr. stabilt id, sætter `sourceUrl` til Adtraction-trackinglinket og `soloType: "soegepris"`, og sætter `imageUrl` (headerbillede) fra feedet. `fetch-images.mjs` og natjobbet rører ikke rejser med `imageUrl`. Kør `node tools/sembo-upsert.mjs --images`, hvis du kun vil opdatere billeder.
 3. Kør `node tools/build.mjs`.
 4. Rapportér: oprettet / prisændringer (gammel → ny, inkl. ny afrejsedato) / sprunget over. Commit til `main`, når brugeren har set rapporten og bekræfter.
 

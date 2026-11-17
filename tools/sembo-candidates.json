@@ -38,5 +38,185 @@
     "packageType": "Fly + hotel",
     "nights": 3,
     "pageUrl": "https://www.sembo.dk/rejsemaal/lissabon-portugal?airport=CPH"
+  },
+  {
+    "id": "sembo-athen-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:419542",
+    "name": "Athen",
+    "country": "Grækenland",
+    "tripType": "Citytrip",
+    "packageType": "Fly + hotel",
+    "nights": 3,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/athen-attica-graekenland?airport=CPH"
+  },
+  {
+    "id": "sembo-rhodos-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:422253",
+    "name": "Rhodos",
+    "country": "Grækenland",
+    "tripType": "Solferie",
+    "packageType": "Fly + hotel",
+    "nights": 7,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/rhodos-graekenland?airport=CPH"
+  },
+  {
+    "id": "sembo-porto-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:477031",
+    "name": "Porto",
+    "country": "Portugal",
+    "tripType": "Citytrip",
+    "packageType": "Fly + hotel",
+    "nights": 3,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/porto-portugal?airport=CPH"
+  },
+  {
+    "id": "sembo-funchal-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:477481",
+    "name": "Funchal (Madeira)",
+    "country": "Portugal",
+    "tripType": "Solferie",
+    "packageType": "Fly + hotel",
+    "nights": 7,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/funchal-madeira-portugal?airport=CPH"
+  },
+  {
+    "id": "sembo-mallorca-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:514728",
+    "name": "Mallorca",
+    "country": "Spanien",
+    "tripType": "Solferie",
+    "packageType": "Fly + hotel",
+    "nights": 7,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/mallorca-spanien?airport=CPH"
+  },
+  {
+    "id": "sembo-wien-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:310627",
+    "name": "Wien",
+    "country": "Østrig",
+    "tripType": "Citytrip",
+    "packageType": "Fly + hotel",
+    "nights": 3,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/wien-storby-ostrig?airport=CPH"
+  },
+  {
+    "id": "sembo-krakow-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:473925",
+    "name": "Kraków",
+    "country": "Polen",
+    "tripType": "Citytrip",
+    "packageType": "Fly + hotel",
+    "nights": 3,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/krakow-voivodskabet-lillepolen-polen?airport=CPH"
+  },
+  {
+    "id": "sembo-dubrovnik-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:349074",
+    "name": "Dubrovnik",
+    "country": "Kroatien",
+    "tripType": "Citytrip",
+    "packageType": "Fly + hotel",
+    "nights": 4,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/dubrovnik-dubrovnik-neretva-kroatien?airport=CPH"
+  },
+  {
+    "id": "sembo-paris-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:362474",
+    "name": "Paris",
+    "country": "Frankrig",
+    "tripType": "Citytrip",
+    "packageType": "Fly + hotel",
+    "nights": 3,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/paris-frankrig?airport=CPH"
+  },
+  {
+    "id": "sembo-amsterdam-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:462013",
+    "name": "Amsterdam",
+    "country": "Holland",
+    "tripType": "Citytrip",
+    "packageType": "Fly + hotel",
+    "nights": 3,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/amsterdam-nordholland-holland?airport=CPH"
+  },
+  {
+    "id": "sembo-london-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:541038",
+    "name": "London",
+    "country": "Storbritannien",
+    "tripType": "Citytrip",
+    "packageType": "Fly + hotel",
+    "nights": 3,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/london-england-storbritannien?airport=CPH"
+  },
+  {
+    "id": "sembo-berlin-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:399065",
+    "name": "Berlin",
+    "country": "Tyskland",
+    "tripType": "Citytrip",
+    "packageType": "Fly + hotel",
+    "nights": 3,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/berlin-tyskland?airport=CPH"
+  },
+  {
+    "id": "sembo-istanbul-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:538565",
+    "name": "Istanbul",
+    "country": "Tyrkiet",
+    "tripType": "Citytrip",
+    "packageType": "Fly + hotel",
+    "nights": 4,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/istanbul-istanbul-tyrkiet?airport=CPH"
+  },
+  {
+    "id": "sembo-antalya-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:537759",
+    "name": "Antalya",
+    "country": "Tyrkiet",
+    "tripType": "Solferie",
+    "packageType": "Fly + hotel",
+    "nights": 7,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/antalya-den-ostlige-middelhavskyst-tyrkiet?airport=CPH"
+  },
+  {
+    "id": "sembo-dubai-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:539525",
+    "name": "Dubai",
+    "country": "Forenede Arabiske Emirater",
+    "tripType": "Citytrip",
+    "packageType": "Fly + hotel",
+    "nights": 5,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/dubai-dubai-de-forenede-arabiske-emirater?airport=CPH"
+  },
+  {
+    "id": "sembo-phuket-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:535481",
+    "name": "Phuket",
+    "country": "Thailand",
+    "tripType": "Solferie",
+    "packageType": "Fly + hotel",
+    "nights": 7,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/phuket-phuket-thailand?airport=CPH"
+  },
+  {
+    "id": "sembo-bangkok-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:534750",
+    "name": "Bangkok",
+    "country": "Thailand",
+    "tripType": "Citytrip",
+    "packageType": "Fly + hotel",
+    "nights": 4,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/bangkok-bangkok-thailand?airport=CPH"
+  },
+  {
+    "id": "sembo-venedig-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:436628",
+    "name": "Venedig",
+    "country": "Italien",
+    "tripType": "Citytrip",
+    "packageType": "Fly + hotel",
+    "nights": 3,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/venedig-venedig-italien?airport=CPH"
   }
 ]

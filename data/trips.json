@@ -36,7 +36,8 @@
     "soloNote": "Billigste afrejsedag, vi fandt i Sembos priskalender, for 1 rejsende (enkeltværelse), hotel: Hotel Roma Tor Vergata. Fly: direkte med Ryanair mellem København og Rom (hjemrejse lander efter midnat). Prisen er et øjebliksbillede og kan ændre sig, før du booker.",
     "sourceUrl": "https://pin.sembo.dk/t/t?a=1970763854&as=2126866054&t=2&tk=1&cupa_sku=sembo%3Adk%3Aadtraction%3Adestination%3A436484&fid=3414&url=https://www.sembo.dk/rejsemaal/rom-storre-byer-italien?airport=CPH&affiliate-id=70301",
     "priceCheckedDate": "2026-11-17",
-    "flightIncluded": true
+    "flightIncluded": true,
+    "imageUrl": "https://images.sembo.travel/ImageService/ImageHandler.ashx?service=sembo&nameOfImage=239045.jpg"
   },
   {
     "id": "sembo-lissabon-fly-hotel",
@@ -75,7 +76,8 @@
     "soloNote": "Billigste afrejsedag, vi fandt i Sembos priskalender, for 1 rejsende (standardværelse), hotel: Moov Hotel Lisboa Oriente. Fly: direkte med Norwegian mellem København og Lissabon. Prisen er et øjebliksbillede og kan ændre sig, før du booker.",
     "sourceUrl": "https://pin.sembo.dk/t/t?a=1970763854&as=2126866054&t=2&tk=1&cupa_sku=sembo%3Adk%3Aadtraction%3Adestination%3A476617&fid=3414&url=https://www.sembo.dk/rejsemaal/lissabon-portugal?airport=CPH&affiliate-id=70301",
     "priceCheckedDate": "2026-11-17",
-    "flightIncluded": true
+    "flightIncluded": true,
+    "imageUrl": "https://images.sembo.travel/ImageService/ImageHandler.ashx?service=sembo&nameOfImage=248338.jpg"
   },
   {
     "id": "sembo-gran-canaria-fly-hotel",
@@ -116,7 +118,8 @@
     "soloNote": "Billigste afrejsedag, vi fandt i Sembos priskalender, for 1 rejsende (lejlighed), hotel: Marina Elite Hotel (Balito, Mogán). Fly: direkte med Norwegian mellem København og Las Palmas. Prisen er et øjebliksbillede og kan ændre sig, før du booker.",
     "sourceUrl": "https://pin.sembo.dk/t/t?a=1970763854&as=2126866054&t=2&tk=1&cupa_sku=sembo%3Adk%3Aadtraction%3Adestination%3A515013&fid=3414&url=https://www.sembo.dk/rejsemaal/gran-canaria-spanien?airport=CPH&affiliate-id=70301",
     "priceCheckedDate": "2026-11-17",
-    "flightIncluded": true
+    "flightIncluded": true,
+    "imageUrl": "https://images.sembo.travel/ImageService/ImageHandler.ashx?service=sembo&nameOfImage=237339.jpg"
   },
   {
     "id": "sembo-barcelona-fly-hotel",
@@ -155,7 +158,8 @@
     "soloNote": "Billigste afrejsedag, vi fandt i Sembos priskalender, for 1 rejsende (dobbeltværelse til én person, ingen tilbagebetaling), hotel: Hotel Alimara. Fly: direkte med Ryanair mellem København og Barcelona. Prisen er et øjebliksbillede og kan ændre sig, før du booker.",
     "sourceUrl": "https://pin.sembo.dk/t/t?a=1970763854&as=2126866054&t=2&tk=1&cupa_sku=sembo%3Adk%3Aadtraction%3Adestination%3A515569&fid=3414&url=https://www.sembo.dk/rejsemaal/barcelona-storbyer-spanien?airport=CPH&affiliate-id=70301",
     "priceCheckedDate": "2026-11-17",
-    "flightIncluded": true
+    "flightIncluded": true,
+    "imageUrl": "https://images.sembo.travel/ImageService/ImageHandler.ashx?service=sembo&nameOfImage=242423.jpg"
   },
   {
     "id": "nadana-barcelona-2026-12-29",
