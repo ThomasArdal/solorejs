@@ -39,7 +39,8 @@
   }
 
   const sorters = {
-    date: (a, b) => (a.date || '9999').localeCompare(b.date || '9999'),
+    // Fleksible søgepriser (fx Sembo) har ingen fast afrejse og lægges efter rejser med fast dato
+    date: (a, b) => (a.flex - b.flex) || (a.date || '9999').localeCompare(b.date || '9999'),
     price: (a, b) => (a.price ?? Infinity) - (b.price ?? Infinity),
     nights: (a, b) => (b.nights ?? 0) - (a.nights ?? 0),
   };

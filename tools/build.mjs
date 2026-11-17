@@ -97,7 +97,7 @@ const slim = trips.map((t) => ({
   id: t.id, title: t.title, operator: t.operator, country: t.country, destination: t.destination, type: t.tripType, pkg: t.packageType,
   date: t.departureDate, nights: t.nights, days: t.days, board: t.board, solo: t.soloType, price: t.soloPriceDKK,
   from: !!t.priceIsFrom, dbl: t.pricePerPersonDoubleDKK, sup: t.singleSupplementDKK, pct: t.premiumPct,
-  guide: t.guide, icon: t.icon, grad: t.grad, note: t.soloNote, img: t.image,
+  flex: t.soloPriceBasis === 'search', guide: t.guide, icon: t.icon, grad: t.grad, note: t.soloNote, img: t.image,
 }));
 
 const indexHtml = `${head('SoloRejs – rejser til dig, der rejser alene', 'Find rejser uden eller med lavt enkeltværelsestillæg. Sammenlign solopriser fra danske rejseudbydere på ét sted.', 'styles.css')}
