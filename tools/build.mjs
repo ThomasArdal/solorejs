@@ -1,7 +1,7 @@
 // Statisk site-generator for SoloRejs.
 // Læser data/trips.json og skriver index.html + rejse/<id>.html + sitemap.xml.
 // Kør:  node tools/build.mjs
-import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
@@ -74,7 +74,7 @@ const head = (title, desc, css, extra = '') => `<!doctype html>
 
 const header = (base) => `<header class="top">
   <a class="logo" href="/">Solo<span>Rejs</span></a>
-  <nav><a href="/#rejser">Alle rejser</a><a href="/#om">Om siden</a></nav>
+  <nav><a href="/#rejser">Alle rejser</a><a href="/guides/">Guides</a><a href="/#om">Om siden</a></nav>
 </header>`;
 
 const footer = () => `<footer>
@@ -275,11 +275,72 @@ ${footer()}
 `;
 }
 
+// ---------- Guides (content/guides/*.md) ----------
+const inline = (t) => esc(t)
+  .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+  .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, txt, url) => {
+    const u = url.replace(/&amp;/g, '&');
+    return /^https?:/.test(u) ? `<a href="${esc(u)}" target="_blank" rel="sponsored noopener noreferrer">${txt}</a>` : `<a href="${esc(u)}">${txt}</a>`;
+  });
+function md(src) {
+  const out = []; let list = null;
+  const close = () => { if (list) { out.push(`</${list}>`); list = null; } };
+  for (const line of src.split('\n')) {
+    let m;
+    if ((m = line.match(/^## (.+)/))) { close(); out.push(`<h2>${inline(m[1])}</h2>`); }
+    else if ((m = line.match(/^- (.+)/))) { if (list !== 'ul') { close(); out.push('<ul>'); list = 'ul'; } out.push(`<li>${inline(m[1])}</li>`); }
+    else if ((m = line.match(/^\d+\. (.+)/))) { if (list !== 'ol') { close(); out.push('<ol>'); list = 'ol'; } out.push(`<li>${inline(m[1])}</li>`); }
+    else if (line.trim()) { close(); out.push(`<p>${inline(line)}</p>`); }
+    else close();
+  }
+  close(); return out.join('\n');
+}
+const gdir = join(root, 'content', 'guides');
+const guides = existsSync(gdir) ? readdirSync(gdir).filter((f) => f.endsWith('.md')).map((f) => {
+  const raw = readFileSync(join(gdir, f), 'utf8').replace(/\r\n/g, '\n');
+  const [, fm, body] = raw.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+  const meta = Object.fromEntries(fm.split('\n').map((l) => [l.slice(0, l.indexOf(':')), l.slice(l.indexOf(':') + 1).trim()]));
+  return { slug: f.replace(/\.md$/, ''), ...meta, order: Number(meta.order) || 99, body };
+}).sort((a, b) => a.order - b.order) : [];
+
+const guidePage = (g) => `${head(`${g.title} – SoloRejs`, g.description, `../styles.css?v=${ver('styles.css')}`)}
+<body class="detail">
+${header('../')}
+<main class="wrap prose">
+  <nav class="crumbs" aria-label="Brødkrumme"><a href="/guides/">Guides</a> › <span>${esc(g.title)}</span></nav>
+  <h1>${esc(g.title)}</h1>
+  ${md(g.body)}
+  <p class="back"><a href="/">Se rejser til solorejsende →</a></p>
+</main>
+${footer()}
+</body>
+</html>
+`;
+const guideIndex = `${head('Guides til dig, der rejser alene – SoloRejs', 'Korte guides om enkeltværelsestillæg, første rejse alene og at finde billige rejser som solorejsende.', `../styles.css?v=${ver('styles.css')}`)}
+<body class="detail">
+${header('../')}
+<main class="wrap prose">
+  <h1>Guides</h1>
+  <p class="d-desc">Korte guides til dig, der rejser alene.</p>
+  <ul class="guide-list">
+${guides.map((g) => `    <li><a href="/guides/${g.slug}.html"><strong>${esc(g.title)}</strong><span>${esc(g.description)}</span></a></li>`).join('\n')}
+  </ul>
+</main>
+${footer()}
+</body>
+</html>
+`;
+
 // ---------- Skriv filer ----------
 const outDir = join(root, 'rejse');
 if (existsSync(outDir)) rmSync(outDir, { recursive: true });
 mkdirSync(outDir, { recursive: true });
 for (const t of trips) writeFileSync(join(outDir, `${t.id}.html`), detail(t));
 writeFileSync(join(root, 'index.html'), indexHtml);
-writeFileSync(join(root, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>${SITE_URL}/</loc></url>\n${trips.map((t) => `  <url><loc>${SITE_URL}/rejse/${t.id}.html</loc></url>`).join('\n')}\n</urlset>\n`);
-console.log(`Byggede forside + ${trips.length} rejsesider.`);
+const gOut = join(root, 'guides');
+if (existsSync(gOut)) rmSync(gOut, { recursive: true });
+mkdirSync(gOut, { recursive: true });
+writeFileSync(join(gOut, 'index.html'), guideIndex);
+for (const g of guides) writeFileSync(join(gOut, `${g.slug}.html`), guidePage(g));
+writeFileSync(join(root, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>${SITE_URL}/</loc></url>\n  <url><loc>${SITE_URL}/guides/</loc></url>\n${guides.map((g) => `  <url><loc>${SITE_URL}/guides/${g.slug}.html</loc></url>`).join('\n')}\n${trips.map((t) => `  <url><loc>${SITE_URL}/rejse/${t.id}.html</loc></url>`).join('\n')}\n</urlset>\n`);
+console.log(`Byggede forside + ${trips.length} rejsesider + ${guides.length} guides.`);

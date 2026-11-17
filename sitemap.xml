@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://solorejs.dk/</loc></url>
+  <url><loc>https://solorejs.dk/guides/</loc></url>
+  <url><loc>https://solorejs.dk/guides/enkeltvaerelsestillaeg.html</loc></url>
+  <url><loc>https://solorejs.dk/guides/foerste-gang-alene.html</loc></url>
+  <url><loc>https://solorejs.dk/guides/rundrejse-eller-selv.html</loc></url>
+  <url><loc>https://solorejs.dk/guides/billigste-dag.html</loc></url>
+  <url><loc>https://solorejs.dk/guides/forsinket-fly.html</loc></url>
   <url><loc>https://solorejs.dk/rejse/sembo-dubai-fly-hotel.html</loc></url>
   <url><loc>https://solorejs.dk/rejse/sembo-rhodos-fly-hotel.html</loc></url>
   <url><loc>https://solorejs.dk/rejse/sembo-bangkok-fly-hotel.html</loc></url>

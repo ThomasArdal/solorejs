@@ -212,3 +212,17 @@ dd { margin: 0; font-weight: 500; text-align: right; }
   .d-side { position: static; }
   .top nav a { margin-left: 1rem; }
 }
+
+/* Guides */
+.prose { max-width: 44rem; }
+.prose h1 { font-family: "Fraunces", serif; font-size: 2rem; margin: 1rem 0 .25rem; }
+.prose h2 { font-size: 1.3rem; margin: 2rem 0 .5rem; }
+.prose p, .prose li { line-height: 1.65; }
+.prose li { margin: .3rem 0; }
+.prose a { color: var(--accent-dark); }
+.prose .back { margin-top: 2.5rem; font-weight: 600; }
+.guide-list { list-style: none; padding: 0; display: grid; gap: .75rem; }
+.guide-list a { display: block; text-decoration: none; background: var(--card); border: 1px solid var(--line); border-radius: 1rem; padding: 1rem 1.25rem; color: inherit; }
+.guide-list a:hover { border-color: var(--accent); }
+.guide-list strong { display: block; font-family: "Fraunces", serif; font-size: 1.1rem; }
+.guide-list span { color: var(--muted); font-size: .92rem; }
