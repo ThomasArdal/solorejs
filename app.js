@@ -31,7 +31,7 @@
       if (n == null) return false;
       if (![...state.dur].some((r) => { const [a, b] = r.split('-').map(Number); return n >= a && n <= b; })) return false;
     }
-    for (const [name, key] of [['type', 'type'], ['country', 'country'], ['board', 'board'], ['operator', 'operator']]) {
+    for (const [name, key] of [['pkg', 'pkg'], ['type', 'type'], ['country', 'country'], ['board', 'board'], ['operator', 'operator']]) {
       const sel = checked(name);
       if (sel.length && !sel.includes(t[key])) return false;
     }

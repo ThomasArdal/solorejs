@@ -4,6 +4,7 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { PACKAGES, derivePackageType } from './package-type.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const trips = JSON.parse(readFileSync(join(root, 'data', 'trips.json'), 'utf8'));
@@ -43,6 +44,7 @@ for (const t of trips) {
 for (const t of trips) {
   t.premiumPct = t.soloPriceDKK && t.pricePerPersonDoubleDKK
     ? Math.round(((t.soloPriceDKK - t.pricePerPersonDoubleDKK) / t.pricePerPersonDoubleDKK) * 100) : null;
+  t.packageType = derivePackageType(t);
   t.icon = TYPE_ICON[t.tripType] || '✈️';
   t.grad = TYPE_GRAD[t.tripType] || TYPE_GRAD.Andet;
 }
@@ -78,6 +80,7 @@ const footer = () => `<footer>
 // ---------- Forside ----------
 const countries = [...new Set(trips.map((t) => t.country))].sort((a, b) => a.localeCompare(b, 'da'));
 const types = [...new Set(trips.map((t) => t.tripType))].sort((a, b) => a.localeCompare(b, 'da'));
+const packages = PACKAGES.filter((p) => trips.some((t) => t.packageType === p));
 const operators = [...new Set(trips.map((t) => t.operator))].sort((a, b) => a.localeCompare(b, 'da'));
 const boards = [...new Set(trips.map((t) => t.board).filter(Boolean))];
 const prices = trips.map((t) => t.soloPriceDKK).filter((p) => p != null);
@@ -89,7 +92,7 @@ const checks = (name, values, countFn) => values.map((v) => `
 
 // Kun det filtrering/visning behøver — detaljer ligger på den enkelte rejsesides
 const slim = trips.map((t) => ({
-  id: t.id, title: t.title, operator: t.operator, country: t.country, destination: t.destination, type: t.tripType,
+  id: t.id, title: t.title, operator: t.operator, country: t.country, destination: t.destination, type: t.tripType, pkg: t.packageType,
   date: t.departureDate, nights: t.nights, days: t.days, board: t.board, solo: t.soloType, price: t.soloPriceDKK,
   from: !!t.priceIsFrom, dbl: t.pricePerPersonDoubleDKK, sup: t.singleSupplementDKK, pct: t.premiumPct,
   guide: t.guide, icon: t.icon, grad: t.grad, note: t.soloNote, img: t.image,
@@ -146,6 +149,7 @@ ${header('')}
         </div>
       </div>
 
+      <div class="f-group"><span class="f-title">Opbygning</span>${checks('pkg', packages, (v) => trips.filter((t) => t.packageType === v).length)}</div>
       <div class="f-group"><span class="f-title">Rejsetype</span>${checks('type', types, (v) => trips.filter((t) => t.tripType === v).length)}</div>
       <div class="f-group"><span class="f-title">Land</span><div class="scroll">${checks('country', countries, (v) => trips.filter((t) => t.country === v).length)}</div></div>
       ${boards.length ? `<div class="f-group"><span class="f-title">Forplejning</span>${checks('board', boards, (v) => trips.filter((t) => t.board === v).length)}</div>` : ''}
@@ -194,7 +198,7 @@ function detail(t) {
   const facts = [
     ['Afrejse', dato(t.departureDate)],
     ['Varighed', t.nights ? `${t.nights} nætter${t.days ? ` / ${t.days} dage` : ''}` : (t.days ? `${t.days} dage` : null)],
-    ['Land', t.country], ['Destination', t.destination], ['Rejsetype', t.tripType], ['Forplejning', t.board],
+    ['Land', t.country], ['Destination', t.destination], ['Rejsetype', t.tripType], ['Opbygning', t.packageType], ['Forplejning', t.board],
     ['Rejseleder', t.guide], ['Gruppestørrelse', t.groupSize],
     ['Fly inkluderet', t.flightIncluded == null ? null : (t.flightIncluded ? 'Ja' : 'Nej')],
   ].filter(([, v]) => v);

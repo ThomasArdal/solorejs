@@ -3,6 +3,7 @@
 import { readdirSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { derivePackageType } from './package-type.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const dir = process.argv[2];
@@ -35,6 +36,7 @@ for (const f of readdirSync(dir).filter((x) => x.endsWith('.json'))) {
     if (t.departureDate && t.departureDate <= TODAY) why.push('afrejse ikke i fremtiden');
     if (!SOLO.includes(t.soloType)) t.soloType = 'ukendt';
     if (!TYPES.includes(t.tripType)) t.tripType = 'Andet';
+    t.packageType = derivePackageType(t);
     for (const k of ['soloPriceDKK', 'pricePerPersonDoubleDKK', 'singleSupplementDKK'])
       if (t[k] != null && (typeof t[k] !== 'number' || t[k] < 0)) why.push(`ugyldig ${k}`);
     if (why.length) { problems.push(`${f} / ${t.id ?? t.title}: ${why.join(', ')}`); continue; }
