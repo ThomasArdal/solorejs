@@ -4,9 +4,12 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
 import { PACKAGES, derivePackageType } from './package-type.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
+// Versionsparameter på css/js, så browsere (og CDN'et, max-age 4 timer) henter nye udgaver med det samme
+const ver = (f) => createHash('md5').update(readFileSync(join(root, f))).digest('hex').slice(0, 8);
 const trips = JSON.parse(readFileSync(join(root, 'data', 'trips.json'), 'utf8'));
 const SITE_URL = 'https://solorejs.dk'; // bruges kun i sitemap (matcher CNAME)
 
@@ -100,7 +103,7 @@ const slim = trips.map((t) => ({
   flex: t.soloPriceBasis === 'search', guide: t.guide, icon: t.icon, grad: t.grad, note: t.soloNote, img: t.image,
 }));
 
-const indexHtml = `${head('SoloRejs – rejser til dig, der rejser alene', 'Find rejser uden eller med lavt enkeltværelsestillæg. Sammenlign solopriser fra danske rejseudbydere på ét sted.', 'styles.css')}
+const indexHtml = `${head('SoloRejs – rejser til dig, der rejser alene', 'Find rejser uden eller med lavt enkeltværelsestillæg. Sammenlign solopriser fra danske rejseudbydere på ét sted.', `styles.css?v=${ver('styles.css')}`)}
 <body>
 ${header('')}
 <main>
@@ -186,7 +189,7 @@ ${footer()}
 const TRIPS = ${JSON.stringify(slim)};
 const SOLO = ${JSON.stringify(Object.fromEntries(Object.entries(SOLO).map(([k, v]) => [k, v])))};
 </script>
-<script src="app.js"></script>
+<script src="app.js?v=${ver('app.js')}"></script>
 </body>
 </html>
 `;
@@ -213,7 +216,7 @@ function detail(t) {
   ].filter(([, v]) => v);
   const desc = (t.description || '').slice(0, 155);
 
-  return `${head(`${t.title} – SoloRejs`, desc, '../styles.css')}
+  return `${head(`${t.title} – SoloRejs`, desc, `../styles.css?v=${ver('styles.css')}`)}
 <body class="detail">
 ${header('../')}
 <main class="wrap">
