@@ -11,7 +11,8 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 // Versionsparameter på css/js, så browsere (og CDN'et, max-age 4 timer) henter nye udgaver med det samme
 const ver = (f) => createHash('md5').update(readFileSync(join(root, f))).digest('hex').slice(0, 8);
 const trips = JSON.parse(readFileSync(join(root, 'data', 'trips.json'), 'utf8'));
-const SITE_URL = 'https://solorejs.dk'; // bruges kun i sitemap (matcher CNAME)
+const FLYHJAELP_URL = 'https://dot.flyhjaelp.dk/t/t?a=1876544746&as=2126866054&t=2&tk=1'; // Adtraction tracking-link
+const SITE_URL ='https://solorejs.dk'; // bruges kun i sitemap (matcher CNAME)
 
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const kr = (n) => (n == null ? null : new Intl.NumberFormat('da-DK', { maximumFractionDigits: 0 }).format(n) + ' kr.');
@@ -78,6 +79,7 @@ const header = (base) => `<header class="top">
 
 const footer = () => `<footer>
   <p>Priser og vilkår hentes fra rejseudbydernes egne hjemmesider og kan have ændret sig. Tjek altid den endelige pris hos udbyderen, før du booker.</p>
+  <p>Siden indeholder annoncer og links, hvor vi får en kommission, hvis du køber hos udbyderen. Det koster dig ikke noget.</p>
   <p>&copy; <span id="year">2026</span> SoloRejs</p>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </footer>`;
@@ -253,6 +255,12 @@ ${header('../')}
         <a class="cta" href="${esc(t.sourceUrl)}" target="_blank" rel="sponsored noopener noreferrer">Se rejsen hos ${esc(t.operator)} →</a>
         <p class="fine">Pris tjekket ${esc(dato(t.priceCheckedDate) || '')}. Den endelige pris og ledige pladser bekræftes hos udbyderen.</p>
       </div>
+      <aside class="box ad" aria-label="Annonce">
+        <p class="ad-label">Annonce</p>
+        <h2>Forsinket eller aflyst fly?</h2>
+        <p class="ad-text">Rejser du alene, står du selv med sagen, hvis flyet bliver forsinket, aflyst eller overbooket. Flyhjælp tager kravet for dig, og du betaler kun, hvis du får udbetalt erstatning.</p>
+        <a class="cta ghost" href="${FLYHJAELP_URL}" target="_blank" rel="sponsored noopener noreferrer">Tjek dit krav hos Flyhjælp →</a>
+      </aside>
       <div class="box">
         <h2>Fakta</h2>
         <dl class="facts">${facts.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl>
