@@ -11,7 +11,7 @@ if (!dir) { console.error('Angiv mappe med research-filer'); process.exit(1); }
 
 const TODAY = '2026-11-10';
 const TYPES = ['Rundrejse', 'Solferie', 'Citytrip', 'Krydstogt', 'Aktiv & vandring', 'Kultur & historie', 'Busrejse', 'Andet'];
-const SOLO = ['ingen-tillaeg', 'reduceret-tillaeg', 'tillaeg', 'solo-gruppe', 'ukendt'];
+const SOLO = ['ingen-tillaeg', 'reduceret-tillaeg', 'tillaeg', 'solo-gruppe', 'soegepris', 'ukendt'];
 
 // Bevidst fravalgt efter gennemgang
 const EXCLUDE = new Set([

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "sembo-rom-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:436484",
+    "name": "Rom",
+    "country": "Italien",
+    "tripType": "Citytrip",
+    "packageType": "Fly + hotel",
+    "nights": 3,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/rom-storre-byer-italien?airport=CPH"
+  },
+  {
+    "id": "sembo-barcelona-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:515569",
+    "name": "Barcelona",
+    "country": "Spanien",
+    "tripType": "Citytrip",
+    "packageType": "Fly + hotel",
+    "nights": 3,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/barcelona-storbyer-spanien?airport=CPH"
+  },
+  {
+    "id": "sembo-gran-canaria-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:515013",
+    "name": "Gran Canaria",
+    "country": "Spanien",
+    "tripType": "Solferie",
+    "packageType": "Fly + hotel",
+    "nights": 7,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/gran-canaria-spanien?airport=CPH"
+  },
+  {
+    "id": "sembo-lissabon-fly-hotel",
+    "sku": "sembo:dk:adtraction:destination:476617",
+    "name": "Lissabon",
+    "country": "Portugal",
+    "tripType": "Citytrip",
+    "packageType": "Fly + hotel",
+    "nights": 3,
+    "pageUrl": "https://www.sembo.dk/rejsemaal/lissabon-portugal?airport=CPH"
+  }
+]

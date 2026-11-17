@@ -20,6 +20,7 @@ const SOLO = {
   'solo-gruppe': { label: 'Kun for solorejsende', cls: 'good' },
   'reduceret-tillaeg': { label: 'Reduceret tillæg', cls: 'mid' },
   tillaeg: { label: 'Med tillæg', cls: 'plain' },
+  soegepris: { label: 'Pris for 1 rejsende', cls: 'plain' },
   ukendt: { label: 'Solopris ikke oplyst', cls: 'plain' },
 };
 const TYPE_ICON = { Rundrejse: '🗺️', Solferie: '🏖️', Citytrip: '🏙️', Krydstogt: '🚢', 'Aktiv & vandring': '🥾', 'Kultur & historie': '🏛️', Busrejse: '🚌', Andet: '✈️' };

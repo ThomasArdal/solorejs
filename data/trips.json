@@ -1,5 +1,107 @@
 [
   {
+    "id": "sembo-rom-fly-hotel",
+    "operator": "Sembo",
+    "title": "Rom – fly og hotel, 3 nætter",
+    "country": "Italien",
+    "destination": "Rom",
+    "tripType": "Citytrip",
+    "packageType": "Fly + hotel",
+    "alternativeDepartures": [],
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "guide": null,
+    "groupSize": null,
+    "includes": [
+      "Fly København–Rom og retur",
+      "3 nætter i enkeltværelse"
+    ],
+    "excludes": [],
+    "highlights": [
+      "Direkte fly fra København",
+      "Enkeltværelse med pool på hotellet",
+      "Gratis afbestilling af hotellet frem til få dage før afrejse"
+    ],
+    "itinerary": [],
+    "description": "Selvsammensat citytrip til Rom for én person: fly fra København og tre nætter på hotel i bydelen Torre Angela. Rejsen sættes sammen og bookes hos Sembo. Prisen er den billigste afrejsedag, vi fandt i priskalenderen for december, og er hentet fra en søgning med én rejsende.",
+    "terms": "Pris og ledighed skifter dag for dag. Vilkår (fx ikke-refunderbar) vises i Sembos bookingflow.",
+    "departureDate": "2026-12-03",
+    "nights": 3,
+    "days": 4,
+    "board": null,
+    "soloType": "soegepris",
+    "soloPriceDKK": 2454,
+    "soloPriceBasis": "search",
+    "priceIsFrom": true,
+    "soloNote": "Billigste afrejsedag, vi fandt i Sembos priskalender, for 1 rejsende (enkeltværelse), hotel: Hotel Roma Tor Vergata. Fly: direkte med Ryanair mellem København og Rom (hjemrejse lander efter midnat). Prisen er et øjebliksbillede og kan ændre sig, før du booker.",
+    "sourceUrl": "https://pin.sembo.dk/t/t?a=1970763854&as=2126866054&t=2&tk=1&cupa_sku=sembo%3Adk%3Aadtraction%3Adestination%3A436484&fid=3414&url=https://www.sembo.dk/rejsemaal/rom-storre-byer-italien?airport=CPH&affiliate-id=70301",
+    "priceCheckedDate": "2026-11-17",
+    "flightIncluded": true
+  },
+  {
+    "id": "nadana-barcelona-2026-12-29",
+    "operator": "Nadana Tours",
+    "title": "Nytår i Barcelona",
+    "country": "Spanien",
+    "destination": "Barcelona",
+    "tripType": "Citytrip",
+    "departureDate": "2026-12-29",
+    "alternativeDepartures": [],
+    "nights": 5,
+    "days": 6,
+    "board": "Morgenmad",
+    "soloType": "ingen-tillaeg",
+    "soloPriceDKK": 11499,
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": false,
+    "soloNote": "Alle værelser er dobbeltværelser til enkeltbrug; intet enkeltværelsestillæg er angivet.",
+    "guide": "Dansk rejseleder",
+    "groupSize": "Maks. 13 deltagere",
+    "flightIncluded": true,
+    "includes": [
+      "Returfly med Norwegian inkl. kabine- og indchecket bagage",
+      "Transfer",
+      "Hotel med morgenmad (Hotel Evenia Rocafort 3*)",
+      "Dansk rejseleder",
+      "Nytårsmiddag med vin og bobler",
+      "Udvalgte fælles aktiviteter"
+    ],
+    "excludes": [
+      "Turistskat 5,50 euro pr. person pr. nat",
+      "Udflugter (betales kontant i euro til rejselederen)"
+    ],
+    "highlights": [
+      "Sagrada Família",
+      "Nytårsmiddag på restaurant",
+      "Panoramatur med lokalguide"
+    ],
+    "itinerary": [
+      {
+        "day": "Dag 1",
+        "title": "Ankomst og transfer til hotel"
+      },
+      {
+        "day": "Dag 2",
+        "title": "Sagrada Família og nytårsmiddag"
+      },
+      {
+        "day": "Dag 4",
+        "title": "Panoramatur med bus og lokalguide"
+      },
+      {
+        "day": "Dag 6",
+        "title": "Hjemrejse"
+      }
+    ],
+    "description": "Seks dage i Barcelona omkring nytår for solorejsende, med dansk rejseleder, hotel i Eixample og nytårsmiddag. Dagsoversigten på siden er muligvis forskudt en dag.",
+    "terms": "Afbestilling skriftligt: mere end 90 dage før afrejse mistes depositum på 4.500 kr.; inden for 90 dage mistes hele rejsens pris.",
+    "sourceUrl": "https://nadana.dk/nytaarsrejse-til-barcalona/",
+    "priceCheckedDate": "2026-11-17",
+    "packageType": "Fly + hotel"
+  },
+  {
     "id": "egons-nytaar-luebeck-2026-12-30",
     "operator": "Egons Rejser",
     "title": "Ferie alene - Nytår i Lübeck, 3 dage",
@@ -406,6 +508,138 @@
     "packageType": "Arrangeret rejse"
   },
   {
+    "id": "nadana-istanbul-2027-03-17",
+    "operator": "Nadana Tours",
+    "title": "Istanbul 2027 - forlænget weekend",
+    "country": "Tyrkiet",
+    "destination": "Istanbul",
+    "tripType": "Citytrip",
+    "departureDate": "2027-03-17",
+    "alternativeDepartures": [],
+    "nights": 4,
+    "days": 5,
+    "board": "Morgenmad",
+    "soloType": "ingen-tillaeg",
+    "soloPriceDKK": 7650,
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": false,
+    "soloNote": "Siden angiver, at prisen er inkl. enkeltværelse med morgenmad; tillæggets størrelse er ikke oplyst. Overskriften viser \"fra 6.850 kr.\", men afgangsprisen er 7.650 kr.",
+    "guide": "Dansk rejseleder",
+    "groupSize": "Maks. 12 deltagere",
+    "flightIncluded": true,
+    "includes": [
+      "Enkeltværelse med morgenmad",
+      "Lufthavnstransfers",
+      "Fly med 20 kg bagage",
+      "Dansk rejseleder",
+      "1 fællesmiddag"
+    ],
+    "excludes": [
+      "Øvrige middage (valgfrie)",
+      "Visse udflugter (pris oplyses senere)"
+    ],
+    "highlights": [
+      "Blå Moské og Hagia Sophia",
+      "Topkapi-paladset",
+      "Grand Bazaar",
+      "Sejlads på Bosporus"
+    ],
+    "itinerary": [
+      {
+        "day": "Onsdag",
+        "title": "Ankomst og indtjekning"
+      },
+      {
+        "day": "Torsdag",
+        "title": "Velkomstmøde, gåtur i den gamle bydel og Taksim"
+      },
+      {
+        "day": "Fredag",
+        "title": "Bazaar, Hagia Sophia, Den Blå Moské og fællesmiddag"
+      },
+      {
+        "day": "Lørdag",
+        "title": "Klassisk udflugt med Bosporus-sejlads"
+      },
+      {
+        "day": "Søndag",
+        "title": "Hjemrejse"
+      }
+    ],
+    "description": "Fem dage i Istanbul for solorejsende med dansk rejseleder, hotel i Sultanahmet og et fælles program med de store seværdigheder.",
+    "terms": "Depositum 4.500 kr. Afbestilling mere end 90 dage før afrejse mistes depositum; inden for 90 dage mistes hele rejsens pris.",
+    "sourceUrl": "https://nadana.dk/istanbul/",
+    "priceCheckedDate": "2026-11-17",
+    "packageType": "Fly + hotel"
+  },
+  {
+    "id": "spies-madeira-2027-03-29",
+    "operator": "Spies",
+    "title": "Ferie alene på Madeira (Caniço)",
+    "country": "Portugal",
+    "destination": "Caniço, Madeira",
+    "tripType": "Solferie",
+    "departureDate": "2027-03-29",
+    "alternativeDepartures": [],
+    "nights": 7,
+    "days": 8,
+    "board": "Halvpension",
+    "soloType": "solo-gruppe",
+    "soloPriceDKK": 11850,
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": true,
+    "soloNote": "Prisen er pr. person og forudsætter eneværelse mod havet. Rejsen er for solorejsende, der ikke kender de andre deltagere.",
+    "guide": "Spies-guider mødes med deltagerne ved ankomst og leder velkomstmødet",
+    "groupSize": null,
+    "flightIncluded": true,
+    "includes": [
+      "Returfly med Sunclass Airlines",
+      "15 kg indchecket bagage og 5 kg håndbagage",
+      "Bustransfer mellem lufthavn og hotel",
+      "Ophold på The Views Oasis i værelse mod havet",
+      "Halvpension",
+      "Udflugt til Blandy Gardens med eftermiddagste"
+    ],
+    "excludes": [
+      "Afbestillingsforsikring (valgfri): 419 kr.",
+      "Rejseforsikring (valgfri): 420 kr.",
+      "Turistskat ca. 4,40 EUR pr. person pr. nat betales på hotellet",
+      "Valgfrie udflugter"
+    ],
+    "highlights": [
+      "Afrejse fra København",
+      "Halvpension",
+      "Blandy Gardens"
+    ],
+    "itinerary": [
+      {
+        "day": "29/3",
+        "title": "Ankomst, velkomstmøde kl. 18 og fællesmiddag"
+      },
+      {
+        "day": "30/3",
+        "title": "Udflugt til Blandy Gardens med eftermiddagste"
+      },
+      {
+        "day": "31/3 - 3/4",
+        "title": "Fridage med fælles morgenmad og middag"
+      },
+      {
+        "day": "5/4",
+        "title": "Udtjekning og hjemrejse"
+      }
+    ],
+    "description": "En uge på Madeira med halvpension og direkte fly fra København. Hotellet ligger i Caniço, og der er fælles måltider og aftenunderholdning på hotellet. Siden er uklar om værelsestypen, så den bør bekræftes hos Spies.",
+    "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
+    "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/madeira-29mar-2027",
+    "priceCheckedDate": "2026-11-17",
+    "packageType": "Fly + hotel"
+  },
+  {
     "id": "stjernegaard-madagaskar-2027-03-29",
     "operator": "Stjernegaard Rejser",
     "title": "Madagaskar - lemurernes land",
@@ -618,6 +852,86 @@
     "description": "Syv nætter på Madeira i eget værelse med havudsigt og halvpension. Gruppen spiser sammen ved reserverede borde, og en tur til Blandy's Gardens er med.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/madeira-05apr-2027",
+    "priceCheckedDate": "2026-11-17",
+    "packageType": "Fly + hotel"
+  },
+  {
+    "id": "nadana-algarve-2027-04-07",
+    "operator": "Nadana Tours",
+    "title": "Algarve 2027 - fællesskabsrejse",
+    "country": "Portugal",
+    "destination": "Albufeira, Algarve",
+    "tripType": "Solferie",
+    "departureDate": "2027-04-07",
+    "alternativeDepartures": [
+      "2027-04-14"
+    ],
+    "nights": 7,
+    "days": 8,
+    "board": "Morgenmad",
+    "soloType": "ingen-tillaeg",
+    "soloPriceDKK": 9999,
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": false,
+    "soloNote": "Nadana skriver, at priserne gælder én person i dobbeltværelse, så solorejsende har eget værelse; et særskilt enkelttillæg er ikke nævnt på siden.",
+    "guide": "Dansk rejseleder",
+    "groupSize": "Maks. 12 deltagere",
+    "flightIncluded": true,
+    "includes": [
+      "Dobbeltværelse med morgenmad",
+      "2 middage",
+      "Transfers",
+      "Fly og bagage",
+      "Dansk rejseleder"
+    ],
+    "excludes": [
+      "Udflugter (betales særskilt i euro)"
+    ],
+    "highlights": [
+      "Voksenhotel i Albufeira med havudsigt, pool og sauna",
+      "Vinsmagning",
+      "Udflugt til Culatra-øen",
+      "Portugisisk aften"
+    ],
+    "itinerary": [
+      {
+        "day": "Dag 1",
+        "title": "Ankomst"
+      },
+      {
+        "day": "Dag 2",
+        "title": "Velkomstmøde"
+      },
+      {
+        "day": "Dag 3",
+        "title": "Tur til vestkysten (valgfri)"
+      },
+      {
+        "day": "Dag 4",
+        "title": "Strandliv og fællesmiddag"
+      },
+      {
+        "day": "Dag 5",
+        "title": "Vinsmagning (valgfri)"
+      },
+      {
+        "day": "Dag 6",
+        "title": "Portugisisk aften (valgfri)"
+      },
+      {
+        "day": "Dag 7",
+        "title": "Øtur til Culatra (valgfri)"
+      },
+      {
+        "day": "Dag 8",
+        "title": "Hjemrejse"
+      }
+    ],
+    "description": "En uges social ferie i Albufeira for dem, der rejser alene, med dansk rejseleder, fælles middage og valgfrie udflugter mod særskilt betaling.",
+    "terms": "Depositum 4.500 kr. Afbestilling skriftligt: mere end 90 dage før afrejse mistes depositum; under 90 dage før mistes hele rejsens pris.",
+    "sourceUrl": "https://nadana.dk/algarve-portugal-2027/",
     "priceCheckedDate": "2026-11-17",
     "packageType": "Fly + hotel"
   },
@@ -1462,6 +1776,67 @@
     "packageType": "Fly + hotel"
   },
   {
+    "id": "spies-gran-canaria-2027-05-26",
+    "operator": "Spies",
+    "title": "Ferie alene på Gran Canaria (Playa del Inglés)",
+    "country": "Spanien",
+    "destination": "Playa del Inglés, Gran Canaria",
+    "tripType": "Solferie",
+    "departureDate": "2027-05-26",
+    "alternativeDepartures": [],
+    "nights": 7,
+    "days": 8,
+    "board": "Halvpension",
+    "soloType": "solo-gruppe",
+    "soloPriceDKK": 9295,
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": false,
+    "soloNote": "Prisen gælder én person i eget enkeltbelagt lejlighedsværelse; intet separat enkeltværelsestillæg er angivet. Rejsen er for solorejsende i en gruppe på samme hotel.",
+    "guide": "Spies-guides med velkomstmøde og fællesspisning",
+    "groupSize": null,
+    "flightIncluded": true,
+    "includes": [
+      "Direkte returfly med Sunclass Airlines",
+      "25 kg indchecket bagage og 5 kg håndbagage",
+      "Bustransfer mellem lufthavn og hotel",
+      "Lejlighed med ét soveværelse til alenebrug",
+      "Halvpension",
+      "Søndagsudflugten \"Et kontinent i miniatureformat\""
+    ],
+    "excludes": [
+      "Frokost",
+      "Valgfri udflugt til Las Palmas",
+      "Afbestillingsforsikring (valgfri): 439 kr.",
+      "Rejseforsikring (valgfri): 420 kr."
+    ],
+    "highlights": [
+      "Hotel kun for voksne med udsigt til Maspalomas-klitterne",
+      "Tre pools og loungebar med levende musik",
+      "Heldagsudflugt gennem Fataga-dalen og Teror"
+    ],
+    "itinerary": [
+      {
+        "day": "Dag 1",
+        "title": "Ankomst, transfer til hotel, velkomstmøde og fællesmiddag"
+      },
+      {
+        "day": "Søndag",
+        "title": "Heldagsudflugt gennem Fataga-dalen til Teror"
+      },
+      {
+        "day": "Sidste dag",
+        "title": "Udtjekning og hjemrejse"
+      }
+    ],
+    "description": "En uge på Sunprime Atlantic View i Playa del Inglés for solorejsende, med halvpension, fællesspisning ved reserverede borde og en heldagsudflugt i øens bjerge.",
+    "terms": "1.500 kr. i depositum ved tilmelding; restbeløbet forfalder 40 dage før afrejse. Afbestillingsvilkår fremgår ikke af siden.",
+    "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/gran-canaria-26-maj2027",
+    "priceCheckedDate": "2026-11-17",
+    "packageType": "Fly + hotel"
+  },
+  {
     "id": "nadana-samos-2027-05-29",
     "operator": "Nadana Tours",
     "title": "Samos 2027 - fællesskabsrejse",
@@ -1523,6 +1898,67 @@
     "description": "En uges social ferie på Samos for dem, der rejser alene, med dansk rejseleder og et lille fælles program. Fra-pris 8.899 kr. for den billigste afgang; op til 9.999 kr. i højsæsonen.",
     "terms": "Depositum 4.500 kr. Afbestilling skriftligt: mere end 90 dage før afrejse mistes depositum; under 90 dage før mistes hele rejsens pris.",
     "sourceUrl": "https://nadana.dk/samos-2027/",
+    "priceCheckedDate": "2026-11-17",
+    "packageType": "Fly + hotel"
+  },
+  {
+    "id": "spies-gran-canaria-2027-06-02",
+    "operator": "Spies",
+    "title": "Ferie alene på Gran Canaria (Playa del Inglés)",
+    "country": "Spanien",
+    "destination": "Playa del Inglés, Gran Canaria",
+    "tripType": "Solferie",
+    "departureDate": "2027-06-02",
+    "alternativeDepartures": [],
+    "nights": 7,
+    "days": 8,
+    "board": "Halvpension",
+    "soloType": "solo-gruppe",
+    "soloPriceDKK": 9150,
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": false,
+    "soloNote": "Prisen gælder én person i eget enkeltbelagt lejlighedsværelse; intet separat enkeltværelsestillæg er angivet. Rejsen er for solorejsende i en gruppe på samme hotel.",
+    "guide": "Spies-guides med velkomstmøde og fællesspisning",
+    "groupSize": null,
+    "flightIncluded": true,
+    "includes": [
+      "Direkte returfly med Sunclass Airlines",
+      "25 kg indchecket bagage og 5 kg håndbagage",
+      "Bustransfer mellem lufthavn og hotel",
+      "Lejlighed med ét soveværelse til alenebrug",
+      "Halvpension",
+      "Søndagsudflugten \"Et kontinent i miniatureformat\""
+    ],
+    "excludes": [
+      "Frokost",
+      "Valgfri udflugt til Las Palmas",
+      "Afbestillingsforsikring (valgfri): 439 kr.",
+      "Rejseforsikring (valgfri): 420 kr."
+    ],
+    "highlights": [
+      "Hotel kun for voksne med udsigt til Maspalomas-klitterne",
+      "Tre pools og loungebar med levende musik",
+      "Heldagsudflugt gennem Fataga-dalen og Teror"
+    ],
+    "itinerary": [
+      {
+        "day": "Dag 1",
+        "title": "Ankomst, transfer til hotel, velkomstmøde og fællesmiddag"
+      },
+      {
+        "day": "Søndag",
+        "title": "Heldagsudflugt gennem Fataga-dalen til Teror"
+      },
+      {
+        "day": "Sidste dag",
+        "title": "Udtjekning og hjemrejse"
+      }
+    ],
+    "description": "En uge på Sunprime Atlantic View i Playa del Inglés for solorejsende, med halvpension, fællesspisning ved reserverede borde og en heldagsudflugt i øens bjerge.",
+    "terms": "1.500 kr. i depositum ved tilmelding; restbeløbet forfalder 40 dage før afrejse. Afbestillingsvilkår fremgår ikke af siden.",
+    "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/gran-canaria-2-juni2027",
     "priceCheckedDate": "2026-11-17",
     "packageType": "Fly + hotel"
   },
@@ -1880,6 +2316,142 @@
     "packageType": "Fly + hotel"
   },
   {
+    "id": "spies-cypern-2027-10-04",
+    "operator": "Spies",
+    "title": "Ferie alene på Cypern (Ayia Napa, oktober)",
+    "country": "Cypern",
+    "destination": "Ayia Napa",
+    "tripType": "Solferie",
+    "departureDate": "2027-10-04",
+    "alternativeDepartures": [],
+    "nights": 7,
+    "days": 8,
+    "board": "Halvpension",
+    "soloType": "solo-gruppe",
+    "soloPriceDKK": 10195,
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": false,
+    "soloNote": "Prisen er opgivet for én person i eget værelse; der vises intet separat enkeltværelsestillæg. Rejsen er for solorejsende (primært 65+) i en gruppe på samme hotel.",
+    "guide": "Skandinavisktalende rejseleder/guide med velkomstmøde og fællesspisning",
+    "groupSize": "Min. 15, maks. 20 deltagere.",
+    "flightIncluded": true,
+    "includes": [
+      "Returfly med Sunclass Airlines",
+      "15 kg indchecket bagage og 5 kg håndbagage",
+      "Bustransfer mellem lufthavn og hotel",
+      "Ophold på Eleana Hotel, værelse til alenebrug mod poolen",
+      "Halvpension",
+      "Heldagsudflugt til Troodos inkl. vingård"
+    ],
+    "excludes": [
+      "Frokost/meze på udflugten",
+      "Valgfri Nicosia-udflugt",
+      "Afbestillingsforsikring (valgfri): 319 kr.",
+      "Rejseforsikring (valgfri): 420 kr."
+    ],
+    "highlights": [
+      "Troodos-udflugt",
+      "Strandnært hotel",
+      "Skandinavisktalende guide"
+    ],
+    "itinerary": [
+      {
+        "day": "Dag 1",
+        "title": "Ankomst, transfer til hotel, velkomstmøde kl. 18 og fællesmiddag"
+      },
+      {
+        "day": "Midtvejs",
+        "title": "Troodos-dag onsdag"
+      },
+      {
+        "day": "Sidste dag",
+        "title": "Udtjekning og hjemrejse"
+      }
+    ],
+    "description": "En uge i Ayia Napa som solorejsende med halvpension og bjergudflugt til Troodos. Afrejse fra København. Siden er uklar om værelsestypen (enkeltbrug af dobbeltværelse mod pool), så bekræft ved booking.",
+    "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
+    "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/cypern-4-oktober-2027",
+    "priceCheckedDate": "2026-11-17",
+    "packageType": "Fly + hotel"
+  },
+  {
+    "id": "nadana-nord-vietnam-2027-10-19",
+    "operator": "Nadana Tours",
+    "title": "Nord-Vietnam 2027 - Hanoi, Ha Long Bay og Cat Ba",
+    "country": "Vietnam",
+    "destination": "Hanoi, Ninh Binh, Ha Long Bay, Cat Ba",
+    "tripType": "Rundrejse",
+    "departureDate": "2027-10-19",
+    "alternativeDepartures": [],
+    "nights": 13,
+    "days": 14,
+    "board": "Morgenmad",
+    "soloType": "ingen-tillaeg",
+    "soloPriceDKK": 23499,
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": true,
+    "soloNote": "Siden angiver, at prisen inkluderer enkeltværelse; i prissektionen står dog \"dobbeltværelse\" - bekræft hos Nadana.",
+    "guide": "Dansk rejseleder samt engelsktalende lokalguide",
+    "groupSize": "Maks. 12 deltagere",
+    "flightIncluded": true,
+    "includes": [
+      "Hotelovernatninger med morgenmad",
+      "Udvalgte måltider ifølge programmet",
+      "Udflugter ifølge programmet",
+      "Privat transport med aircondition",
+      "Færger Ha Long-Cat Ba",
+      "Bådtur i Ninh Binh",
+      "Cykel- og cyklotur i Hanoi",
+      "Dansk rejseleder",
+      "Rejsegarantifonden"
+    ],
+    "excludes": [
+      "Valgfri udflugt til Cat Ba Nationalpark",
+      "Øvrige måltider"
+    ],
+    "highlights": [
+      "Hanoi med cyklotur i den gamle bydel",
+      "Bådtur gennem Ninh Binh",
+      "Krydstogt i Ha Long Bay",
+      "Afslapning på Cat Ba"
+    ],
+    "itinerary": [
+      {
+        "day": "Dag 1",
+        "title": "Ankomst til Hanoi og velkomstmiddag"
+      },
+      {
+        "day": "Dag 2",
+        "title": "Byrundtur i Hanoi og cyklotur"
+      },
+      {
+        "day": "Dag 3-5",
+        "title": "Ninh Binh med templer og bådtur"
+      },
+      {
+        "day": "Dag 6-7",
+        "title": "Ha Long Bay-krydstogt og færge til Cat Ba"
+      },
+      {
+        "day": "Dag 8-11",
+        "title": "Frie dage på Cat Ba"
+      },
+      {
+        "day": "Dag 12-14",
+        "title": "Tilbage til Hanoi og hjemrejse"
+      }
+    ],
+    "description": "To uger i Nordvietnam for solorejsende med dansk rejseleder: Hanoi, Ninh Binh, krydstogt i Ha Long Bay og afslapning på Cat Ba. Siden har enkelte uoverensstemmelser om antal nætter og flyvetider.",
+    "terms": "Depositum 4.500 kr. Afbestilling skriftligt: mere end 90 dage før afrejse mistes depositum; inden for 90 dage mistes hele rejsens pris. Flytider er ikke offentliggjort endnu.",
+    "sourceUrl": "https://nadana.dk/nord-vietnam-2027/",
+    "priceCheckedDate": "2026-11-17",
+    "packageType": "Arrangeret rejse"
+  },
+  {
     "id": "stjernegaard-oman-2027-11-18",
     "operator": "Stjernegaard Rejser",
     "title": "Fortryllende Oman",
@@ -2186,538 +2758,5 @@
     "sourceUrl": "https://www.hurtigruten.com/da-dk/tilbud/rejs-alene-uden-tillaeg",
     "priceCheckedDate": "2026-11-17",
     "packageType": "Arrangeret rejse"
-  },
-  {
-    "id": "spies-gran-canaria-2027-05-26",
-    "operator": "Spies",
-    "title": "Ferie alene på Gran Canaria (Playa del Inglés)",
-    "country": "Spanien",
-    "destination": "Playa del Inglés, Gran Canaria",
-    "tripType": "Solferie",
-    "departureDate": "2027-05-26",
-    "alternativeDepartures": [],
-    "nights": 7,
-    "days": 8,
-    "board": "Halvpension",
-    "soloType": "solo-gruppe",
-    "soloPriceDKK": 9295,
-    "soloPriceBasis": "stated",
-    "pricePerPersonDoubleDKK": null,
-    "singleSupplementDKK": null,
-    "priceIsFrom": false,
-    "soloNote": "Prisen gælder én person i eget enkeltbelagt lejlighedsværelse; intet separat enkeltværelsestillæg er angivet. Rejsen er for solorejsende i en gruppe på samme hotel.",
-    "guide": "Spies-guides med velkomstmøde og fællesspisning",
-    "groupSize": null,
-    "flightIncluded": true,
-    "includes": [
-      "Direkte returfly med Sunclass Airlines",
-      "25 kg indchecket bagage og 5 kg håndbagage",
-      "Bustransfer mellem lufthavn og hotel",
-      "Lejlighed med ét soveværelse til alenebrug",
-      "Halvpension",
-      "Søndagsudflugten \"Et kontinent i miniatureformat\""
-    ],
-    "excludes": [
-      "Frokost",
-      "Valgfri udflugt til Las Palmas",
-      "Afbestillingsforsikring (valgfri): 439 kr.",
-      "Rejseforsikring (valgfri): 420 kr."
-    ],
-    "highlights": [
-      "Hotel kun for voksne med udsigt til Maspalomas-klitterne",
-      "Tre pools og loungebar med levende musik",
-      "Heldagsudflugt gennem Fataga-dalen og Teror"
-    ],
-    "itinerary": [
-      {
-        "day": "Dag 1",
-        "title": "Ankomst, transfer til hotel, velkomstmøde og fællesmiddag"
-      },
-      {
-        "day": "Søndag",
-        "title": "Heldagsudflugt gennem Fataga-dalen til Teror"
-      },
-      {
-        "day": "Sidste dag",
-        "title": "Udtjekning og hjemrejse"
-      }
-    ],
-    "description": "En uge på Sunprime Atlantic View i Playa del Inglés for solorejsende, med halvpension, fællesspisning ved reserverede borde og en heldagsudflugt i øens bjerge.",
-    "terms": "1.500 kr. i depositum ved tilmelding; restbeløbet forfalder 40 dage før afrejse. Afbestillingsvilkår fremgår ikke af siden.",
-    "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/gran-canaria-26-maj2027",
-    "priceCheckedDate": "2026-11-17",
-    "packageType": "Fly + hotel"
-  },
-  {
-    "id": "spies-gran-canaria-2027-06-02",
-    "operator": "Spies",
-    "title": "Ferie alene på Gran Canaria (Playa del Inglés)",
-    "country": "Spanien",
-    "destination": "Playa del Inglés, Gran Canaria",
-    "tripType": "Solferie",
-    "departureDate": "2027-06-02",
-    "alternativeDepartures": [],
-    "nights": 7,
-    "days": 8,
-    "board": "Halvpension",
-    "soloType": "solo-gruppe",
-    "soloPriceDKK": 9150,
-    "soloPriceBasis": "stated",
-    "pricePerPersonDoubleDKK": null,
-    "singleSupplementDKK": null,
-    "priceIsFrom": false,
-    "soloNote": "Prisen gælder én person i eget enkeltbelagt lejlighedsværelse; intet separat enkeltværelsestillæg er angivet. Rejsen er for solorejsende i en gruppe på samme hotel.",
-    "guide": "Spies-guides med velkomstmøde og fællesspisning",
-    "groupSize": null,
-    "flightIncluded": true,
-    "includes": [
-      "Direkte returfly med Sunclass Airlines",
-      "25 kg indchecket bagage og 5 kg håndbagage",
-      "Bustransfer mellem lufthavn og hotel",
-      "Lejlighed med ét soveværelse til alenebrug",
-      "Halvpension",
-      "Søndagsudflugten \"Et kontinent i miniatureformat\""
-    ],
-    "excludes": [
-      "Frokost",
-      "Valgfri udflugt til Las Palmas",
-      "Afbestillingsforsikring (valgfri): 439 kr.",
-      "Rejseforsikring (valgfri): 420 kr."
-    ],
-    "highlights": [
-      "Hotel kun for voksne med udsigt til Maspalomas-klitterne",
-      "Tre pools og loungebar med levende musik",
-      "Heldagsudflugt gennem Fataga-dalen og Teror"
-    ],
-    "itinerary": [
-      {
-        "day": "Dag 1",
-        "title": "Ankomst, transfer til hotel, velkomstmøde og fællesmiddag"
-      },
-      {
-        "day": "Søndag",
-        "title": "Heldagsudflugt gennem Fataga-dalen til Teror"
-      },
-      {
-        "day": "Sidste dag",
-        "title": "Udtjekning og hjemrejse"
-      }
-    ],
-    "description": "En uge på Sunprime Atlantic View i Playa del Inglés for solorejsende, med halvpension, fællesspisning ved reserverede borde og en heldagsudflugt i øens bjerge.",
-    "terms": "1.500 kr. i depositum ved tilmelding; restbeløbet forfalder 40 dage før afrejse. Afbestillingsvilkår fremgår ikke af siden.",
-    "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/gran-canaria-2-juni2027",
-    "priceCheckedDate": "2026-11-17",
-    "packageType": "Fly + hotel"
-  },
-  {
-    "id": "nadana-algarve-2027-04-07",
-    "operator": "Nadana Tours",
-    "title": "Algarve 2027 - fællesskabsrejse",
-    "country": "Portugal",
-    "destination": "Albufeira, Algarve",
-    "tripType": "Solferie",
-    "departureDate": "2027-04-07",
-    "alternativeDepartures": [
-      "2027-04-14"
-    ],
-    "nights": 7,
-    "days": 8,
-    "board": "Morgenmad",
-    "soloType": "ingen-tillaeg",
-    "soloPriceDKK": 9999,
-    "soloPriceBasis": "stated",
-    "pricePerPersonDoubleDKK": null,
-    "singleSupplementDKK": null,
-    "priceIsFrom": false,
-    "soloNote": "Nadana skriver, at priserne gælder én person i dobbeltværelse, så solorejsende har eget værelse; et særskilt enkelttillæg er ikke nævnt på siden.",
-    "guide": "Dansk rejseleder",
-    "groupSize": "Maks. 12 deltagere",
-    "flightIncluded": true,
-    "includes": [
-      "Dobbeltværelse med morgenmad",
-      "2 middage",
-      "Transfers",
-      "Fly og bagage",
-      "Dansk rejseleder"
-    ],
-    "excludes": [
-      "Udflugter (betales særskilt i euro)"
-    ],
-    "highlights": [
-      "Voksenhotel i Albufeira med havudsigt, pool og sauna",
-      "Vinsmagning",
-      "Udflugt til Culatra-øen",
-      "Portugisisk aften"
-    ],
-    "itinerary": [
-      {
-        "day": "Dag 1",
-        "title": "Ankomst"
-      },
-      {
-        "day": "Dag 2",
-        "title": "Velkomstmøde"
-      },
-      {
-        "day": "Dag 3",
-        "title": "Tur til vestkysten (valgfri)"
-      },
-      {
-        "day": "Dag 4",
-        "title": "Strandliv og fællesmiddag"
-      },
-      {
-        "day": "Dag 5",
-        "title": "Vinsmagning (valgfri)"
-      },
-      {
-        "day": "Dag 6",
-        "title": "Portugisisk aften (valgfri)"
-      },
-      {
-        "day": "Dag 7",
-        "title": "Øtur til Culatra (valgfri)"
-      },
-      {
-        "day": "Dag 8",
-        "title": "Hjemrejse"
-      }
-    ],
-    "description": "En uges social ferie i Albufeira for dem, der rejser alene, med dansk rejseleder, fælles middage og valgfrie udflugter mod særskilt betaling.",
-    "terms": "Depositum 4.500 kr. Afbestilling skriftligt: mere end 90 dage før afrejse mistes depositum; under 90 dage før mistes hele rejsens pris.",
-    "sourceUrl": "https://nadana.dk/algarve-portugal-2027/",
-    "priceCheckedDate": "2026-11-17",
-    "packageType": "Fly + hotel"
-  },
-  {
-    "id": "nadana-istanbul-2027-03-17",
-    "operator": "Nadana Tours",
-    "title": "Istanbul 2027 - forlænget weekend",
-    "country": "Tyrkiet",
-    "destination": "Istanbul",
-    "tripType": "Citytrip",
-    "departureDate": "2027-03-17",
-    "alternativeDepartures": [],
-    "nights": 4,
-    "days": 5,
-    "board": "Morgenmad",
-    "soloType": "ingen-tillaeg",
-    "soloPriceDKK": 7650,
-    "soloPriceBasis": "stated",
-    "pricePerPersonDoubleDKK": null,
-    "singleSupplementDKK": null,
-    "priceIsFrom": false,
-    "soloNote": "Siden angiver, at prisen er inkl. enkeltværelse med morgenmad; tillæggets størrelse er ikke oplyst. Overskriften viser \"fra 6.850 kr.\", men afgangsprisen er 7.650 kr.",
-    "guide": "Dansk rejseleder",
-    "groupSize": "Maks. 12 deltagere",
-    "flightIncluded": true,
-    "includes": [
-      "Enkeltværelse med morgenmad",
-      "Lufthavnstransfers",
-      "Fly med 20 kg bagage",
-      "Dansk rejseleder",
-      "1 fællesmiddag"
-    ],
-    "excludes": [
-      "Øvrige middage (valgfrie)",
-      "Visse udflugter (pris oplyses senere)"
-    ],
-    "highlights": [
-      "Blå Moské og Hagia Sophia",
-      "Topkapi-paladset",
-      "Grand Bazaar",
-      "Sejlads på Bosporus"
-    ],
-    "itinerary": [
-      {
-        "day": "Onsdag",
-        "title": "Ankomst og indtjekning"
-      },
-      {
-        "day": "Torsdag",
-        "title": "Velkomstmøde, gåtur i den gamle bydel og Taksim"
-      },
-      {
-        "day": "Fredag",
-        "title": "Bazaar, Hagia Sophia, Den Blå Moské og fællesmiddag"
-      },
-      {
-        "day": "Lørdag",
-        "title": "Klassisk udflugt med Bosporus-sejlads"
-      },
-      {
-        "day": "Søndag",
-        "title": "Hjemrejse"
-      }
-    ],
-    "description": "Fem dage i Istanbul for solorejsende med dansk rejseleder, hotel i Sultanahmet og et fælles program med de store seværdigheder.",
-    "terms": "Depositum 4.500 kr. Afbestilling mere end 90 dage før afrejse mistes depositum; inden for 90 dage mistes hele rejsens pris.",
-    "sourceUrl": "https://nadana.dk/istanbul/",
-    "priceCheckedDate": "2026-11-17",
-    "packageType": "Fly + hotel"
-  },
-  {
-    "id": "spies-cypern-2027-10-04",
-    "operator": "Spies",
-    "title": "Ferie alene på Cypern (Ayia Napa, oktober)",
-    "country": "Cypern",
-    "destination": "Ayia Napa",
-    "tripType": "Solferie",
-    "departureDate": "2027-10-04",
-    "alternativeDepartures": [],
-    "nights": 7,
-    "days": 8,
-    "board": "Halvpension",
-    "soloType": "solo-gruppe",
-    "soloPriceDKK": 10195,
-    "soloPriceBasis": "stated",
-    "pricePerPersonDoubleDKK": null,
-    "singleSupplementDKK": null,
-    "priceIsFrom": false,
-    "soloNote": "Prisen er opgivet for én person i eget værelse; der vises intet separat enkeltværelsestillæg. Rejsen er for solorejsende (primært 65+) i en gruppe på samme hotel.",
-    "guide": "Skandinavisktalende rejseleder/guide med velkomstmøde og fællesspisning",
-    "groupSize": "Min. 15, maks. 20 deltagere.",
-    "flightIncluded": true,
-    "includes": [
-      "Returfly med Sunclass Airlines",
-      "15 kg indchecket bagage og 5 kg håndbagage",
-      "Bustransfer mellem lufthavn og hotel",
-      "Ophold på Eleana Hotel, værelse til alenebrug mod poolen",
-      "Halvpension",
-      "Heldagsudflugt til Troodos inkl. vingård"
-    ],
-    "excludes": [
-      "Frokost/meze på udflugten",
-      "Valgfri Nicosia-udflugt",
-      "Afbestillingsforsikring (valgfri): 319 kr.",
-      "Rejseforsikring (valgfri): 420 kr."
-    ],
-    "highlights": [
-      "Troodos-udflugt",
-      "Strandnært hotel",
-      "Skandinavisktalende guide"
-    ],
-    "itinerary": [
-      {
-        "day": "Dag 1",
-        "title": "Ankomst, transfer til hotel, velkomstmøde kl. 18 og fællesmiddag"
-      },
-      {
-        "day": "Midtvejs",
-        "title": "Troodos-dag onsdag"
-      },
-      {
-        "day": "Sidste dag",
-        "title": "Udtjekning og hjemrejse"
-      }
-    ],
-    "description": "En uge i Ayia Napa som solorejsende med halvpension og bjergudflugt til Troodos. Afrejse fra København. Siden er uklar om værelsestypen (enkeltbrug af dobbeltværelse mod pool), så bekræft ved booking.",
-    "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
-    "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/cypern-4-oktober-2027",
-    "priceCheckedDate": "2026-11-17",
-    "packageType": "Fly + hotel"
-  },
-  {
-    "id": "spies-madeira-2027-03-29",
-    "operator": "Spies",
-    "title": "Ferie alene på Madeira (Caniço)",
-    "country": "Portugal",
-    "destination": "Caniço, Madeira",
-    "tripType": "Solferie",
-    "departureDate": "2027-03-29",
-    "alternativeDepartures": [],
-    "nights": 7,
-    "days": 8,
-    "board": "Halvpension",
-    "soloType": "solo-gruppe",
-    "soloPriceDKK": 11850,
-    "soloPriceBasis": "stated",
-    "pricePerPersonDoubleDKK": null,
-    "singleSupplementDKK": null,
-    "priceIsFrom": true,
-    "soloNote": "Prisen er pr. person og forudsætter eneværelse mod havet. Rejsen er for solorejsende, der ikke kender de andre deltagere.",
-    "guide": "Spies-guider mødes med deltagerne ved ankomst og leder velkomstmødet",
-    "groupSize": null,
-    "flightIncluded": true,
-    "includes": [
-      "Returfly med Sunclass Airlines",
-      "15 kg indchecket bagage og 5 kg håndbagage",
-      "Bustransfer mellem lufthavn og hotel",
-      "Ophold på The Views Oasis i værelse mod havet",
-      "Halvpension",
-      "Udflugt til Blandy Gardens med eftermiddagste"
-    ],
-    "excludes": [
-      "Afbestillingsforsikring (valgfri): 419 kr.",
-      "Rejseforsikring (valgfri): 420 kr.",
-      "Turistskat ca. 4,40 EUR pr. person pr. nat betales på hotellet",
-      "Valgfrie udflugter"
-    ],
-    "highlights": [
-      "Afrejse fra København",
-      "Halvpension",
-      "Blandy Gardens"
-    ],
-    "itinerary": [
-      {
-        "day": "29/3",
-        "title": "Ankomst, velkomstmøde kl. 18 og fællesmiddag"
-      },
-      {
-        "day": "30/3",
-        "title": "Udflugt til Blandy Gardens med eftermiddagste"
-      },
-      {
-        "day": "31/3 - 3/4",
-        "title": "Fridage med fælles morgenmad og middag"
-      },
-      {
-        "day": "5/4",
-        "title": "Udtjekning og hjemrejse"
-      }
-    ],
-    "description": "En uge på Madeira med halvpension og direkte fly fra København. Hotellet ligger i Caniço, og der er fælles måltider og aftenunderholdning på hotellet. Siden er uklar om værelsestypen, så den bør bekræftes hos Spies.",
-    "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
-    "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/madeira-29mar-2027",
-    "priceCheckedDate": "2026-11-17",
-    "packageType": "Fly + hotel"
-  },
-  {
-    "id": "nadana-nord-vietnam-2027-10-19",
-    "operator": "Nadana Tours",
-    "title": "Nord-Vietnam 2027 - Hanoi, Ha Long Bay og Cat Ba",
-    "country": "Vietnam",
-    "destination": "Hanoi, Ninh Binh, Ha Long Bay, Cat Ba",
-    "tripType": "Rundrejse",
-    "departureDate": "2027-10-19",
-    "alternativeDepartures": [],
-    "nights": 13,
-    "days": 14,
-    "board": "Morgenmad",
-    "soloType": "ingen-tillaeg",
-    "soloPriceDKK": 23499,
-    "soloPriceBasis": "stated",
-    "pricePerPersonDoubleDKK": null,
-    "singleSupplementDKK": null,
-    "priceIsFrom": true,
-    "soloNote": "Siden angiver, at prisen inkluderer enkeltværelse; i prissektionen står dog \"dobbeltværelse\" - bekræft hos Nadana.",
-    "guide": "Dansk rejseleder samt engelsktalende lokalguide",
-    "groupSize": "Maks. 12 deltagere",
-    "flightIncluded": true,
-    "includes": [
-      "Hotelovernatninger med morgenmad",
-      "Udvalgte måltider ifølge programmet",
-      "Udflugter ifølge programmet",
-      "Privat transport med aircondition",
-      "Færger Ha Long-Cat Ba",
-      "Bådtur i Ninh Binh",
-      "Cykel- og cyklotur i Hanoi",
-      "Dansk rejseleder",
-      "Rejsegarantifonden"
-    ],
-    "excludes": [
-      "Valgfri udflugt til Cat Ba Nationalpark",
-      "Øvrige måltider"
-    ],
-    "highlights": [
-      "Hanoi med cyklotur i den gamle bydel",
-      "Bådtur gennem Ninh Binh",
-      "Krydstogt i Ha Long Bay",
-      "Afslapning på Cat Ba"
-    ],
-    "itinerary": [
-      {
-        "day": "Dag 1",
-        "title": "Ankomst til Hanoi og velkomstmiddag"
-      },
-      {
-        "day": "Dag 2",
-        "title": "Byrundtur i Hanoi og cyklotur"
-      },
-      {
-        "day": "Dag 3-5",
-        "title": "Ninh Binh med templer og bådtur"
-      },
-      {
-        "day": "Dag 6-7",
-        "title": "Ha Long Bay-krydstogt og færge til Cat Ba"
-      },
-      {
-        "day": "Dag 8-11",
-        "title": "Frie dage på Cat Ba"
-      },
-      {
-        "day": "Dag 12-14",
-        "title": "Tilbage til Hanoi og hjemrejse"
-      }
-    ],
-    "description": "To uger i Nordvietnam for solorejsende med dansk rejseleder: Hanoi, Ninh Binh, krydstogt i Ha Long Bay og afslapning på Cat Ba. Siden har enkelte uoverensstemmelser om antal nætter og flyvetider.",
-    "terms": "Depositum 4.500 kr. Afbestilling skriftligt: mere end 90 dage før afrejse mistes depositum; inden for 90 dage mistes hele rejsens pris. Flytider er ikke offentliggjort endnu.",
-    "sourceUrl": "https://nadana.dk/nord-vietnam-2027/",
-    "priceCheckedDate": "2026-11-17",
-    "packageType": "Arrangeret rejse"
-  },
-  {
-    "id": "nadana-barcelona-2026-12-29",
-    "operator": "Nadana Tours",
-    "title": "Nytår i Barcelona",
-    "country": "Spanien",
-    "destination": "Barcelona",
-    "tripType": "Citytrip",
-    "departureDate": "2026-12-29",
-    "alternativeDepartures": [],
-    "nights": 5,
-    "days": 6,
-    "board": "Morgenmad",
-    "soloType": "ingen-tillaeg",
-    "soloPriceDKK": 11499,
-    "soloPriceBasis": "stated",
-    "pricePerPersonDoubleDKK": null,
-    "singleSupplementDKK": null,
-    "priceIsFrom": false,
-    "soloNote": "Alle værelser er dobbeltværelser til enkeltbrug; intet enkeltværelsestillæg er angivet.",
-    "guide": "Dansk rejseleder",
-    "groupSize": "Maks. 13 deltagere",
-    "flightIncluded": true,
-    "includes": [
-      "Returfly med Norwegian inkl. kabine- og indchecket bagage",
-      "Transfer",
-      "Hotel med morgenmad (Hotel Evenia Rocafort 3*)",
-      "Dansk rejseleder",
-      "Nytårsmiddag med vin og bobler",
-      "Udvalgte fælles aktiviteter"
-    ],
-    "excludes": [
-      "Turistskat 5,50 euro pr. person pr. nat",
-      "Udflugter (betales kontant i euro til rejselederen)"
-    ],
-    "highlights": [
-      "Sagrada Família",
-      "Nytårsmiddag på restaurant",
-      "Panoramatur med lokalguide"
-    ],
-    "itinerary": [
-      {
-        "day": "Dag 1",
-        "title": "Ankomst og transfer til hotel"
-      },
-      {
-        "day": "Dag 2",
-        "title": "Sagrada Família og nytårsmiddag"
-      },
-      {
-        "day": "Dag 4",
-        "title": "Panoramatur med bus og lokalguide"
-      },
-      {
-        "day": "Dag 6",
-        "title": "Hjemrejse"
-      }
-    ],
-    "description": "Seks dage i Barcelona omkring nytår for solorejsende, med dansk rejseleder, hotel i Eixample og nytårsmiddag. Dagsoversigten på siden er muligvis forskudt en dag.",
-    "terms": "Afbestilling skriftligt: mere end 90 dage før afrejse mistes depositum på 4.500 kr.; inden for 90 dage mistes hele rejsens pris.",
-    "sourceUrl": "https://nadana.dk/nytaarsrejse-til-barcalona/",
-    "priceCheckedDate": "2026-11-17",
-    "packageType": "Fly + hotel"
   }
 ]
