@@ -16,7 +16,7 @@ Det passer godt, hvis du:
 - gerne vil møde andre undervejs
 - ikke vil bruge tid på at lægge en plan
 
-Prisen er højere, og du følger gruppens tempo. Rejser du alene, skal du også regne med et enkeltværelsestillæg, medmindre rejsen er lavet til solorejsende. Hvordan du undgår det, står i [vores guide om enkeltværelsestillæg](/guides/enkeltvaerelsestillaeg.html).
+Prisen er højere, og du følger gruppens tempo. Rejser du alene, skal du også regne med et enkeltværelsestillæg, medmindre rejsen er lavet til solorejsende. Hvordan du undgår det, står i [vores guide om enkeltværelsestillæg](/guides/enkeltvaerelsestillaeg/).
 
 ## Fly + hotel
 

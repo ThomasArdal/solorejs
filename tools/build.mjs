@@ -1,5 +1,5 @@
 // Statisk site-generator for SoloRejs.
-// Læser data/trips.json og skriver index.html + rejse/<id>.html + sitemap.xml.
+// Læser data/trips.json og skriver index.html + rejse/<id>/index.html + sitemap.xml.
 // Kør:  node tools/build.mjs
 import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -218,7 +218,7 @@ function detail(t) {
   ].filter(([, v]) => v);
   const desc = (t.description || '').slice(0, 155);
 
-  return `${head(`${t.title} – SoloRejs`, desc, `../styles.css?v=${ver('styles.css')}`)}
+  return `${head(`${t.title} – SoloRejs`, desc, `/styles.css?v=${ver('styles.css')}`)}
 <body class="detail">
 ${header('../')}
 <main class="wrap">
@@ -303,7 +303,7 @@ const guides = existsSync(gdir) ? readdirSync(gdir).filter((f) => f.endsWith('.m
   return { slug: f.replace(/\.md$/, ''), ...meta, order: Number(meta.order) || 99, body };
 }).sort((a, b) => a.order - b.order) : [];
 
-const guidePage = (g) => `${head(`${g.title} – SoloRejs`, g.description, `../styles.css?v=${ver('styles.css')}`)}
+const guidePage = (g) => `${head(`${g.title} – SoloRejs`, g.description, `/styles.css?v=${ver('styles.css')}`)}
 <body class="detail">
 ${header('../')}
 <main class="wrap prose">
@@ -316,14 +316,14 @@ ${footer()}
 </body>
 </html>
 `;
-const guideIndex = `${head('Guides til dig, der rejser alene – SoloRejs', 'Korte guides om enkeltværelsestillæg, første rejse alene og at finde billige rejser som solorejsende.', `../styles.css?v=${ver('styles.css')}`)}
+const guideIndex = `${head('Guides til dig, der rejser alene – SoloRejs', 'Korte guides om enkeltværelsestillæg, første rejse alene og at finde billige rejser som solorejsende.', `/styles.css?v=${ver('styles.css')}`)}
 <body class="detail">
 ${header('../')}
 <main class="wrap prose">
   <h1>Guides</h1>
   <p class="d-desc">Korte guides til dig, der rejser alene.</p>
   <ul class="guide-list">
-${guides.map((g) => `    <li><a href="/guides/${g.slug}.html"><strong>${esc(g.title)}</strong><span>${esc(g.description)}</span></a></li>`).join('\n')}
+${guides.map((g) => `    <li><a href="/guides/${g.slug}/"><strong>${esc(g.title)}</strong><span>${esc(g.description)}</span></a></li>`).join('\n')}
   </ul>
 </main>
 ${footer()}
@@ -335,12 +335,26 @@ ${footer()}
 const outDir = join(root, 'rejse');
 if (existsSync(outDir)) rmSync(outDir, { recursive: true });
 mkdirSync(outDir, { recursive: true });
-for (const t of trips) writeFileSync(join(outDir, `${t.id}.html`), detail(t));
+for (const t of trips) {
+  mkdirSync(join(outDir, t.id), { recursive: true });
+  writeFileSync(join(outDir, t.id, 'index.html'), detail(t));
+  // Gammel URL (<id>.html) sender videre til den nye mappe-URL
+  writeFileSync(join(outDir, `${t.id}.html`), `<!doctype html>
+<meta charset="utf-8">
+<title>${esc(t.title)}</title>
+<link rel="canonical" href="${SITE_URL}/rejse/${t.id}/">
+<meta http-equiv="refresh" content="0; url=/rejse/${t.id}/">
+<p><a href="/rejse/${t.id}/">Gå til rejsen</a></p>
+`);
+}
 writeFileSync(join(root, 'index.html'), indexHtml);
 const gOut = join(root, 'guides');
 if (existsSync(gOut)) rmSync(gOut, { recursive: true });
 mkdirSync(gOut, { recursive: true });
 writeFileSync(join(gOut, 'index.html'), guideIndex);
-for (const g of guides) writeFileSync(join(gOut, `${g.slug}.html`), guidePage(g));
-writeFileSync(join(root, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>${SITE_URL}/</loc></url>\n  <url><loc>${SITE_URL}/guides/</loc></url>\n${guides.map((g) => `  <url><loc>${SITE_URL}/guides/${g.slug}.html</loc></url>`).join('\n')}\n${trips.map((t) => `  <url><loc>${SITE_URL}/rejse/${t.id}.html</loc></url>`).join('\n')}\n</urlset>\n`);
+for (const g of guides) {
+  mkdirSync(join(gOut, g.slug), { recursive: true });
+  writeFileSync(join(gOut, g.slug, 'index.html'), guidePage(g));
+}
+writeFileSync(join(root, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>${SITE_URL}/</loc></url>\n  <url><loc>${SITE_URL}/guides/</loc></url>\n${guides.map((g) => `  <url><loc>${SITE_URL}/guides/${g.slug}/</loc></url>`).join('\n')}\n${trips.map((t) => `  <url><loc>${SITE_URL}/rejse/${t.id}/</loc></url>`).join('\n')}\n</urlset>\n`);
 console.log(`Byggede forside + ${trips.length} rejsesider + ${guides.length} guides.`);
