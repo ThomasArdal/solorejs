@@ -86,7 +86,7 @@
   function reset() {
     els.q.value = ''; els.dFrom.value = ''; els.dTo.value = '';
     els.onlyNoSup.checked = false; els.onlyPrice.checked = false;
-    els.pmax.value = PMAX; els.sort.value = 'date';
+    els.pmax.value = PMAX; els.sort.value = 'price';
     $$('.filters input[type=checkbox]').forEach((c) => (c.checked = false));
     state.months.clear(); state.dur.clear();
     $$('.chip.on').forEach((c) => c.classList.remove('on'));

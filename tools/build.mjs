@@ -166,8 +166,8 @@ ${header('')}
         <p id="count" aria-live="polite"></p>
         <label>Sortér
           <select id="sort">
+            <option value="price" selected>Solopris (lavest)</option>
             <option value="date">Afrejse (tidligst)</option>
-            <option value="price">Solopris (lavest)</option>
             <option value="nights">Varighed (længst)</option>
           </select>
         </label>
