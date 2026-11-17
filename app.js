@@ -44,6 +44,13 @@
     nights: (a, b) => (b.nights ?? 0) - (a.nights ?? 0),
   };
 
+  // "Barcelona, Spanien". Lange rutelister (rundrejser) og dubletter af landet vises kun som land/sted.
+  function place(t) {
+    const d = (t.destination || '').trim();
+    if (!d || d.length > 34) return t.country;
+    return norm(d).includes(norm(t.country)) ? d : `${d}, ${t.country}`;
+  }
+
   function card(t) {
     const solo = SOLO[t.solo] || SOLO.ukendt;
     const meta = [t.date ? fmtDate(t.date) : null, t.nights ? `${t.nights} nætter` : (t.days ? `${t.days} dage` : null), t.board].filter(Boolean).join(' · ');
@@ -51,7 +58,7 @@
     return `<a class="card" href="rejse/${esc(t.id)}.html">
       <div class="thumb${t.img ? ' has-img' : ''}" style="--g1:${t.grad[0]};--g2:${t.grad[1]}">${t.img ? `<img src="${esc(t.img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove();this.parentNode.classList.remove('has-img')">` : ''}<span aria-hidden="true">${t.icon}</span><em>${esc(t.type)}</em></div>
       <div class="body">
-        <p class="op">${esc(t.operator)} · ${esc(t.country)}</p>
+        <p class="op">${esc(place(t))}</p>
         <h3>${esc(t.title)}</h3>
         <p class="meta">${esc(meta)}</p>
         <span class="solo ${solo.cls}">${solo.label}</span>
@@ -86,7 +93,7 @@
   function reset() {
     els.q.value = ''; els.dFrom.value = ''; els.dTo.value = '';
     els.onlyNoSup.checked = false; els.onlyPrice.checked = false;
-    els.pmax.value = PMAX; els.sort.value = 'price';
+    els.pmax.value = PMAX; els.sort.value = 'date';
     $$('.filters input[type=checkbox]').forEach((c) => (c.checked = false));
     state.months.clear(); state.dur.clear();
     $$('.chip.on').forEach((c) => c.classList.remove('on'));
