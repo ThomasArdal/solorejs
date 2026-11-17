@@ -14,6 +14,8 @@ Prisen på fly og hotel kan være markant højere eller lavere alt efter afrejse
 
 **Prøv forskellige nattelængder.** Flere nætter kan flytte både flypris og samlet pris. Det er nemt at prøve.
 
+**Sammenlign flyet alene.** Skal du kun bruge selve flybilletten, kan du sammenligne priser fx hos [Flybillet.dk](https://go.adt212.net/t/t?a=1927268633&as=2126866054&t=2&tk=1). Linket er et affiliate-link.
+
 **Tjek hotellets afbestilling.** Den billigste dag er ofte en ikke-refunderbar pris. Hvis du vil kunne ombooke, så kig efter "gratis afbestilling" og tjek, hvad det koster ekstra.
 
 **Kig igen.** Priserne på samme dag kan skifte på få minutter. Er prisen god, så book den.

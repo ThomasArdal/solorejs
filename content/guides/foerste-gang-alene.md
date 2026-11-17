@@ -20,7 +20,7 @@ To hoteller i samme by kan have vidt forskellige vilkår. Nogle værelser er ikk
 
 ## 4. Læs ankomst- og hjemrejsetidspunktet
 
-Se, hvornår du lander, og hvordan du kommer fra lufthavnen til hotellet. Nogle hjemrejser lander efter midnat, og så kører toget ikke længere. Hotellet har også en indtjekningstid, og kommer du meget sent, skal du give dem besked.
+Se, hvornår du lander, og hvordan du kommer fra lufthavnen til hotellet. Nogle hjemrejser lander efter midnat, og så kører toget ikke længere. Booker du flyet for sig, kan du sammenligne priser fx hos [Flybillet.dk](https://go.adt212.net/t/t?a=1927268633&as=2126866054&t=2&tk=1). Linket er et affiliate-link. Hotellet har også en indtjekningstid, og kommer du meget sent, skal du give dem besked.
 
 ## 5. Sørg for forsikring og sygesikringskort
 

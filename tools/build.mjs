@@ -12,6 +12,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const ver = (f) => createHash('md5').update(readFileSync(join(root, f))).digest('hex').slice(0, 8);
 const trips = JSON.parse(readFileSync(join(root, 'data', 'trips.json'), 'utf8'));
 const FLYHJAELP_URL = 'https://dot.flyhjaelp.dk/t/t?a=1876544746&as=2126866054&t=2&tk=1'; // Adtraction tracking-link
+const FLYBILLET_URL = 'https://go.adt212.net/t/t?a=1927268633&as=2126866054&t=2&tk=1'; // Adtraction tracking-link
 const SITE_URL ='https://solorejs.dk'; // bruges kun i sitemap (matcher CNAME)
 
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -51,6 +52,8 @@ for (const t of trips) {
   t.premiumPct = t.soloPriceDKK && t.pricePerPersonDoubleDKK
     ? Math.round(((t.soloPriceDKK - t.pricePerPersonDoubleDKK) / t.pricePerPersonDoubleDKK) * 100) : null;
   t.packageType = derivePackageType(t);
+  // Flybillet-boks: sæt needsFlight i trips.json for at tvinge til/fra. Standard: krydstogter, hvor flyet ikke er oplyst (man skal selv til havnen)
+  t.needsFlight = t.needsFlight ?? (t.tripType === 'Krydstogt' && t.flightIncluded == null);
   t.icon = TYPE_ICON[t.tripType] || '✈️';
   t.grad = TYPE_GRAD[t.tripType] || TYPE_GRAD.Andet;
 }
@@ -244,6 +247,7 @@ ${header('../')}
         ${t.includes?.length ? `<div><h2>Inkluderet</h2>${list(t.includes)}</div>` : ''}
         ${t.excludes?.length ? `<div><h2>Ikke inkluderet</h2>${list(t.excludes)}</div>` : ''}
       </div>
+      ${t.needsFlight ? `<p>Skal du selv til afrejsestedet? <a href="${FLYBILLET_URL}" target="_blank" rel="sponsored noopener noreferrer">Sammenlign flypriser hos Flybillet.dk</a>.</p>` : ''}
       ${t.terms ? `<h2>Vilkår</h2><p>${esc(t.terms)}</p>` : ''}
     </div>
 
