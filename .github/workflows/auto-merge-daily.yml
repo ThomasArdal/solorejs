@@ -1,0 +1,49 @@
+name: Auto-merge daglig opdatering
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: auto-merge-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  validate-and-merge:
+    # Kun PR'er fra det natlige job, og kun fra dette repo (ikke forks)
+    if: >-
+      startsWith(github.head_ref, 'daily-update/') &&
+      github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Hent main til sammenligning
+        run: git fetch origin main
+
+      - name: Valider data og grænser
+        run: node tools/validate-pr.mjs origin/main
+
+      - name: Tjek at genereret output matcher data
+        run: |
+          node tools/build.mjs
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "::error::Genereret output (index.html, rejse/, guides/, sitemap.xml) matcher ikke data/trips.json. Kør 'node tools/build.mjs'."
+            git status --short | head -20
+            exit 1
+          fi
+
+      - name: Merge
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh pr merge "${{ github.event.pull_request.number }}" --squash --delete-branch --repo "${{ github.repository }}"
