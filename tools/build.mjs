@@ -58,7 +58,7 @@ for (const t of trips) {
   t.grad = TYPE_GRAD[t.tripType] || TYPE_GRAD.Andet;
 }
 
-const head = (title, desc, css, extra = '') => `<!doctype html>
+const head = (title, desc, css, extra = '', path = '') => `<!doctype html>
 <html lang="da">
 <head>
   <meta charset="utf-8">
@@ -67,7 +67,9 @@ const head = (title, desc, css, extra = '') => `<!doctype html>
   <meta name="description" content="${esc(desc)}">
   <meta property="og:title" content="${esc(title)}">
   <meta property="og:description" content="${esc(desc)}">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="website">${path ? `
+  <link rel="canonical" href="${SITE_URL}${path}">
+  <meta property="og:url" content="${SITE_URL}${path}">` : ''}
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🧭%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -108,7 +110,28 @@ const slim = trips.map((t) => ({
   guide: t.guide, icon: t.icon, grad: t.grad, note: t.soloNote, img: t.image,
 }));
 
-const indexHtml = `${head('SoloRejs – rejser til dig, der rejser alene', 'Find rejser uden eller med lavt enkeltværelsestillæg. Sammenlign solopriser fra danske rejseudbydere på ét sted.', `styles.css?v=${ver('styles.css')}`)}
+const placeOf = (t) => {
+  const d = (t.destination || '').trim();
+  if (!d || d.length > 34) return t.country;
+  return d.toLowerCase().includes(String(t.country).toLowerCase()) ? d : `${d}, ${t.country}`;
+};
+const staticCards = [...slim].sort((a, b) => (a.date || '9999').localeCompare(b.date || '9999')).map((t) => {
+  const solo = SOLO[t.solo] || SOLO.ukendt;
+  const meta = [t.date ? dato(t.date, { day: 'numeric', month: 'short', year: 'numeric' }) : null, t.nights ? `${t.nights} nætter` : (t.days ? `${t.days} dage` : null), t.board].filter(Boolean).join(' · ');
+  const price = t.price != null ? `<span class="p-from">${t.from ? 'fra' : 'solopris'}</span><span class="p-val">${kr(t.price)}</span>` : '<span class="p-na">Pris hos udbyder</span>';
+  return `<a class="card" href="/rejse/${esc(t.id)}/">
+      <div class="thumb${t.img ? ' has-img' : ''}" style="--g1:${t.grad[0]};--g2:${t.grad[1]}">${t.img ? `<img src="${esc(t.img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove();this.parentNode.classList.remove('has-img')">` : ''}<span aria-hidden="true">${t.icon}</span><em>${esc(t.type)}</em></div>
+      <div class="body">
+        <p class="op">${esc(placeOf(t))}</p>
+        <h3>${esc(t.title)}</h3>
+        <p class="meta">${esc(meta)}</p>
+        <span class="solo ${solo.cls}">${solo.label}</span>
+        <div class="price">${price}</div>
+      </div>
+    </a>`;
+}).join('');
+
+const indexHtml = `${head('SoloRejs – rejser til dig, der rejser alene', 'Find rejser uden eller med lavt enkeltværelsestillæg. Sammenlign solopriser fra danske rejseudbydere på ét sted.', `styles.css?v=${ver('styles.css')}`, '', '/')}
 <body>
 ${header('')}
 <main>
@@ -177,7 +200,7 @@ ${header('')}
           </select>
         </label>
       </div>
-      <div id="grid" class="grid"></div>
+      <div id="grid" class="grid">${staticCards}</div>
       <p id="empty" class="empty" hidden>Ingen rejser matcher dine filtre. <button class="link" type="button" id="reset2">Nulstil filtre</button></p>
     </div>
   </section>
@@ -202,6 +225,27 @@ const SOLO = ${JSON.stringify(Object.fromEntries(Object.entries(SOLO).map(([k, v
 // ---------- Detaljesider ----------
 const list = (items) => (items?.length ? `<ul>${items.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>` : '');
 
+// Strukturerede data (schema.org TouristTrip + Offer). Kun felter vi faktisk har.
+function jsonLd(t) {
+  const o = {
+    '@context': 'https://schema.org',
+    '@type': 'TouristTrip',
+    name: t.title,
+    description: t.description || undefined,
+    url: `${SITE_URL}/rejse/${t.id}/`,
+    touristType: 'Solorejsende',
+    image: t.image || undefined,
+    itinerary: t.destination || t.country ? { '@type': 'Place', name: t.destination || t.country } : undefined,
+    provider: { '@type': 'Organization', name: t.operator },
+    offers: t.soloPriceDKK != null ? {
+      '@type': 'Offer', price: t.soloPriceDKK, priceCurrency: 'DKK', url: t.sourceUrl,
+      validFrom: t.priceCheckedDate || undefined, availability: 'https://schema.org/InStock',
+    } : undefined,
+  };
+  return `
+  <script type="application/ld+json">${JSON.stringify(o).replace(/</g, '\u003c')}</script>`;
+}
+
 function detail(t) {
   const solo = SOLO[t.soloType] || SOLO.ukendt;
   const priceLabel = t.soloPriceDKK != null ? `${t.priceIsFrom ? 'fra ' : ''}${kr(t.soloPriceDKK)}` : 'Pris oplyses hos udbyder';
@@ -221,7 +265,7 @@ function detail(t) {
   ].filter(([, v]) => v);
   const desc = (t.description || '').slice(0, 155);
 
-  return `${head(`${t.title} – SoloRejs`, desc, `/styles.css?v=${ver('styles.css')}`)}
+  return `${head(`${t.title} – SoloRejs`, desc, `/styles.css?v=${ver('styles.css')}`, jsonLd(t), `/rejse/${t.id}/`)}
 <body class="detail">
 ${header('../')}
 <main class="wrap">
@@ -307,7 +351,7 @@ const guides = existsSync(gdir) ? readdirSync(gdir).filter((f) => f.endsWith('.m
   return { slug: f.replace(/\.md$/, ''), ...meta, order: Number(meta.order) || 99, body };
 }).sort((a, b) => a.order - b.order) : [];
 
-const guidePage = (g) => `${head(`${g.title} – SoloRejs`, g.description, `/styles.css?v=${ver('styles.css')}`)}
+const guidePage = (g) => `${head(`${g.title} – SoloRejs`, g.description, `/styles.css?v=${ver('styles.css')}`, '', `/guides/${g.slug}/`)}
 <body class="detail">
 ${header('../')}
 <main class="wrap prose">
@@ -320,7 +364,7 @@ ${footer()}
 </body>
 </html>
 `;
-const guideIndex = `${head('Guides til dig, der rejser alene – SoloRejs', 'Korte guides om enkeltværelsestillæg, første rejse alene og at finde billige rejser som solorejsende.', `/styles.css?v=${ver('styles.css')}`)}
+const guideIndex = `${head('Guides til dig, der rejser alene – SoloRejs', 'Korte guides om enkeltværelsestillæg, første rejse alene og at finde billige rejser som solorejsende.', `/styles.css?v=${ver('styles.css')}`, '', '/guides/')}
 <body class="detail">
 ${header('../')}
 <main class="wrap prose">
