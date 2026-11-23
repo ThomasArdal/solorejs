@@ -9,7 +9,8 @@ import { PACKAGES, derivePackageType } from './package-type.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 // Versionsparameter på css/js, så browsere (og CDN'et, max-age 4 timer) henter nye udgaver med det samme
-const ver = (f) => createHash('md5').update(readFileSync(join(root, f))).digest('hex').slice(0, 8);
+// Linjeskift normaliseres, så hashen er ens på Windows (CRLF) og Linux (LF, natjobbet).
+const ver = (f) => createHash('md5').update(readFileSync(join(root, f), 'utf8').replace(/\r\n/g, '\n')).digest('hex').slice(0, 8);
 const trips = JSON.parse(readFileSync(join(root, 'data', 'trips.json'), 'utf8'));
 const FLYHJAELP_URL = 'https://dot.flyhjaelp.dk/t/t?a=1876544746&as=2126866054&t=2&tk=1'; // Adtraction tracking-link
 const FLYBILLET_URL = 'https://go.adt212.net/t/t?a=1927268633&as=2126866054&t=2&tk=1'; // Adtraction tracking-link
