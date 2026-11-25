@@ -5,6 +5,7 @@ import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync, readdirSync
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
+import { execFileSync } from 'node:child_process';
 import { PACKAGES, derivePackageType } from './package-type.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -46,6 +47,23 @@ for (const t of trips) {
   const u = imgOf(t);
   const bad = !u || u.endsWith('/undefined') || countriesByImg[u].size > 1 || /skiathos/i.test(u);
   t.image = bad ? null : u;
+}
+
+// Fjernede rejser: data/removed.json bevarer URL'en, så gamle links (Google m.fl.) lander på en "ikke længere aktuel"-side
+// i stedet for en 404. Nye fjernelser opdages ved at sammenligne med trips.json i HEAD (build køres før commit).
+const removedPath = join(root, 'data', 'removed.json');
+let removed = existsSync(removedPath) ? JSON.parse(readFileSync(removedPath, 'utf8')) : [];
+try {
+  const prev = JSON.parse(execFileSync('git', ['show', 'HEAD:data/trips.json'], { cwd: root, encoding: 'utf8', maxBuffer: 64 * 1024 * 1024, stdio: ['ignore', 'pipe', 'ignore'] }));
+  const live = new Set(trips.map((t) => t.id));
+  const known = new Set(removed.map((r) => r.id));
+  const today = new Date().toISOString().slice(0, 10);
+  for (const t of prev) if (!live.has(t.id) && !known.has(t.id)) removed.push({ id: t.id, title: t.title, country: t.country, destination: t.destination ?? null, removedDate: today });
+} catch { /* ingen git/HEAD: brug kun removed.json som den er */ }
+{
+  const live = new Set(trips.map((t) => t.id));
+  removed = removed.filter((r) => !live.has(r.id)).sort((a, b) => a.id.localeCompare(b.id)); // genoprettet rejse er ikke længere "fjernet"
+  writeFileSync(removedPath, JSON.stringify(removed, null, 2) + '\n');
 }
 
 // Beregn solo-tillæg i % hvor vi har begge priser
@@ -116,7 +134,8 @@ const placeOf = (t) => {
   if (!d || d.length > 34) return t.country;
   return d.toLowerCase().includes(String(t.country).toLowerCase()) ? d : `${d}, ${t.country}`;
 };
-const staticCards = [...slim].sort((a, b) => (a.date || '9999').localeCompare(b.date || '9999')).map((t) => {
+const byDate = (a, b) => (a.date || '9999').localeCompare(b.date || '9999');
+const cardHtml = (t) => {
   const solo = SOLO[t.solo] || SOLO.ukendt;
   const meta = [t.date ? dato(t.date, { day: 'numeric', month: 'short', year: 'numeric' }) : null, t.nights ? `${t.nights} nætter` : (t.days ? `${t.days} dage` : null), t.board].filter(Boolean).join(' · ');
   const price = t.price != null ? `<span class="p-from">${t.from ? 'fra' : 'solopris'}</span><span class="p-val">${kr(t.price)}</span>` : '<span class="p-na">Pris hos udbyder</span>';
@@ -130,7 +149,8 @@ const staticCards = [...slim].sort((a, b) => (a.date || '9999').localeCompare(b.
         <div class="price">${price}</div>
       </div>
     </a>`;
-}).join('');
+};
+const staticCards = [...slim].sort(byDate).map(cardHtml).join('');
 
 const indexHtml = `${head('SoloRejs – rejser til dig, der rejser alene', 'Find rejser uden eller med lavt enkeltværelsestillæg. Sammenlign solopriser fra danske rejseudbydere på ét sted.', `styles.css?v=${ver('styles.css')}`, '', '/')}
 <body>
@@ -384,6 +404,40 @@ ${footer()}
 const outDir = join(root, 'rejse');
 if (existsSync(outDir)) rmSync(outDir, { recursive: true });
 mkdirSync(outDir, { recursive: true });
+// Side for fjernet rejse: forklaring + aktuelle rejser til samme land (ellers de næste afrejser)
+const goneHtml = (r) => {
+  const sameCountry = slim.filter((t) => t.country === r.country).sort(byDate);
+  const shown = (sameCountry.length ? sameCountry : [...slim].sort(byDate)).slice(0, 12);
+  const searchUrl = sameCountry.length ? `/?land=${encodeURIComponent(r.country)}#rejser` : '/#rejser';
+  return `${head(`Rejsen er ikke længere aktuel – SoloRejs`, `Rejsen "${r.title}" er ikke længere aktuel. Se andre rejser til ${r.country} for solorejsende.`, `/styles.css?v=${ver('styles.css')}`, '\n  <meta name="robots" content="noindex, follow">')}
+<body class="detail">
+${header('../')}
+<main class="wrap">
+  <nav class="crumbs" aria-label="Brødkrumme"><a href="/">Alle rejser</a> › <span>${esc(r.country)}</span></nav>
+  <h1>Rejsen er ikke længere aktuel</h1>
+  <p class="d-desc">«${esc(r.title)}» kan ikke længere bookes hos udbyderen, eller afrejsen er passeret.</p>
+  <div class="callout">${sameCountry.length
+    ? `Vi har ${sameCountry.length} andre ${sameCountry.length === 1 ? 'rejse' : 'rejser'} til ${esc(r.country)}. <a href="${searchUrl}">Se alle rejser til ${esc(r.country)} →</a>`
+    : `Vi har ikke andre rejser til ${esc(r.country)} lige nu. <a href="${searchUrl}">Se alle rejser →</a>`}</div>
+  <h2>${sameCountry.length ? `Rejser til ${esc(r.country)}` : 'Kommende afrejser'}</h2>
+  <div class="grid">${shown.map(cardHtml).join('')}</div>
+</main>
+${footer()}
+</body>
+</html>
+`;
+};
+for (const r of removed) {
+  mkdirSync(join(outDir, r.id), { recursive: true });
+  writeFileSync(join(outDir, r.id, 'index.html'), goneHtml(r));
+  writeFileSync(join(outDir, `${r.id}.html`), `<!doctype html>
+<meta charset="utf-8">
+<title>${esc(r.title)}</title>
+<meta name="robots" content="noindex, follow">
+<meta http-equiv="refresh" content="0; url=/rejse/${r.id}/">
+<p><a href="/rejse/${r.id}/">Rejsen er ikke længere aktuel</a></p>
+`);
+}
 for (const t of trips) {
   mkdirSync(join(outDir, t.id), { recursive: true });
   writeFileSync(join(outDir, t.id, 'index.html'), detail(t));
@@ -406,4 +460,4 @@ for (const g of guides) {
   writeFileSync(join(gOut, g.slug, 'index.html'), guidePage(g));
 }
 writeFileSync(join(root, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>${SITE_URL}/</loc></url>\n  <url><loc>${SITE_URL}/guides/</loc></url>\n${guides.map((g) => `  <url><loc>${SITE_URL}/guides/${g.slug}/</loc></url>`).join('\n')}\n${trips.map((t) => `  <url><loc>${SITE_URL}/rejse/${t.id}/</loc></url>`).join('\n')}\n</urlset>\n`);
-console.log(`Byggede forside + ${trips.length} rejsesider + ${guides.length} guides.`);
+console.log(`Byggede forside + ${trips.length} rejsesider + ${removed.length} "ikke aktuel"-sider + ${guides.length} guides.`);

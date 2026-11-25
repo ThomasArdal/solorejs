@@ -1,0 +1,23 @@
+[
+  {
+    "id": "albatros-malaysia-borneo-2027-09-26",
+    "title": "Malaysia & Borneo - rejs alene i fællesskab",
+    "country": "Malaysia",
+    "destination": "Kuala Lumpur, Kuching, Bako, Melaka",
+    "removedDate": "2026-11-11"
+  },
+  {
+    "id": "spies-tenerife-2027-03-30",
+    "title": "Ferie alene på Tenerife (Puerto de la Cruz)",
+    "country": "Spanien",
+    "destination": "Puerto de la Cruz, Tenerife",
+    "removedDate": "2026-11-15"
+  },
+  {
+    "id": "stjernegaard-jordan-2027-02-21",
+    "title": "Et historisk vingesus (Jordan)",
+    "country": "Jordan",
+    "destination": "Petra, Wadi Rum og Døde Hav",
+    "removedDate": "2026-11-11"
+  }
+]

@@ -119,5 +119,12 @@
     els.toggle.setAttribute('aria-expanded', open);
   });
 
+  // /?land=Spanien (fx fra siden for en fjernet rejse) forvælger landet i filteret
+  const land = new URLSearchParams(location.search).get('land');
+  if (land) {
+    const box = $$('input[name="country"]').find((i) => i.value === land);
+    if (box) { box.checked = true; els.filters.classList.add('open'); }
+  }
+
   render();
 })();
