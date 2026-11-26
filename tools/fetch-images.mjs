@@ -24,7 +24,7 @@ function pick(html, base) {
     const ld = html.match(/"image"\s*:\s*"([^"]+)"/i) || html.match(/"image"\s*:\s*\[\s*"([^"]+)"/i);
     if (ld) url = ld[1];
   }
-  if (!url) return null;
+  if (!url || /\/(undefined|null)(\?.*)?$/i.test(url)) return null; // fx Spies: og:image ender nogle gange på /undefined
   try { return new URL(url, base).href; } catch { return null; }
 }
 

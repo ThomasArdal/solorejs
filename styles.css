@@ -226,3 +226,11 @@ dd { margin: 0; font-weight: 500; text-align: right; }
 .guide-list a:hover { border-color: var(--accent); }
 .guide-list strong { display: block; font-family: "Fraunces", serif; font-size: 1.1rem; }
 .guide-list span { color: var(--muted); font-size: .92rem; }
+
+/* Afrejser og priser (flere afrejser pr. rejse) */
+.deps-h { margin: 1rem 0 .4rem; font-size: 1rem; }
+.deps { width: 100%; border-collapse: collapse; font-size: .92rem; }
+.deps td { padding: .4rem .2rem; border-top: 1px solid var(--line); }
+.deps td:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+.deps tr.best td { font-weight: 600; }
+.badge-best { display: inline-block; margin-left: .35rem; padding: .05rem .45rem; border-radius: 999px; background: var(--good); color: #fff; font-size: .72rem; font-weight: 600; }

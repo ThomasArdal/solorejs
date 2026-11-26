@@ -7,6 +7,8 @@ import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import { PACKAGES, derivePackageType } from './package-type.mjs';
+import { BOARDS, boardFor, isUnmapped } from './board.mjs';
+import { applyDepartures } from './departures.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 // Versionsparameter på css/js, så browsere (og CDN'et, max-age 4 timer) henter nye udgaver med det samme
@@ -71,13 +73,21 @@ for (const t of trips) {
   t.premiumPct = t.soloPriceDKK && t.pricePerPersonDoubleDKK
     ? Math.round(((t.soloPriceDKK - t.pricePerPersonDoubleDKK) / t.pricePerPersonDoubleDKK) * 100) : null;
   t.packageType = derivePackageType(t);
+  applyDepartures(t, new Date().toISOString().slice(0, 10));
+  if (isUnmapped(t.board)) console.warn(`ADVARSEL: ukendt forplejning "${t.board}" på ${t.id} - vises som Ukendt`);
+  t.board = boardFor(t);
   // Flybillet-boks: sæt needsFlight i trips.json for at tvinge til/fra. Standard: krydstogter, hvor flyet ikke er oplyst (man skal selv til havnen)
   t.needsFlight = t.needsFlight ?? (t.tripType === 'Krydstogt' && t.flightIncluded == null);
   t.icon = TYPE_ICON[t.tripType] || '✈️';
   t.grad = TYPE_GRAD[t.tripType] || TYPE_GRAD.Andet;
 }
 
-const head = (title, desc, css, extra = '', path = '') => `<!doctype html>
+// Delingsbillede: rejsens eget billede (https) ellers genereret kort pr. rejsetype (tools/make-og-images.mjs)
+const OG_DEFAULT = `${SITE_URL}/og/default.png`;
+const ogSlug = (type) => ({ 'Aktiv & vandring': 'aktiv-vandring', 'Kultur & historie': 'kultur-historie' }[type] || (TYPE_ICON[type] ? type.toLowerCase() : 'andet'));
+const ogImageOf = (t) => (String(t.image || '').startsWith('https://') ? t.image : `${SITE_URL}/og/${ogSlug(t.tripType)}.png`); // t.image er allerede frasorteret for ugyldige billeder
+
+const head = (title, desc, css, extra = '', path = '', img = OG_DEFAULT) => `<!doctype html>
 <html lang="da">
 <head>
   <meta charset="utf-8">
@@ -86,9 +96,23 @@ const head = (title, desc, css, extra = '', path = '') => `<!doctype html>
   <meta name="description" content="${esc(desc)}">
   <meta property="og:title" content="${esc(title)}">
   <meta property="og:description" content="${esc(desc)}">
-  <meta property="og:type" content="website">${path ? `
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SoloRejs">
+  <meta property="og:locale" content="da_DK">
+  <meta property="og:image" content="${esc(img)}">${img.startsWith(`${SITE_URL}/og/`) ? `
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">` : ''}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${esc(title)}">
+  <meta name="twitter:description" content="${esc(desc)}">
+  <meta name="twitter:image" content="${esc(img)}">
+  <meta name="theme-color" content="#d9643a">${path ? `
   <link rel="canonical" href="${SITE_URL}${path}">
   <meta property="og:url" content="${SITE_URL}${path}">` : ''}
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🧭%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -113,10 +137,10 @@ const countries = [...new Set(trips.map((t) => t.country))].sort((a, b) => a.loc
 const types = [...new Set(trips.map((t) => t.tripType))].sort((a, b) => a.localeCompare(b, 'da'));
 const packages = PACKAGES.filter((p) => trips.some((t) => t.packageType === p));
 const operators = [...new Set(trips.map((t) => t.operator))].sort((a, b) => a.localeCompare(b, 'da'));
-const boards = [...new Set(trips.map((t) => t.board).filter(Boolean))];
+const boards = BOARDS.filter((b) => trips.some((t) => t.board === b));
 const prices = trips.map((t) => t.soloPriceDKK).filter((p) => p != null);
 const maxPrice = prices.length ? Math.ceil(Math.max(...prices) / 1000) * 1000 : 50000;
-const months = [...new Set(trips.map((t) => t.departureDate?.slice(0, 7)).filter(Boolean))].sort();
+const months = [...new Set(trips.flatMap((t) => t.departureList.map((d) => d.date.slice(0, 7))))].sort();
 
 const checks = (name, values, countFn) => values.map((v) => `
         <label class="chk"><input type="checkbox" name="${name}" value="${esc(v)}"><span>${esc(v)}</span><em>${countFn(v)}</em></label>`).join('');
@@ -127,6 +151,7 @@ const slim = trips.map((t) => ({
   date: t.departureDate, nights: t.nights, days: t.days, board: t.board, solo: t.soloType, price: t.soloPriceDKK,
   from: !!t.priceIsFrom, dbl: t.pricePerPersonDoubleDKK, sup: t.singleSupplementDKK, pct: t.premiumPct,
   guide: t.guide, icon: t.icon, grad: t.grad, note: t.soloNote, img: t.image,
+  deps: t.departureList.length > 1 ? t.departureList.map((d) => [d.date, d.priceDKK]) : undefined, spread: t.priceSpread || undefined,
 }));
 
 const placeOf = (t) => {
@@ -137,7 +162,7 @@ const placeOf = (t) => {
 const byDate = (a, b) => (a.date || '9999').localeCompare(b.date || '9999');
 const cardHtml = (t) => {
   const solo = SOLO[t.solo] || SOLO.ukendt;
-  const meta = [t.date ? dato(t.date, { day: 'numeric', month: 'short', year: 'numeric' }) : null, t.nights ? `${t.nights} nætter` : (t.days ? `${t.days} dage` : null), t.board].filter(Boolean).join(' · ');
+  const meta = [t.date ? dato(t.date, { day: 'numeric', month: 'short', year: 'numeric' }) : null, t.deps ? `${t.deps.length} afgange` : null, t.nights ? `${t.nights} nætter` : (t.days ? `${t.days} dage` : null), t.board].filter(Boolean).join(' · ');
   const price = t.price != null ? `<span class="p-from">${t.from ? 'fra' : 'solopris'}</span><span class="p-val">${kr(t.price)}</span>` : '<span class="p-na">Pris hos udbyder</span>';
   return `<a class="card" href="/rejse/${esc(t.id)}/">
       <div class="thumb${t.img ? ' has-img' : ''}" style="--g1:${t.grad[0]};--g2:${t.grad[1]}">${t.img ? `<img src="${esc(t.img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove();this.parentNode.classList.remove('has-img')">` : ''}<span aria-hidden="true">${t.icon}</span><em>${esc(t.type)}</em></div>
@@ -152,7 +177,17 @@ const cardHtml = (t) => {
 };
 const staticCards = [...slim].sort(byDate).map(cardHtml).join('');
 
-const indexHtml = `${head('SoloRejs – rejser til dig, der rejser alene', 'Find rejser uden eller med lavt enkeltværelsestillæg. Sammenlign solopriser fra danske rejseudbydere på ét sted.', `styles.css?v=${ver('styles.css')}`, '', '/')}
+// Organization + WebSite (schema.org) på forsiden
+const siteLd = `
+  <script type="application/ld+json">${JSON.stringify({
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: 'SoloRejs', url: `${SITE_URL}/`, logo: `${SITE_URL}/favicon-512x512.png` },
+    { '@type': 'WebSite', '@id': `${SITE_URL}/#website`, name: 'SoloRejs', url: `${SITE_URL}/`, inLanguage: 'da', publisher: { '@id': `${SITE_URL}/#organization` } },
+  ],
+}).replace(/</g, '\u003c')}</script>`;
+
+const indexHtml = `${head('SoloRejs – rejser til dig, der rejser alene', 'Find rejser uden eller med lavt enkeltværelsestillæg. Sammenlign solopriser fra danske rejseudbydere på ét sted.', `styles.css?v=${ver('styles.css')}`, siteLd, '/')}
 <body>
 ${header('')}
 <main>
@@ -263,8 +298,18 @@ function jsonLd(t) {
       validFrom: t.priceCheckedDate || undefined, availability: 'https://schema.org/InStock',
     } : undefined,
   };
-  return `
-  <script type="application/ld+json">${JSON.stringify(o).replace(/</g, '\u003c')}</script>`;
+  const crumbs = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Alle rejser', item: `${SITE_URL}/` },
+      ...(t.country ? [{ '@type': 'ListItem', position: 2, name: t.country, item: `${SITE_URL}/?land=${encodeURIComponent(t.country)}#rejser` }] : []),
+      { '@type': 'ListItem', position: t.country ? 3 : 2, name: t.title, item: `${SITE_URL}/rejse/${t.id}/` },
+    ],
+  };
+  const ld = (x) => `
+  <script type="application/ld+json">${JSON.stringify(x).replace(/</g, '\u003c')}</script>`;
+  return ld(o) + ld(crumbs);
 }
 
 function detail(t) {
@@ -277,7 +322,8 @@ function detail(t) {
     ['Rejseleder', t.guide], ['Gruppestørrelse', t.groupSize],
     ['Fly inkluderet', t.flightIncluded == null ? null : (t.flightIncluded ? 'Ja' : 'Nej')],
   ].filter(([, v]) => v);
-  const alt = (t.alternativeDepartures || []).filter(Boolean);
+  const deps = t.departureList;
+  const cheapest = t.priceSpread ? t.departureList.filter((d) => d.priceDKK != null).reduce((a, b) => (b.priceDKK < a.priceDKK ? b : a)) : null;
   const priceRows = [
     ['Solopris (1 person)', t.soloPriceDKK != null ? priceLabel : null],
     ['Pris pr. person ved 2 rejsende', kr(t.pricePerPersonDoubleDKK)],
@@ -286,7 +332,7 @@ function detail(t) {
   ].filter(([, v]) => v);
   const desc = (t.description || '').slice(0, 155);
 
-  return `${head(`${t.title} – SoloRejs`, desc, `/styles.css?v=${ver('styles.css')}`, jsonLd(t), `/rejse/${t.id}/`)}
+  return `${head(`${t.title} – SoloRejs`, desc, `/styles.css?v=${ver('styles.css')}`, jsonLd(t), `/rejse/${t.id}/`, ogImageOf(t))}
 <body class="detail">
 ${header('../')}
 <main class="wrap">
@@ -333,7 +379,8 @@ ${header('../')}
       <div class="box">
         <h2>Fakta</h2>
         <dl class="facts">${facts.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl>
-        ${alt.length ? `<p class="small">Flere afrejser: ${alt.map((d) => esc(dato(d, { day: 'numeric', month: 'short', year: 'numeric' }))).join(', ')}</p>` : ''}
+        ${deps.length > 1 ? `<h3 class="deps-h">Afrejser og priser</h3>
+        <table class="deps"><tbody>${deps.map((d) => `<tr${d === cheapest ? ' class="best"' : ''}><td>${esc(dato(d.date, { day: 'numeric', month: 'short', year: 'numeric' }))}</td><td>${d.priceDKK != null ? kr(d.priceDKK) : 'Pris hos udbyder'}${d === cheapest ? ' <span class="badge-best">Billigst</span>' : ''}</td></tr>`).join('')}</tbody></table>` : ''}
       </div>
     </aside>
   </div>

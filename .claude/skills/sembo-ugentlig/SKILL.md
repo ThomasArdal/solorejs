@@ -52,6 +52,7 @@ Spring kandidaten over og skriv den som "kunne ikke aflæses". Opdater aldrig en
 ## Skriv resultatet
 1. Skriv en observationsfil i scratchpad (ikke i repoet):
    `[{ "id", "price" (tal), "departureDate", "nights", "hotelName", "roomType", "board", "flight", "checkedDate", "description", "highlights", "includes" }]`
+   `board` skal være en af: Ingen måltider | Morgenmad | Halvpension | Helpension | All inclusive | Ukendt (sembo-upsert.mjs mapper ellers fx "Morgenmad inkluderet" til "Morgenmad", og alt umappeligt til "Ukendt").
    Andre felter (fx `cancellation`, `rating`) ignoreres af scriptet, men er nyttige at have, når du skriver tekster.
    `departureDate` er afrejsedagen for flyet (langdistancefly til Thailand og Dubai lander dagen efter, hotellet starter så den dag). `nights` er hotelnætter.
 2. **Tekster.** `description/highlights/includes` er nødvendige for nye rejser. For eksisterende rejser skal du **sammenholde de nuværende tekster med det, du har set**, og rette alt, der ikke længere passer: nyt hotel, direkte fly vs. omstigning, værelsestype, forplejning, om afbestilling er gratis, bedømmelse. (2026-11-23 var det 13 af 22: bl.a. Phuket stod som direkte, men havde 1 omstigning.) Dansk, egne ord, kun fakta du har set på siden. Skriv ikke noget om bydel, transport, køkken eller lignende, medmindre det stod på siden (fx "aparthotel" er set, "eget køkken" er ikke). Afbestilling beskrives som "frem til få dage før afrejse", medmindre fristen ligger mere end ca. en uge før.

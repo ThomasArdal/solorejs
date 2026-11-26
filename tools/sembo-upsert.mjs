@@ -8,6 +8,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { PACKAGES } from './package-type.mjs';
+import { normalizeBoard, isUnmapped } from './board.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const obsFile = process.argv[2];
@@ -27,7 +28,7 @@ const res = await fetch('https://api.adtraction.net/v3/partner/products/feed/', 
 if (!res.ok) { console.error('Feed-fejl', res.status); process.exit(1); }
 const feed = new Map((await res.json()).map((p) => [p.sku, p]));
 
-const log = { created: [], updated: [], skipped: [] };
+const log = { created: [], updated: [], skipped: [], warnings: [] };
 for (const o of obs) {
   const c = cands.find((x) => x.id === o.id);
   if (!c) { log.skipped.push(`${o.id}: ikke i kandidatlisten`); continue; }
@@ -39,8 +40,10 @@ for (const o of obs) {
   const nights = o.nights ?? c.nights;
   const flightTxt = o.flight ? ` Fly: ${o.flight}.` : '';
   const soloNote = `Billigste afrejsedag, vi fandt i Sembos priskalender, for 1 rejsende${o.roomType ? ` (${o.roomType})` : ''}${o.hotelName ? `, hotel: ${o.hotelName}` : ''}.${flightTxt} Prisen er et øjebliksbillede og kan ændre sig, før du booker.`;
+  const board = normalizeBoard(o.board);
+  if (isUnmapped(o.board)) log.warnings.push(`${o.id}: ukendt board "${o.board}" - gemt som Ukendt`);
   const patch = {
-    departureDate: o.departureDate, nights, days: nights + 1, board: o.board ?? null,
+    departureDate: o.departureDate, nights, days: nights + 1, board,
     soloType: 'soegepris', soloPriceDKK: Math.round(o.price), soloPriceBasis: 'search', priceIsFrom: true,
     soloNote, sourceUrl: p.trackingUrl, priceCheckedDate: o.checkedDate,
     flightIncluded: c.packageType === 'Fly + hotel',

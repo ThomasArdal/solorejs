@@ -4,6 +4,7 @@
 import { readFileSync, appendFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { PACKAGES } from './package-type.mjs';
+import { BOARDS, normalizeBoard, isUnmapped } from './board.mjs';
 
 const MAX_REMOVED = 5;       // flere fjernede rejser end dette ligner en site-ændring/nedetid
 const MAX_ADDED = 10;        // matcher grænsen i nightly-prompt.txt
@@ -42,6 +43,8 @@ if (head && base) {
     if (!t.title) fail(`${w}: mangler title`);
     if (!/^https?:\/\//.test(t.sourceUrl || '')) fail(`${w}: mangler gyldig sourceUrl`);
     if (!PACKAGES.includes(t.packageType)) fail(`${w}: ugyldig packageType "${t.packageType}"`);
+    // Board blokerer aldrig auto-merge: build.mjs mapper til den kendte liste, og ukendt tekst vises blot uden for filteret
+    if (t.board != null && !BOARDS.includes(t.board)) { notes.push(isUnmapped(t.board) ? `${w}: ukendt board "${t.board}" (vises som Ukendt; udvid tools/board.mjs)` : `${w}: board "${t.board}" mappes til "${normalizeBoard(t.board)}"`); }
     if (!TRIP_TYPES.includes(t.tripType)) fail(`${w}: ugyldig tripType "${t.tripType}"`);
     if (!SOLO_TYPES.includes(t.soloType)) fail(`${w}: ugyldig soloType "${t.soloType}"`);
     if (t.departureDate != null) {

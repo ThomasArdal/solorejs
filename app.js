@@ -17,6 +17,18 @@
 
   const checked = (name) => $$(`input[name="${name}"]:checked`).map((i) => i.value);
 
+  // Rejser med flere afrejser: når dato/måned er valgt, vis pris og dato for den billigste afrejse inden for valget
+  function view(t) {
+    if (!t.deps) return t;
+    const from = els.dFrom.value, to = els.dTo.value;
+    if (!from && !to && !state.months.size) return t;
+    const ok = t.deps.filter(([d]) => (!from || d >= from) && (!to || d <= to) && (!state.months.size || state.months.has(d.slice(0, 7))));
+    if (!ok.length) return { ...t, date: null };
+    const priced = ok.filter(([, p]) => p != null);
+    const best = priced.length ? priced.reduce((a, b) => (b[1] < a[1] ? b : a)) : ok[0];
+    return { ...t, date: best[0], price: best[1], from: t.from && !(t.spread && ok.length === 1) };
+  }
+
   function matches(t) {
     const q = norm(els.q.value.trim());
     if (q && !norm([t.title, t.country, t.destination, t.operator, t.type].join(' ')).includes(q)) return false;
@@ -53,7 +65,7 @@
 
   function card(t) {
     const solo = SOLO[t.solo] || SOLO.ukendt;
-    const meta = [t.date ? fmtDate(t.date) : null, t.nights ? `${t.nights} nætter` : (t.days ? `${t.days} dage` : null), t.board].filter(Boolean).join(' · ');
+    const meta = [t.date ? fmtDate(t.date) : null, t.deps ? `${t.deps.length} afgange` : null, t.nights ? `${t.nights} nætter` : (t.days ? `${t.days} dage` : null), t.board].filter(Boolean).join(' · ');
     const price = t.price != null ? `<span class="p-from">${t.from ? 'fra' : 'solopris'}</span><span class="p-val">${fmtKr(t.price)}</span>` : '<span class="p-na">Pris hos udbyder</span>';
     return `<a class="card" href="/rejse/${esc(t.id)}/">
       <div class="thumb${t.img ? ' has-img' : ''}" style="--g1:${t.grad[0]};--g2:${t.grad[1]}">${t.img ? `<img src="${esc(t.img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove();this.parentNode.classList.remove('has-img')">` : ''}<span aria-hidden="true">${t.icon}</span><em>${esc(t.type)}</em></div>
@@ -82,7 +94,7 @@
 
   function render() {
     els.pmaxVal.textContent = +els.pmax.value >= PMAX ? 'Alle priser' : fmtKr(+els.pmax.value);
-    const res = TRIPS.filter(matches).sort(sorters[els.sort.value]);
+    const res = TRIPS.map(view).filter(matches).sort(sorters[els.sort.value]);
     els.grid.innerHTML = res.map(card).join('');
     els.count.innerHTML = `<strong>${res.length}</strong> ${res.length === 1 ? 'rejse' : 'rejser'} fundet`;
     els.empty.hidden = res.length > 0;

@@ -109,7 +109,7 @@
     "departureDate": "2026-12-07",
     "nights": 4,
     "days": 5,
-    "board": "Morgenmad inkluderet",
+    "board": "Morgenmad",
     "soloType": "soegepris",
     "soloPriceDKK": 5949,
     "soloPriceBasis": "search",
@@ -150,7 +150,7 @@
     "departureDate": "2026-12-07",
     "nights": 4,
     "days": 5,
-    "board": "Morgenmad inkluderet",
+    "board": "Morgenmad",
     "soloType": "soegepris",
     "soloPriceDKK": 3728,
     "soloPriceBasis": "search",
@@ -436,7 +436,7 @@
     "departureDate": "2026-12-11",
     "nights": 7,
     "days": 8,
-    "board": "Morgenmad inkluderet",
+    "board": "Morgenmad",
     "soloType": "soegepris",
     "soloPriceDKK": 11084,
     "soloPriceBasis": "search",
@@ -517,7 +517,7 @@
     "departureDate": "2026-12-12",
     "nights": 7,
     "days": 8,
-    "board": "Morgenmad inkluderet",
+    "board": "Morgenmad",
     "soloType": "soegepris",
     "soloPriceDKK": 5319,
     "soloPriceBasis": "search",
@@ -558,7 +558,7 @@
     "departureDate": "2026-12-13",
     "nights": 7,
     "days": 8,
-    "board": "Morgenmad inkluderet",
+    "board": "Morgenmad",
     "soloType": "soegepris",
     "soloPriceDKK": 5502,
     "soloPriceBasis": "search",
@@ -760,7 +760,7 @@
     "departureDate": "2026-12-14",
     "nights": 3,
     "days": 4,
-    "board": "Morgenmad inkluderet",
+    "board": "Morgenmad",
     "soloType": "soegepris",
     "soloPriceDKK": 4101,
     "soloPriceBasis": "search",
@@ -801,7 +801,7 @@
     "departureDate": "2026-12-16",
     "nights": 3,
     "days": 4,
-    "board": "Morgenmad inkluderet",
+    "board": "Morgenmad",
     "soloType": "soegepris",
     "soloPriceDKK": 1936,
     "soloPriceBasis": "search",
@@ -1023,11 +1023,7 @@
     "destination": "Kandy, Ella, Yala og sydkysten",
     "tripType": "Rundrejse",
     "departureDate": "2027-01-09",
-    "alternativeDepartures": [
-      "2027-02-06",
-      "2027-02-13",
-      "2027-03-18"
-    ],
+    "alternativeDepartures": [],
     "nights": 15,
     "days": 17,
     "board": "Morgenmad",
@@ -1094,7 +1090,25 @@
     "terms": "Depositum 2.500 kr. pr. person. Kun muligt hvis flyet også bookes hos Jysk Rejsebureau. Ikke en gruppetur. Ikke egnet for gangbesværede.",
     "sourceUrl": "https://www.jysk-rejsebureau.dk/sri-lanka/faerdigpakket-rejse/sri-lanka-rundrejse-safari-og-strandferie/",
     "priceCheckedDate": "2026-11-26",
-    "packageType": "Arrangeret rejse"
+    "packageType": "Arrangeret rejse",
+    "departures": [
+      {
+        "date": "2027-01-09",
+        "priceDKK": 28950
+      },
+      {
+        "date": "2027-02-06",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-02-13",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-03-18",
+        "priceDKK": null
+      }
+    ]
   },
   {
     "id": "spies-kap-verde-2027-01-25",
@@ -1395,7 +1409,7 @@
     "departureDate": "2027-03-25",
     "nights": 3,
     "days": 4,
-    "board": "Morgenmad, frokost og middag",
+    "board": "Helpension",
     "soloPriceDKK": 6098,
     "flightIncluded": false,
     "guide": "Dansk rejseleder",
@@ -1564,10 +1578,7 @@
     "destination": "Thimphu, Punakha, Paro og Kathmandu",
     "tripType": "Kultur & historie",
     "departureDate": "2027-03-29",
-    "alternativeDepartures": [
-      "2027-10-04",
-      "2027-11-04"
-    ],
+    "alternativeDepartures": [],
     "nights": 14,
     "days": 16,
     "board": "Helpension",
@@ -1639,7 +1650,21 @@
     "terms": "Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af rejsesiden.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/bhutan/rejser/tordendragens-kongerige/priser-og-datoer/",
     "priceCheckedDate": "2026-11-24",
-    "packageType": "Arrangeret rejse"
+    "packageType": "Arrangeret rejse",
+    "departures": [
+      {
+        "date": "2027-03-29",
+        "priceDKK": 52615
+      },
+      {
+        "date": "2027-10-04",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-11-04",
+        "priceDKK": null
+      }
+    ]
   },
   {
     "id": "nadana-algarve-2027-04-07",
@@ -1649,9 +1674,7 @@
     "destination": "Albufeira, Algarve",
     "tripType": "Solferie",
     "departureDate": "2027-04-07",
-    "alternativeDepartures": [
-      "2027-04-14"
-    ],
+    "alternativeDepartures": [],
     "nights": 7,
     "days": 8,
     "board": "Morgenmad",
@@ -1719,7 +1742,17 @@
     "terms": "Depositum 4.500 kr. Afbestilling skriftligt: mere end 90 dage før afrejse mistes depositum; under 90 dage før mistes hele rejsens pris.",
     "sourceUrl": "https://nadana.dk/algarve-portugal-2027/",
     "priceCheckedDate": "2026-11-26",
-    "packageType": "Fly + hotel"
+    "packageType": "Fly + hotel",
+    "departures": [
+      {
+        "date": "2027-04-07",
+        "priceDKK": 9999
+      },
+      {
+        "date": "2027-04-14",
+        "priceDKK": null
+      }
+    ]
   },
   {
     "operator": "Egons Rejser",
@@ -1797,10 +1830,7 @@
     "destination": "Tokyo, Hiroshima, Kyoto",
     "tripType": "Rundrejse",
     "departureDate": "2027-04-12",
-    "alternativeDepartures": [
-      "2027-10-20",
-      "2027-11-13"
-    ],
+    "alternativeDepartures": [],
     "nights": 12,
     "days": 15,
     "board": "Halvpension",
@@ -1867,7 +1897,21 @@
     "terms": "Booking via knappen på siden; ekspeditionsgebyr 295 kr. pr. ordre. Detaljerede afbestillingsregler fremgår ikke af rejsesiden. Ikke egnet for gangbesværede.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/japan/rejser/kejserens-japan/priser-og-datoer/",
     "priceCheckedDate": "2026-11-26",
-    "packageType": "Arrangeret rejse"
+    "packageType": "Arrangeret rejse",
+    "departures": [
+      {
+        "date": "2027-04-12",
+        "priceDKK": 48490
+      },
+      {
+        "date": "2027-10-20",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-11-13",
+        "priceDKK": null
+      }
+    ]
   },
   {
     "id": "albatros-albanien-2027-04-14",
@@ -1877,11 +1921,7 @@
     "destination": "Tirana, Berat, Gjirokastër, Himarë, Butrint",
     "tripType": "Kultur & historie",
     "departureDate": "2027-04-14",
-    "alternativeDepartures": [
-      "2027-05-12",
-      "2027-09-15",
-      "2027-10-13"
-    ],
+    "alternativeDepartures": [],
     "nights": 7,
     "days": 8,
     "board": "Morgenmad",
@@ -1923,7 +1963,25 @@
     "terms": "Minimum antal deltagere kræves (typisk aflysning 4-6 uger før afrejse, hvorefter rejsens pris refunderes). Depositum og afbestillingsregler fremgår ikke af rejsesiden; der henvises til Albatros' almindelige bestemmelser. Prisen er fra-pris; flere afgange har højere pris (op til 11.998 kr.). Ikke egnet for gangbesværede.",
     "sourceUrl": "https://www.albatros.dk/rejser/albaniens-hemmeligheder-ferie-alene-i-faellesskab",
     "priceCheckedDate": "2026-11-26",
-    "packageType": "Arrangeret rejse"
+    "packageType": "Arrangeret rejse",
+    "departures": [
+      {
+        "date": "2027-04-14",
+        "priceDKK": 10998
+      },
+      {
+        "date": "2027-05-12",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-09-15",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-10-13",
+        "priceDKK": null
+      }
+    ]
   },
   {
     "id": "spies-gran-canaria-2027-04-14",
@@ -1994,10 +2052,7 @@
     "destination": "Tórshavn, Vestmanna, Eysturoy, Gásadalur",
     "tripType": "Kultur & historie",
     "departureDate": "2027-04-15",
-    "alternativeDepartures": [
-      "2027-09-16",
-      "2027-10-03"
-    ],
+    "alternativeDepartures": [],
     "nights": 4,
     "days": 5,
     "board": "Morgenmad",
@@ -2037,7 +2092,21 @@
     "terms": "Minimum antal deltagere kræves (typisk aflysning 4-6 uger før afrejse, hvorefter rejsens pris refunderes). Depositum og afbestillingsregler fremgår ikke af rejsesiden; der henvises til Albatros' almindelige bestemmelser. Prisen er fra-pris (12.998 kr. for efterårsafgange).",
     "sourceUrl": "https://www.albatros.dk/rejser/nordatlantens-oeje-faeroeerne-ferie-alene-i-faellesskab",
     "priceCheckedDate": "2026-11-26",
-    "packageType": "Arrangeret rejse"
+    "packageType": "Arrangeret rejse",
+    "departures": [
+      {
+        "date": "2027-04-15",
+        "priceDKK": 11998
+      },
+      {
+        "date": "2027-09-16",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-10-03",
+        "priceDKK": null
+      }
+    ]
   },
   {
     "operator": "Egons Rejser",
@@ -2076,7 +2145,7 @@
     "departureDate": "2027-04-18",
     "nights": 3,
     "days": 4,
-    "board": "Morgenmad og middag",
+    "board": "Halvpension",
     "soloPriceDKK": 5598,
     "flightIncluded": false,
     "guide": "Dansk rejseleder",
@@ -2171,15 +2240,10 @@
     "destination": "Ilulissat, Oqaatsut",
     "tripType": "Aktiv & vandring",
     "departureDate": "2027-04-21",
-    "alternativeDepartures": [
-      "2027-04-28",
-      "2027-05-19",
-      "2027-09-08",
-      "2027-09-29"
-    ],
+    "alternativeDepartures": [],
     "nights": 5,
     "days": 6,
-    "board": null,
+    "board": "Helpension",
     "soloType": "ingen-tillaeg",
     "soloPriceDKK": 19998,
     "soloPriceBasis": "calculated",
@@ -2214,7 +2278,29 @@
     "terms": "Minimum antal deltagere kræves (typisk aflysning 4-6 uger før afrejse, hvorefter rejsens pris refunderes). Depositum og afbestillingsregler fremgår ikke af rejsesiden; der henvises til Albatros' almindelige bestemmelser.",
     "sourceUrl": "https://www.albatros.dk/rejser/eventyrlige-groenland-ferie-alene-i-faellesskab",
     "priceCheckedDate": "2026-11-26",
-    "packageType": "Arrangeret rejse"
+    "packageType": "Arrangeret rejse",
+    "departures": [
+      {
+        "date": "2027-04-21",
+        "priceDKK": 19998
+      },
+      {
+        "date": "2027-04-28",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-05-19",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-09-08",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-09-29",
+        "priceDKK": null
+      }
+    ]
   },
   {
     "id": "albatros-kroatien-2027-04-24",
@@ -2224,9 +2310,7 @@
     "destination": "Vodice, Zadar, Split, Šibenik, Krka",
     "tripType": "Kultur & historie",
     "departureDate": "2027-04-24",
-    "alternativeDepartures": [
-      "2027-10-23"
-    ],
+    "alternativeDepartures": [],
     "nights": null,
     "days": 8,
     "board": "Halvpension",
@@ -2266,7 +2350,17 @@
     "terms": "Minimum antal deltagere kræves (typisk aflysning 4-6 uger før afrejse, hvorefter rejsens pris refunderes). Depositum og afbestillingsregler fremgår ikke af rejsesiden; der henvises til Albatros' almindelige bestemmelser.",
     "sourceUrl": "https://www.albatros.dk/rejser/singlerejse-i-kroatien-ferie-alene-i-faellesskab",
     "priceCheckedDate": "2026-11-26",
-    "packageType": "Arrangeret rejse"
+    "packageType": "Arrangeret rejse",
+    "departures": [
+      {
+        "date": "2027-04-24",
+        "priceDKK": 9998
+      },
+      {
+        "date": "2027-10-23",
+        "priceDKK": null
+      }
+    ]
   },
   {
     "id": "albatros-sydafrika-2027-05-03",
@@ -2276,9 +2370,7 @@
     "destination": "Zebra Nature Reserve, Pretoria, Soweto",
     "tripType": "Andet",
     "departureDate": "2027-05-03",
-    "alternativeDepartures": [
-      "2027-04-12"
-    ],
+    "alternativeDepartures": [],
     "nights": null,
     "days": 10,
     "board": "Halvpension",
@@ -2318,7 +2410,17 @@
     "terms": "Minimum antal deltagere kræves (typisk aflysning 4-6 uger før afrejse, hvorefter rejsens pris refunderes). Depositum og afbestillingsregler fremgår ikke af rejsesiden; der henvises til Albatros' almindelige bestemmelser. Ældre Sagen-medlemmer kan have rabat (1.000 kr. på 12. april-afgangen ved booking 1/9-31/12 2026).",
     "sourceUrl": "https://www.albatros.dk/rejser/sydafrika-ferie-alene-i-faellesskab",
     "priceCheckedDate": "2026-11-26",
-    "packageType": "Arrangeret rejse"
+    "packageType": "Arrangeret rejse",
+    "departures": [
+      {
+        "date": "2027-05-03",
+        "priceDKK": 15498
+      },
+      {
+        "date": "2027-04-12",
+        "priceDKK": null
+      }
+    ]
   },
   {
     "id": "spies-kreta-2027-05-06",
@@ -2389,9 +2491,7 @@
     "destination": "Tokyo, Kanazawa, Kyoto, Osaka",
     "tripType": "Rundrejse",
     "departureDate": "2027-05-07",
-    "alternativeDepartures": [
-      "2027-03-22"
-    ],
+    "alternativeDepartures": [],
     "nights": null,
     "days": 14,
     "board": "Morgenmad",
@@ -2464,7 +2564,17 @@
     "terms": "Depositum 2.500 kr. for at reservere pladsen. Hotel og aktiviteter kan kun købes sammen med fly via Jysk Rejsebureau. Ikke en gruppetur; program- og prisændringer forbeholdes.",
     "sourceUrl": "https://www.jysk-rejsebureau.dk/japan/faerdigpakket-rejse/japan-tokyo-kyoto-og-idyllisk-natur/",
     "priceCheckedDate": "2026-11-26",
-    "packageType": "Arrangeret rejse"
+    "packageType": "Arrangeret rejse",
+    "departures": [
+      {
+        "date": "2027-05-07",
+        "priceDKK": 28950
+      },
+      {
+        "date": "2027-03-22",
+        "priceDKK": null
+      }
+    ]
   },
   {
     "id": "spies-rhodos-2027-05-09",
@@ -2716,25 +2826,7 @@
     "destination": "Samos, Pythagorion",
     "tripType": "Solferie",
     "departureDate": "2027-05-29",
-    "alternativeDepartures": [
-      "2027-06-05",
-      "2027-06-12",
-      "2027-06-19",
-      "2027-06-26",
-      "2027-07-03",
-      "2027-07-10",
-      "2027-07-17",
-      "2027-07-24",
-      "2027-07-31",
-      "2027-08-07",
-      "2027-08-14",
-      "2027-08-21",
-      "2027-08-28",
-      "2027-09-04",
-      "2027-09-11",
-      "2027-09-18",
-      "2027-09-25"
-    ],
+    "alternativeDepartures": [],
     "nights": 7,
     "days": 8,
     "board": "Morgenmad",
@@ -2771,7 +2863,81 @@
     "terms": "Depositum 4.500 kr. Afbestilling skriftligt: mere end 90 dage før afrejse mistes depositum; under 90 dage før mistes hele rejsens pris.",
     "sourceUrl": "https://nadana.dk/samos-2027/",
     "priceCheckedDate": "2026-11-26",
-    "packageType": "Fly + hotel"
+    "packageType": "Fly + hotel",
+    "departures": [
+      {
+        "date": "2027-05-29",
+        "priceDKK": 8899
+      },
+      {
+        "date": "2027-06-05",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-06-12",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-06-19",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-06-26",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-07-03",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-07-10",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-07-17",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-07-24",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-07-31",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-08-07",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-08-14",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-08-21",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-08-28",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-09-04",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-09-11",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-09-18",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-09-25",
+        "priceDKK": null
+      }
+    ]
   },
   {
     "id": "spies-gran-canaria-2027-06-02",
@@ -2842,9 +3008,7 @@
     "destination": "Ulaanbaatar, Gobi-ørkenen",
     "tripType": "Rundrejse",
     "departureDate": "2027-08-16",
-    "alternativeDepartures": [
-      "2027-07-07"
-    ],
+    "alternativeDepartures": [],
     "nights": 12,
     "days": 13,
     "board": "Helpension",
@@ -2914,7 +3078,17 @@
     "terms": "Siden angiver, at priser og nyt dagsprogram stadig færdiggøres. Booking via knappen. Ikke egnet for gangbesværede. Bemærk datoafvigelse (16. vs. 17. august) på siden.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/mongoliet/rejser/eventyrlige-mongoliet/priser-og-datoer/",
     "priceCheckedDate": "2026-11-26",
-    "packageType": "Arrangeret rejse"
+    "packageType": "Arrangeret rejse",
+    "departures": [
+      {
+        "date": "2027-08-16",
+        "priceDKK": 49130
+      },
+      {
+        "date": "2027-07-07",
+        "priceDKK": null
+      }
+    ]
   },
   {
     "id": "spies-gran-canaria-2027-08-18",
@@ -2985,12 +3159,7 @@
     "destination": "Beijing, Xi'an, Zhangjiajie og Shanghai",
     "tripType": "Rundrejse",
     "departureDate": "2027-08-30",
-    "alternativeDepartures": [
-      "2027-04-05",
-      "2027-05-10",
-      "2027-09-15",
-      "2027-10-13"
-    ],
+    "alternativeDepartures": [],
     "nights": 14,
     "days": 16,
     "board": "Helpension",
@@ -3053,7 +3222,29 @@
     "terms": "Booking via knappen på siden. Visumregler for 2027 er endnu ikke afklaret. Ikke egnet for gangbesværede.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/kina/rejser-til-kina/eventyrlige-kina/priser-og-datoer/",
     "priceCheckedDate": "2026-11-26",
-    "packageType": "Arrangeret rejse"
+    "packageType": "Arrangeret rejse",
+    "departures": [
+      {
+        "date": "2027-08-30",
+        "priceDKK": 29110
+      },
+      {
+        "date": "2027-04-05",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-05-10",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-09-15",
+        "priceDKK": null
+      },
+      {
+        "date": "2027-10-13",
+        "priceDKK": null
+      }
+    ]
   },
   {
     "id": "stjernegaard-groenland-2027-09-21",
@@ -3063,9 +3254,7 @@
     "destination": "Ilulissat, Nuuk og Qaqortoq",
     "tripType": "Rundrejse",
     "departureDate": "2027-09-21",
-    "alternativeDepartures": [
-      "2027-06-22"
-    ],
+    "alternativeDepartures": [],
     "nights": 10,
     "days": 11,
     "board": "Halvpension",
@@ -3124,7 +3313,17 @@
     "terms": "Booking via knappen på siden. Ikke egnet for gangbesværede.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/groenland/rejser/inuitkultur-fjord-og-vikingespor-den-store-groenlandsrejse/priser-og-datoer/",
     "priceCheckedDate": "2026-11-26",
-    "packageType": "Arrangeret rejse"
+    "packageType": "Arrangeret rejse",
+    "departures": [
+      {
+        "date": "2027-09-21",
+        "priceDKK": 66130
+      },
+      {
+        "date": "2027-06-22",
+        "priceDKK": null
+      }
+    ]
   },
   {
     "id": "spies-rhodos-2027-10-03",
@@ -3883,7 +4082,7 @@
     "departureDate": "2027-05-02",
     "nights": 2,
     "days": 3,
-    "board": "Morgenmad og middag",
+    "board": "Halvpension",
     "soloPriceDKK": 3498,
     "flightIncluded": false,
     "guide": "Ingen rejseleder (chaufføren er turleder)",
@@ -3945,7 +4144,7 @@
     "departureDate": "2027-05-06",
     "nights": 3,
     "days": 4,
-    "board": "Morgenmad og middag",
+    "board": "Halvpension",
     "soloPriceDKK": 5398,
     "flightIncluded": false,
     "guide": "Dansk rejseleder",
@@ -4014,7 +4213,7 @@
     "departureDate": "2027-05-19",
     "nights": 4,
     "days": 5,
-    "board": "Helpension (morgenmad, frokost og middag)",
+    "board": "Helpension",
     "soloPriceDKK": 6198,
     "flightIncluded": false,
     "guide": "Dansk rejseleder",
@@ -4074,7 +4273,7 @@
     "departureDate": "2027-06-27",
     "nights": 2,
     "days": 3,
-    "board": "Morgenmad og middag",
+    "board": "Halvpension",
     "soloPriceDKK": 3498,
     "flightIncluded": false,
     "guide": "Ikke oplyst",
@@ -4132,7 +4331,7 @@
     "departureDate": "2027-06-28",
     "nights": 2,
     "days": 3,
-    "board": "Morgenmad og middag",
+    "board": "Halvpension",
     "soloPriceDKK": 3798,
     "flightIncluded": false,
     "guide": "Ingen rejseleder (chaufføren er turleder)",
