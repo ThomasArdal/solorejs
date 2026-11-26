@@ -192,10 +192,10 @@ dd { margin: 0; font-weight: 500; text-align: right; }
 .fine { font-size: .78rem; color: var(--muted); margin: 0; }
 
 /* Annoncebox (Flyhjælp) på rejsesiderne */
-.box.ad { background: var(--sand); }
-.ad-label { margin: 0 0 .4rem; font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
-.ad h2 { font-size: 1.15rem; }
-.ad-text { margin: 0; font-size: .92rem; }
+.box.partner { background: var(--sand); }
+.partner-label { margin: 0 0 .4rem; font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.partner h2 { font-size: 1.15rem; }
+.partner-text { margin: 0; font-size: .92rem; }
 .cta.ghost { background: transparent; color: var(--accent-dark); border: 2px solid var(--accent); }
 .cta.ghost:hover { background: var(--accent); color: #fff; }
 

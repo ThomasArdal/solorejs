@@ -370,10 +370,10 @@ ${header('../')}
         <a class="cta" href="${esc(t.sourceUrl)}" target="_blank" rel="sponsored noopener noreferrer">Se rejsen hos ${esc(t.operator)} →</a>
         <p class="fine">Pris tjekket ${esc(dato(t.priceCheckedDate) || '')}. Den endelige pris og ledige pladser bekræftes hos udbyderen.</p>
       </div>
-      <aside class="box ad" aria-label="Annonce">
-        <p class="ad-label">Annonce</p>
+      <aside class="box partner">
+        <p class="partner-label">Annonce</p>
         <h2>Forsinket eller aflyst fly?</h2>
-        <p class="ad-text">Rejser du alene, står du selv med sagen, hvis flyet bliver forsinket, aflyst eller overbooket. Flyhjælp tager kravet for dig, og du betaler kun, hvis du får udbetalt erstatning.</p>
+        <p class="partner-text">Rejser du alene, står du selv med sagen, hvis flyet bliver forsinket, aflyst eller overbooket. Flyhjælp tager kravet for dig, og du betaler kun, hvis du får udbetalt erstatning.</p>
         <a class="cta ghost" href="${FLYHJAELP_URL}" target="_blank" rel="sponsored noopener noreferrer">Tjek dit krav hos Flyhjælp →</a>
       </aside>
       <div class="box">
