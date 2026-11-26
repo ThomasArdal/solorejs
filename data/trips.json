@@ -956,33 +956,50 @@
     "packageType": "Fly + hotel"
   },
   {
-    "id": "egons-nytaar-luebeck-2026-12-30",
     "operator": "Egons Rejser",
+    "soloType": "solo-gruppe",
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": false,
+    "groupSize": null,
+    "alternativeDepartures": [],
+    "packageType": "Arrangeret rejse",
+    "priceCheckedDate": "2026-11-26",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Udrejse til Lübeck"
+      },
+      {
+        "day": 2,
+        "title": "Oplevelser i Lübeck og nytårsaften"
+      },
+      {
+        "day": 3,
+        "title": "Godt nytår og hjemrejse"
+      }
+    ],
+    "id": "egons-nytaar-luebeck-2026-12-30",
     "title": "Ferie alene - Nytår i Lübeck, 3 dage",
     "country": "Tyskland",
     "destination": "Lübeck",
     "tripType": "Busrejse",
     "departureDate": "2026-12-30",
-    "alternativeDepartures": [],
     "nights": 2,
     "days": 3,
     "board": "Halvpension",
-    "soloType": "solo-gruppe",
     "soloPriceDKK": 6498,
-    "soloPriceBasis": "stated",
-    "pricePerPersonDoubleDKK": null,
-    "singleSupplementDKK": null,
-    "priceIsFrom": false,
-    "soloNote": "Rejsen er for solorejsende; 2 overnatninger i enkeltværelse er inkluderet.",
-    "guide": "Dansk rejseleder",
-    "groupSize": null,
     "flightIncluded": false,
+    "guide": "Dansk rejseleder",
+    "soloNote": "Rejsen er for solorejsende; 2 overnatninger i enkeltværelse er inkluderet i prisen.",
     "includes": [
       "Bustur i 4-stjernet turistbus",
-      "2 nætter i enkeltværelse",
-      "2 x morgenmad",
-      "Frokost og middag dag 1",
-      "Nytårsbuffet og fri bar 19-01",
+      "2 nætter i enkeltværelse på TRYP by Wyndham Lübeck Aquamarin",
+      "2 x morgenmad, frokost og middag dag 1",
+      "Velkomstdrink",
+      "Nytårsbuffet og fri bar (øl, vand, vin) 19-01",
+      "DJ og dans, bobler og midnatsberliner",
       "Byvandring i Lübeck",
       "Rejsegarantifondsafgift"
     ],
@@ -992,14 +1009,11 @@
     "highlights": [
       "Nytårsaften med buffet og fri bar",
       "DJ og dans",
-      "Byvandring"
+      "Byvandring i Lübeck"
     ],
-    "itinerary": [],
     "description": "Nytår i Lübeck i selskab med andre, der rejser alene. Eget værelse er med i prisen. Normalpris 6.498 kr. (5.999 kr. for Ældre Sagen-medlemmer).",
-    "terms": "Booking via Egons Rejser tlf. 70 20 18 47. Afbestillingsregler ikke set.",
-    "sourceUrl": "https://egonsrejser.dk/rejse/ferie-alene-nytaar-lubeck/",
-    "priceCheckedDate": "2026-11-25",
-    "packageType": "Arrangeret rejse"
+    "terms": "Booking via Egons Rejser tlf. 70 20 18 47. Afbestillingsregler fremgår ikke af rejsesiden; se Egons rejsebetingelser.",
+    "sourceUrl": "https://egonsrejser.dk/rejse/ferie-alene-nytaar-lubeck/"
   },
   {
     "id": "jysk-sri-lanka-2027-01-09",
@@ -1346,48 +1360,67 @@
   },
   {
     "operator": "Egons Rejser",
-    "country": "Tyskland",
-    "tripType": "Busrejse",
-    "alternativeDepartures": [],
     "soloType": "solo-gruppe",
-    "soloPriceDKK": null,
-    "soloPriceBasis": null,
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
     "singleSupplementDKK": null,
     "priceIsFrom": false,
-    "guide": "Dansk rejseleder",
     "groupSize": null,
-    "flightIncluded": false,
-    "itinerary": [],
-    "priceCheckedDate": "2026-11-26",
+    "alternativeDepartures": [],
     "packageType": "Arrangeret rejse",
+    "priceCheckedDate": "2026-11-26",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Mod Schleswig"
+      },
+      {
+        "day": 2,
+        "title": "Eidersperrwerk og Friedrichstadt"
+      },
+      {
+        "day": 3,
+        "title": "Påskehygge og historie i Schleswig"
+      },
+      {
+        "day": 4,
+        "title": "Genforenings- og Grænsemuseet og hjemrejse"
+      }
+    ],
     "id": "egons-paaske-nordtyskland-2027-03-25",
-    "title": "Ferie alene - Påske i Nordtyskland, 4 dage",
+    "title": "Ferie alene - Påske i Schleswig, 4 dage",
+    "country": "Tyskland",
     "destination": "Schleswig og Friedrichstadt",
+    "tripType": "Busrejse",
     "departureDate": "2027-03-25",
-    "nights": 4,
+    "nights": 3,
     "days": 4,
-    "board": "Delpension (3 morgenmåltider, 3 middage, 4 frokoster)",
-    "pricePerPersonDoubleDKK": 6098,
-    "soloNote": "Målrettet solorejsende. Siden opgiver kun pris i delt dobbeltværelse (6.098 kr. normalpris, 5.699 kr. for Ældre Sagen-medlemmer); enkeltværelsestillæg fremgår ikke - tjek hos Egons.",
+    "board": "Morgenmad, frokost og middag",
+    "soloPriceDKK": 6098,
+    "flightIncluded": false,
+    "guide": "Dansk rejseleder",
+    "soloNote": "Målrettet solorejsende; prisen gælder enkeltværelse.",
     "includes": [
       "Bustransport i 4-stjernet turistbus",
-      "4 overnatninger på Hotel Hohenzollern i Schleswig",
-      "3 x morgenmad, 3 x middag og 4 x frokost",
-      "Udflugt til Friedrichstadt med sejltur og byvandringer",
-      "Dansk rejseleder",
+      "3 overnatninger i enkeltværelse på Hotel Hohenzollern i Schleswig",
+      "3 x morgenmad, 3 x middag og 4 x frokost inkl. påskefrokost",
+      "Besøg ved Eidersperrwerk og i fiskerlandsbyen Holm",
+      "Kanalrundfart og byvandring i Friedrichstadt",
+      "Byvandring i Schleswig",
+      "Entré til Genforenings- og Grænsemuseet",
       "Rejsegarantifondsafgift"
     ],
     "excludes": [
-      "Administrationsgebyr 95 kr. pr. person"
+      "Ingen eksklusioner nævnt"
     ],
     "highlights": [
       "Base i Schleswig",
-      "Udflugt og sejltur i Friedrichstadt",
-      "Byvandringer"
+      "Kanalrundfart i Friedrichstadt",
+      "Påskefrokost på hotellet"
     ],
-    "description": "Firedages påskerejse med bus til Nordtyskland med base i Schleswig, for dem der rejser alene. Normalpris 6.098 kr. pr. person i delt dobbeltværelse.",
-    "terms": "Booking via Egons Rejser tlf. 70 20 18 47. Medlemstilbuddet via Ældre Sagen gælder til 1. januar 2027.",
-    "sourceUrl": "https://www.aeldresagen.dk/tilbud-og-rabatter/samarbejdspartnere/ferie-i-danmark/egons-rejser/offers/ferie-alene-paaske-i-nordtyskland-egons-rejser"
+    "description": "Firedages påskerejse med bus til Slesvig for dem, der rejser alene, med eget værelse. Normalpris 6.098 kr. (5.699 kr. for Ældre Sagen-medlemmer).",
+    "terms": "Booking via Egons Rejser tlf. 70 20 18 47. Afbestillingsregler fremgår ikke af rejsesiden; se Egons rejsebetingelser.",
+    "sourceUrl": "https://egonsrejser.dk/rejse/ferie-alene-paaske-i-schleswig/"
   },
   {
     "id": "spies-madeira-2027-03-29",
@@ -1689,49 +1722,72 @@
     "packageType": "Fly + hotel"
   },
   {
-    "id": "egons-foraar-rhinen-2027-04-11",
     "operator": "Egons Rejser",
+    "soloType": "solo-gruppe",
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": false,
+    "groupSize": null,
+    "alternativeDepartures": [],
+    "packageType": "Arrangeret rejse",
+    "priceCheckedDate": "2026-11-26",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Udrejse til Rüdesheim"
+      },
+      {
+        "day": 2,
+        "title": "Rüdesheim og St. Hildegard"
+      },
+      {
+        "day": 3,
+        "title": "Sejltur på Rhinen, Loreley og Deutsches Eck"
+      },
+      {
+        "day": 4,
+        "title": "Niederwald-monumentet og vinsmagning"
+      },
+      {
+        "day": 5,
+        "title": "Hjemrejse"
+      }
+    ],
+    "id": "egons-foraar-rhinen-2027-04-11",
     "title": "Ferie alene - Forår ved Rhinen, 5 dage",
     "country": "Tyskland",
-    "destination": "Rüdesheim, Rhinen, Loreley, Koblenz",
+    "destination": "Rüdesheim og Rhinen",
     "tripType": "Busrejse",
     "departureDate": "2027-04-11",
-    "alternativeDepartures": [],
     "nights": 4,
     "days": 5,
     "board": "Halvpension",
-    "soloType": "solo-gruppe",
-    "soloPriceDKK": null,
-    "soloPriceBasis": null,
-    "pricePerPersonDoubleDKK": 6898,
-    "singleSupplementDKK": null,
-    "priceIsFrom": false,
-    "soloNote": "Målrettet solorejsende. Siden angiver både enkeltværelser og 'delt dobbeltværelse' - tillæg er uklart, tjek hos Egons.",
-    "guide": "Dansk rejseleder",
-    "groupSize": null,
+    "soloPriceDKK": 6898,
     "flightIncluded": false,
+    "guide": "Dansk rejseleder",
+    "soloNote": "Målrettet solorejsende; prisen gælder enkeltværelse.",
     "includes": [
-      "Bus og færge",
-      "4 nætter",
+      "Bustur i 4-stjernet turistbus og færge Rødby-Puttgarden",
+      "4 nætter i enkeltværelse på Hotel Felsenkeller i Rüdesheim",
       "4 x morgenmad og 4 x middag",
-      "Rhinsejlads, vinsmagning og udflugter",
+      "Byvandring i Rüdesheim",
+      "Sejltur på Rhinen og besøg ved Loreley og Deutsches Eck",
+      "Vinsmagning",
+      "Niederwald-monumentet og Kloster St. Hildegard",
       "Rejsegarantifondsafgift"
     ],
     "excludes": [
-      "Administrationsgebyr 95 kr. pr. person"
+      "Ingen eksklusioner nævnt"
     ],
     "highlights": [
-      "Rhinsejlads",
-      "Loreley",
-      "Koblenz og Deutsches Eck",
+      "Sejltur gennem Rhindalen",
+      "Loreley-klippen",
       "Vinsmagning"
     ],
-    "itinerary": [],
-    "description": "Femdages busrejse til Rhindalen med base i Rüdesheim for dem, der rejser alene. Normalpris 6.898 kr. pr. person (6.399 kr. for Ældre Sagen-medlemmer).",
-    "terms": "Booking via Egons Rejser tlf. 70 20 18 47.",
-    "sourceUrl": "https://www.aeldresagen.dk/tilbud-og-rabatter/samarbejdspartnere/ferie-i-danmark/egons-rejser/offers/ferie-alene-foraar-ved-rhinen-egons-rejser",
-    "priceCheckedDate": "2026-11-26",
-    "packageType": "Arrangeret rejse"
+    "description": "Fem dage ved Rhinen i forårets farver for solorejsende, med base i Rüdesheim og eget værelse. Normalpris 6.898 kr. (6.399 kr. for Ældre Sagen-medlemmer).",
+    "terms": "Booking via Egons Rejser tlf. 70 20 18 47. Afbestillingsregler fremgår ikke af rejsesiden; se Egons rejsebetingelser.",
+    "sourceUrl": "https://egonsrejser.dk/rejse/ferie-alene-foraar-ved-rhinen/"
   },
   {
     "id": "stjernegaard-japan-2027-04-12",
@@ -1985,52 +2041,66 @@
   },
   {
     "operator": "Egons Rejser",
-    "country": "Tyskland",
-    "tripType": "Busrejse",
-    "alternativeDepartures": [],
     "soloType": "solo-gruppe",
-    "soloPriceDKK": null,
-    "soloPriceBasis": null,
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
     "singleSupplementDKK": null,
     "priceIsFrom": false,
-    "guide": "Dansk rejseleder",
     "groupSize": null,
-    "flightIncluded": false,
-    "itinerary": [],
-    "priceCheckedDate": "2026-11-26",
+    "alternativeDepartures": [],
     "packageType": "Arrangeret rejse",
+    "priceCheckedDate": "2026-11-26",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Udrejse, Stralsund og Rügen"
+      },
+      {
+        "day": 2,
+        "title": "Sassnitz, Kap Arkona og Vitt"
+      },
+      {
+        "day": 3,
+        "title": "Putbus, Rasender Roland, Sellin, Binz og Prora"
+      },
+      {
+        "day": 4,
+        "title": "Rostock og hjemrejse"
+      }
+    ],
     "id": "egons-ruegen-2027-04-18",
-    "title": "Ferie alene - Rügen busrejse, 4 dage",
-    "destination": "Rügen (Bergen, Binz, Stralsund)",
+    "title": "Ferie alene - Rügen, forårsrejse, 4 dage",
+    "country": "Tyskland",
+    "destination": "Rügen",
+    "tripType": "Busrejse",
     "departureDate": "2027-04-18",
     "nights": 3,
     "days": 4,
-    "board": "Halvpension",
-    "pricePerPersonDoubleDKK": 5598,
-    "soloNote": "Målrettet solorejsende. Siden opgiver kun pris i delt dobbeltværelse (5.598 kr. normalpris, 5.199 kr. for Ældre Sagen-medlemmer); enkeltværelsestillæg fremgår ikke - tjek hos Egons.",
+    "board": "Morgenmad og middag",
+    "soloPriceDKK": 5598,
+    "flightIncluded": false,
+    "guide": "Dansk rejseleder",
+    "soloNote": "Målrettet solorejsende; prisen gælder enkeltværelse.",
     "includes": [
-      "Bustransport i 4-stjernet turistbus",
-      "Færge Gedser-Rostock t/r",
-      "3 overnatninger på Parkhotel Rügen i Bergen",
-      "3 x morgenmad og 3 x middag med 2 drikkevarer",
-      "Besøg i Stralsund med kort byvandring",
-      "Tur med Rasender Roland og Kap-Arkona-Bahn",
-      "Entré til Dokumentationszentrum Prora",
-      "Dansk rejseleder",
+      "Bustur i 4-stjernet turistbus og færge Gedser-Rostock",
+      "3 nætter i enkeltværelse på Parkhotel Rügen",
+      "3 x morgenmad og 3 x middag inkl. 2 drikke",
+      "Byvandringer i Stralsund, Sassnitz og Rostock",
+      "Tur med Kap-Arkona-Bahn og veterantoget Rasender Roland",
+      "Besøg i Sellin og Binz og entré til Dokumentationszentrum Prora",
       "Rejsegarantifondsafgift"
     ],
     "excludes": [
-      "Administrationsgebyr 95 kr. pr. person",
-      "Valgfri frokostbuffet på færgen: 199 kr."
+      "Frokostbuffet på færgen kan tilkøbes ved booking (199 kr. pr. dag)"
     ],
     "highlights": [
-      "Veterantoget Rasender Roland",
-      "Dokumentationszentrum Prora",
-      "Badebyen Binz"
+      "Rasender Roland",
+      "Kap Arkona",
+      "Badebyerne Sellin og Binz"
     ],
-    "description": "Firedages busrejse til Rügen for dem der rejser alene, med færge, udflugter og tog med veterantog. Normalpris 5.598 kr. pr. person i delt dobbeltværelse.",
-    "terms": "Booking via Egons Rejser tlf. 70 20 18 47. Medlemstilbuddet via Ældre Sagen gælder til 1. april 2027.",
-    "sourceUrl": "https://www.aeldresagen.dk/tilbud-og-rabatter/samarbejdspartnere/ferie-i-danmark/egons-rejser/offers/ferie-alene-busrejse-til-rugen-egons-rejser"
+    "description": "Fire dages forårsrejse til Rügen for solorejsende, med eget værelse. Normalpris 5.598 kr. (5.199 kr. for Ældre Sagen-medlemmer).",
+    "terms": "Booking via Egons Rejser tlf. 70 20 18 47. Afbestillingsregler fremgår ikke af rejsesiden; se Egons rejsebetingelser.",
+    "sourceUrl": "https://egonsrejser.dk/rejse/ferie-alene-rugen-en-foraarsrejse-fyldt-med-oplevelser/"
   },
   {
     "id": "spies-cypern-2027-04-19",
@@ -3629,5 +3699,461 @@
     "sourceUrl": "https://nadana.dk/centralvietnam/",
     "priceCheckedDate": "2026-11-25",
     "packageType": "Arrangeret rejse"
+  },
+  {
+    "operator": "Egons Rejser",
+    "soloType": "solo-gruppe",
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": false,
+    "groupSize": null,
+    "alternativeDepartures": [],
+    "packageType": "Arrangeret rejse",
+    "priceCheckedDate": "2026-11-26",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Fly sydpå mod foråret"
+      },
+      {
+        "day": 2,
+        "title": "Velkommen til Benalmádena"
+      },
+      {
+        "day": 3,
+        "title": "Málaga"
+      },
+      {
+        "day": 4,
+        "title": "Mijas"
+      },
+      {
+        "day": 5,
+        "title": "Fridag"
+      },
+      {
+        "day": 6,
+        "title": "Ronda"
+      },
+      {
+        "day": 7,
+        "title": "Tilkøbsudflugt eller fri tid"
+      },
+      {
+        "day": 8,
+        "title": "Hjemrejse"
+      }
+    ],
+    "id": "egons-sydspanien-2027-03-03",
+    "title": "Ferie alene - Sydspanien, 8 dage",
+    "country": "Spanien",
+    "destination": "Benalmádena (Costa del Sol)",
+    "tripType": "Solferie",
+    "departureDate": "2027-03-03",
+    "nights": 7,
+    "days": 8,
+    "board": "Halvpension",
+    "soloPriceDKK": 12498,
+    "flightIncluded": true,
+    "guide": "Dansk rejseleder",
+    "soloNote": "Eget værelse uden enkeltværelsestillæg; prisen er pr. person i enkeltværelse.",
+    "includes": [
+      "Direkte fly København-Málaga t/r med indchecket bagage",
+      "Gratis bus fra udvalgte byer til lufthavnen",
+      "Transfer lufthavn-hotel",
+      "7 nætter i enkeltværelse på Hotel Best Siroco (4 stjerner)",
+      "7 x morgenmad, 6 x middag og 1 x frokost",
+      "Udflugter til Málaga, Mijas og Ronda",
+      "Byvandring i Benalmádena",
+      "Rejsegarantifondsafgift"
+    ],
+    "excludes": [
+      "Udflugten \"Smagen af Andalusien\" kan tilkøbes for 399 kr.",
+      "Superior-værelse kan tilkøbes for 999 kr."
+    ],
+    "highlights": [
+      "Málaga, Mijas og Ronda",
+      "Eget værelse med altan",
+      "Dansk rejseleder hele turen"
+    ],
+    "description": "Otte dage i Andalusien for solorejsende med direkte fly, dansk rejseleder og udflugter. Normalpris 12.498 kr. (11.999 kr. for Ældre Sagen-medlemmer).",
+    "terms": "Booking via Egons Rejser tlf. 70 20 18 47. Afbestillingsregler fremgår ikke af rejsesiden; se Egons rejsebetingelser.",
+    "sourceUrl": "https://egonsrejser.dk/rejse/ferie-alene-sydspanien/"
+  },
+  {
+    "operator": "Egons Rejser",
+    "soloType": "solo-gruppe",
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": false,
+    "groupSize": null,
+    "alternativeDepartures": [],
+    "packageType": "Arrangeret rejse",
+    "priceCheckedDate": "2026-11-26",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Velkommen til Irland"
+      },
+      {
+        "day": 2,
+        "title": "Galway og den vilde vestkyst"
+      },
+      {
+        "day": 3,
+        "title": "Ring of Kerry"
+      },
+      {
+        "day": 4,
+        "title": "Tralee, Killarney og Muckross"
+      },
+      {
+        "day": 5,
+        "title": "Hjemrejse fra Dublin"
+      }
+    ],
+    "id": "egons-irland-2027-04-26",
+    "title": "Ferie alene - Irland, livsglæde på den grønne ø, 5 dage",
+    "country": "Irland",
+    "destination": "Galway, Cliffs of Moher og Ring of Kerry",
+    "tripType": "Rundrejse",
+    "departureDate": "2027-04-26",
+    "nights": 4,
+    "days": 5,
+    "board": "Halvpension",
+    "soloPriceDKK": 11498,
+    "flightIncluded": true,
+    "guide": "Dansk rejseleder",
+    "soloNote": "Eget værelse uden enkeltværelsestillæg; prisen er pr. person i enkeltværelse.",
+    "includes": [
+      "Direkte fly København-Dublin t/r med indchecket bagage",
+      "Gratis bus fra udvalgte sjællandske byer til lufthavnen",
+      "Bustransport i Irland",
+      "4 nætter i enkeltværelse (Athlone og Tralee)",
+      "4 x morgenmad og 4 x middag",
+      "Whiskysmagning, byvandring i Galway og entré til Cliffs of Moher",
+      "Færge Killimer-Tarbert og tur rundt om Ring of Kerry",
+      "Irish coffee, besøg hos en fårehyrde og Killarney/Muckross Gardens",
+      "Rejsegarantifondsafgift"
+    ],
+    "excludes": [
+      "Ingen eksklusioner nævnt"
+    ],
+    "highlights": [
+      "Cliffs of Moher",
+      "Ring of Kerry",
+      "Muckross Gardens"
+    ],
+    "description": "Fem dage i Irland for solorejsende med direkte fly og dansk rejseleder. Normalpris 11.498 kr. (10.999 kr. for Ældre Sagen-medlemmer).",
+    "terms": "Booking via Egons Rejser tlf. 70 20 18 47. Afbestillingsregler fremgår ikke af rejsesiden; se Egons rejsebetingelser.",
+    "sourceUrl": "https://egonsrejser.dk/rejse/ferie-alene-irland-livsglaede-paa-den-groenne-oe/"
+  },
+  {
+    "operator": "Egons Rejser",
+    "soloType": "solo-gruppe",
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": false,
+    "groupSize": null,
+    "alternativeDepartures": [],
+    "packageType": "Arrangeret rejse",
+    "priceCheckedDate": "2026-11-26",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Udrejse til Ærø og byvandring i Marstal"
+      },
+      {
+        "day": 2,
+        "title": "Rundt på Ærø"
+      },
+      {
+        "day": 3,
+        "title": "Byvandring i Ærøskøbing og hjemrejse"
+      }
+    ],
+    "id": "egons-aeroe-3-dage-2027-05-02",
+    "title": "Ferie alene - Ærø, 3 dage",
+    "country": "Danmark",
+    "destination": "Ærø (Marstal og Ærøskøbing)",
+    "tripType": "Busrejse",
+    "departureDate": "2027-05-02",
+    "nights": 2,
+    "days": 3,
+    "board": "Morgenmad og middag",
+    "soloPriceDKK": 3498,
+    "flightIncluded": false,
+    "guide": "Ingen rejseleder (chaufføren er turleder)",
+    "soloNote": "Målrettet solorejsende; prisen gælder enkeltværelse. Medlemsprisen er på siden mærket \"april 2027\", men afrejsen er i maj.",
+    "includes": [
+      "Bustur i 4-stjernet turistbus og færge Svendborg-Ærø t/r",
+      "2 nætter i enkeltværelse på Ærø Hotel i Marstal",
+      "2 x morgenmad og 2 x middag",
+      "Guidet byvandring i Marstal og Ærøskøbing",
+      "Guidet øtur rundt på Ærø",
+      "Rejsegarantifondsafgift"
+    ],
+    "excludes": [
+      "Frokost på færgen kan tilkøbes ved booking (135 kr. og 145 kr.)"
+    ],
+    "highlights": [
+      "Skjoldnæs Fyr",
+      "Bregninge Kirke",
+      "Voderup Klint"
+    ],
+    "description": "Tre dage på Ærø for solorejsende, med eget værelse. Normalpris 3.498 kr. (3.199 kr. for Ældre Sagen-medlemmer).",
+    "terms": "Booking via Egons Rejser tlf. 70 20 18 47. Afbestillingsregler fremgår ikke af rejsesiden; se Egons rejsebetingelser.",
+    "sourceUrl": "https://egonsrejser.dk/rejse/ferie-alene-aeroe-3-dage-4/"
+  },
+  {
+    "operator": "Egons Rejser",
+    "soloType": "solo-gruppe",
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": false,
+    "groupSize": null,
+    "alternativeDepartures": [],
+    "packageType": "Arrangeret rejse",
+    "priceCheckedDate": "2026-11-26",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Udrejse til Lüneburger Heide"
+      },
+      {
+        "day": 2,
+        "title": "Celle"
+      },
+      {
+        "day": 3,
+        "title": "Heden, hestevogn og asparges"
+      },
+      {
+        "day": 4,
+        "title": "Hamburg og hjemrejse"
+      }
+    ],
+    "id": "egons-luneburger-heide-2027-05-06",
+    "title": "Ferie alene - Lüneburger Heide, 4 dage",
+    "country": "Tyskland",
+    "destination": "Lüneburger Heide, Celle og Hamburg",
+    "tripType": "Busrejse",
+    "departureDate": "2027-05-06",
+    "nights": 3,
+    "days": 4,
+    "board": "Morgenmad og middag",
+    "soloPriceDKK": 5398,
+    "flightIncluded": false,
+    "guide": "Dansk rejseleder",
+    "soloNote": "Målrettet solorejsende; prisen gælder enkeltværelse.",
+    "includes": [
+      "Bustur i 4-stjernet turistbus",
+      "3 nætter i enkeltværelse på Hotel Park Soltau",
+      "3 x morgenmad og 3 x middag",
+      "Sandwich og vand dag 1",
+      "Byvandring i Celle",
+      "Hestevognstur på heden",
+      "Frokostbuffet og rundvisning hos aspargesproducent",
+      "Hundertwasser-banegården i Uelzen og kort bytur i Hamburg",
+      "Rejsegarantifondsafgift"
+    ],
+    "excludes": [
+      "Frokost i Celle kan tilkøbes ved booking (195 kr.)"
+    ],
+    "highlights": [
+      "Hestevognstur på heden",
+      "Aspargesbuffet",
+      "Celle"
+    ],
+    "description": "Fire dage i Lüneburger Heide for solorejsende, med eget værelse. Normalpris 5.398 kr. (4.999 kr. for Ældre Sagen-medlemmer).",
+    "terms": "Booking via Egons Rejser tlf. 70 20 18 47. Afbestillingsregler fremgår ikke af rejsesiden; se Egons rejsebetingelser.",
+    "sourceUrl": "https://egonsrejser.dk/rejse/ferie-alene-luneburger-heide-fra-aspargesmarker-til-bindingsvaerk/"
+  },
+  {
+    "operator": "Egons Rejser",
+    "soloType": "solo-gruppe",
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": false,
+    "groupSize": null,
+    "alternativeDepartures": [],
+    "packageType": "Arrangeret rejse",
+    "priceCheckedDate": "2026-11-26",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Udrejse til Schwalenberg"
+      },
+      {
+        "day": 2,
+        "title": "Schwalenberg og Bad Pyrmont"
+      },
+      {
+        "day": 3,
+        "title": "Hameln og Bodenwerder"
+      },
+      {
+        "day": 4,
+        "title": "Hermannsdenkmal, Detmold og Externsteine"
+      },
+      {
+        "day": 5,
+        "title": "Hjemrejse"
+      }
+    ],
+    "id": "egons-schwalenberg-2027-05-19",
+    "title": "Ferie alene - Forårseventyr i Schwalenberg, 5 dage",
+    "country": "Tyskland",
+    "destination": "Schwalenberg og Weserbergland",
+    "tripType": "Busrejse",
+    "departureDate": "2027-05-19",
+    "nights": 4,
+    "days": 5,
+    "board": "Helpension (morgenmad, frokost og middag)",
+    "soloPriceDKK": 6198,
+    "flightIncluded": false,
+    "guide": "Dansk rejseleder",
+    "soloNote": "Målrettet solorejsende; prisen gælder enkeltværelse.",
+    "includes": [
+      "Bustur i 4-stjernet turistbus",
+      "4 nætter i enkeltværelse på Hotel Schwalenberger Malkasten",
+      "4 x morgenmad, 4 x middag og 3 x frokost",
+      "Sandwich og vand på udturen",
+      "Aften med øl, vand og vin i 3 timer",
+      "Besøg i Hameln, Hermannsdenkmal og Externsteine",
+      "Entré til kurparken i Bad Pyrmont",
+      "Rejsegarantifondsafgift"
+    ],
+    "excludes": [
+      "Ingen eksklusioner nævnt"
+    ],
+    "highlights": [
+      "Hameln og Rottefængeren",
+      "Hermannsdenkmal",
+      "Externsteine"
+    ],
+    "description": "Fem dage i Weserbergland for solorejsende, med eget værelse. Normalpris 6.198 kr. (5.699 kr. for Ældre Sagen-medlemmer).",
+    "terms": "Booking via Egons Rejser tlf. 70 20 18 47. Afbestillingsregler fremgår ikke af rejsesiden; se Egons rejsebetingelser.",
+    "sourceUrl": "https://egonsrejser.dk/rejse/ferie-alene-foraarseventyr-i-schwalenberg/"
+  },
+  {
+    "operator": "Egons Rejser",
+    "soloType": "solo-gruppe",
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": false,
+    "groupSize": null,
+    "alternativeDepartures": [],
+    "packageType": "Arrangeret rejse",
+    "priceCheckedDate": "2026-11-26",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Udrejse til Ærø og byvandring i Marstal"
+      },
+      {
+        "day": 2,
+        "title": "Rundt på Ærø"
+      },
+      {
+        "day": 3,
+        "title": "Byvandring i Ærøskøbing og hjemrejse"
+      }
+    ],
+    "id": "egons-aeroe-fra-oestjylland-2027-06-27",
+    "title": "Ferie alene - Ærø fra Østjylland, 3 dage",
+    "country": "Danmark",
+    "destination": "Ærø (Marstal og Ærøskøbing)",
+    "tripType": "Busrejse",
+    "departureDate": "2027-06-27",
+    "nights": 2,
+    "days": 3,
+    "board": "Morgenmad og middag",
+    "soloPriceDKK": 3498,
+    "flightIncluded": false,
+    "guide": "Ikke oplyst",
+    "soloNote": "Målrettet solorejsende; prisen gælder enkeltværelse. Afrejse fra Østjylland og Fyn.",
+    "includes": [
+      "Bustur i 4-stjernet turistbus og færge Svendborg-Ærø t/r",
+      "2 nætter i enkeltværelse på Ærø Hotel i Marstal",
+      "2 x morgenmad og 2 x middag",
+      "Guidet byvandring i Marstal og Ærøskøbing",
+      "Guidet øtur rundt på Ærø",
+      "Rejsegarantifondsafgift"
+    ],
+    "excludes": [
+      "Frokost på færgen kan tilkøbes ved booking (135 kr. og 145 kr.)"
+    ],
+    "highlights": [
+      "Skjoldnæs Fyr",
+      "Bregninge Kirke",
+      "Voderup Klint"
+    ],
+    "description": "Tre dage på Ærø for solorejsende med afrejse fra Østjylland, med eget værelse. Normalpris 3.498 kr. (3.199 kr. for Ældre Sagen-medlemmer).",
+    "terms": "Booking via Egons Rejser tlf. 70 20 18 47. Afbestillingsregler fremgår ikke af rejsesiden; se Egons rejsebetingelser.",
+    "sourceUrl": "https://egonsrejser.dk/rejse/ferie-alene-aeroe-fra-oestjylland/"
+  },
+  {
+    "operator": "Egons Rejser",
+    "soloType": "solo-gruppe",
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": false,
+    "groupSize": null,
+    "alternativeDepartures": [],
+    "packageType": "Arrangeret rejse",
+    "priceCheckedDate": "2026-11-26",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Svendborg"
+      },
+      {
+        "day": 2,
+        "title": "Assens"
+      },
+      {
+        "day": 3,
+        "title": "Odense"
+      }
+    ],
+    "id": "egons-sommer-paa-fyn-2027-06-28",
+    "title": "Ferie alene - Sommer på Fyn, 3 dage",
+    "country": "Danmark",
+    "destination": "Fyn (Svendborg, Assens og Odense)",
+    "tripType": "Busrejse",
+    "departureDate": "2027-06-28",
+    "nights": 2,
+    "days": 3,
+    "board": "Morgenmad og middag",
+    "soloPriceDKK": 3798,
+    "flightIncluded": false,
+    "guide": "Ingen rejseleder (chaufføren er turleder)",
+    "soloNote": "Målrettet solorejsende; prisen gælder enkeltværelse.",
+    "includes": [
+      "Bustur i 4-stjernet turistbus",
+      "2 nætter i enkeltværelse på Gl. Avernæs Sinatur Hotel",
+      "2 x morgenmad og 2 x middag",
+      "Besøg i Svendborg, Assens og Odense",
+      "Rejsegarantifondsafgift"
+    ],
+    "excludes": [
+      "Frokost kan tilkøbes ved booking (160, 235 og 210 kr.)"
+    ],
+    "highlights": [
+      "Hotel ved vandet",
+      "Assens",
+      "Odense"
+    ],
+    "description": "Tre dage på Fyn for solorejsende, med eget værelse. Normalpris 3.798 kr. (3.499 kr. for Ældre Sagen-medlemmer).",
+    "terms": "Booking via Egons Rejser tlf. 70 20 18 47. Afbestillingsregler fremgår ikke af rejsesiden; se Egons rejsebetingelser.",
+    "sourceUrl": "https://egonsrejser.dk/rejse/ferie-alene-sommer-paa-fyn-3/"
   }
 ]
