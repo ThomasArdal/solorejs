@@ -7,7 +7,7 @@ import { PACKAGES } from './package-type.mjs';
 import { BOARDS, normalizeBoard, isUnmapped } from './board.mjs';
 
 const MAX_REMOVED = 5;       // flere fjernede rejser end dette ligner en site-ændring/nedetid
-const MAX_ADDED = 10;        // matcher grænsen i nightly-prompt.txt
+const MAX_ADDED = 25;        // matcher grænsen i nightly-prompt.txt
 const MAX_PRICE_JUMP = 0.3;  // prisændring over 30 % kræver et menneskeligt blik
 const ALLOWED_PATHS = [/^data\/[^/]+\.json$/, /^index\.html$/, /^sitemap\.xml$/, /^rejse\//, /^guides\//];
 const TRIP_TYPES = ['Rundrejse', 'Solferie', 'Citytrip', 'Krydstogt', 'Aktiv & vandring', 'Kultur & historie', 'Busrejse', 'Andet'];

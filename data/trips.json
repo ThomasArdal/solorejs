@@ -4350,5 +4350,1106 @@
     "description": "Tre dage på Fyn for solorejsende, med eget værelse. Normalpris 3.798 kr. (3.499 kr. for Ældre Sagen-medlemmer).",
     "terms": "Booking via Egons Rejser tlf. 70 20 18 47. Afbestillingsregler fremgår ikke af rejsesiden; se Egons rejsebetingelser.",
     "sourceUrl": "https://egonsrejser.dk/rejse/ferie-alene-sommer-paa-fyn-3/"
+  },
+  {
+    "id": "stjernegaard-nepal-2027-03-16",
+    "operator": "Stjernegaard Rejser",
+    "title": "Himalayas hjerte",
+    "country": "Nepal",
+    "destination": "Kathmandu, Chitwan, Pokhara og Bhutan",
+    "tripType": "Rundrejse",
+    "packageType": "Arrangeret rejse",
+    "alternativeDepartures": [],
+    "pricePerPersonDoubleDKK": 44990,
+    "singleSupplementDKK": 5000,
+    "guide": "Dansk rejseleder",
+    "groupSize": "12-18 deltagere",
+    "includes": [
+      "Fly København-Kathmandu t/r med Turkish Airlines via Istanbul",
+      "13 nætter på turistklassehoteller i Nepal og Bhutan",
+      "Morgenmad alle dage, 10 frokoster og 10 middage",
+      "Indenrigsfly og fly Kathmandu-Paro-Kathmandu",
+      "Dansk rejseleder samt engelsktalende guide i Nepal og Bhutan",
+      "Udflugter, entréer, transport i egen bus, Bhutan-visum og turistskat"
+    ],
+    "excludes": [
+      "Rejse- og afbestillingsforsikring",
+      "Personlige udgifter og drikkevarer til måltiderne",
+      "Ekspeditionsgebyr 295 kr. pr. ordre",
+      "Visum til Nepal (ca. 270 kr.)"
+    ],
+    "highlights": [
+      "Kongebyerne Patan og Bhaktapur",
+      "Jungleaktiviteter i Chitwan Nationalpark",
+      "Bjergfly til Bhutan",
+      "Tiger's Nest-klosteret"
+    ],
+    "itinerary": [],
+    "description": "Femten dages rundrejse, der kombinerer Nepals templer, junglen i Chitwan og bjergene ved Pokhara med en uge i Bhutan. Dansk rejseleder og lille gruppe, og de fleste måltider er med.",
+    "terms": "Rejsen garanteres ved 12 deltagere. Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af siden. Visum til Nepal (ca. 270 kr.) er ikke med.",
+    "departureDate": "2027-03-16",
+    "nights": 13,
+    "days": 15,
+    "board": "Helpension",
+    "soloType": "tillaeg",
+    "soloPriceDKK": 49990,
+    "soloPriceBasis": "stated",
+    "priceIsFrom": true,
+    "soloNote": "Enkeltværelse koster 49.990 kr. mod 44.990 kr. i dobbeltværelse (tillæg 5.000 kr.) på den billigste afgang.",
+    "sourceUrl": "https://www.stjernegaard-rejser.dk/nepal/rejser/himalayas-hjerte/priser-og-datoer/",
+    "priceCheckedDate": "2026-11-27",
+    "flightIncluded": true,
+    "departures": [
+      {
+        "date": "2027-03-16",
+        "priceDKK": 49990
+      },
+      {
+        "date": "2027-10-19",
+        "priceDKK": 49990
+      }
+    ]
+  },
+  {
+    "id": "stjernegaard-kenya-2027-02-26",
+    "operator": "Stjernegaard Rejser",
+    "title": "Karen Blixens Kenya",
+    "country": "Kenya",
+    "destination": "Nairobi, Samburu, Aberdare, Nakuru og Masai Mara",
+    "tripType": "Rundrejse",
+    "packageType": "Arrangeret rejse",
+    "alternativeDepartures": [],
+    "pricePerPersonDoubleDKK": 35990,
+    "singleSupplementDKK": 5000,
+    "guide": "Dansk rejseleder",
+    "groupSize": "10-18 deltagere",
+    "includes": [
+      "Fly København-Nairobi via Doha med Qatar Airways",
+      "8 nætter på turistklassehoteller og camps",
+      "Morgenmad, frokost og middag på 8 dage",
+      "Safari i Land Cruiser med vinduesplads, parkgebyrer og drikkepenge til chauffører",
+      "Dansk rejseleder"
+    ],
+    "excludes": [
+      "Rejse- og afbestillingsforsikring",
+      "Personlige udgifter og drikkevarer til måltiderne",
+      "Ekspeditionsgebyr 295 kr. pr. ordre",
+      "eTA og sundhedsforsikring til Kenya (ca. 80 USD)"
+    ],
+    "highlights": [
+      "Safari i Samburu, Nakuru og Masai Mara",
+      "Daphne Sheldricks elefantbørnehjem",
+      "Karen Blixens farm",
+      "Møde med maasaier i landsby"
+    ],
+    "itinerary": [],
+    "description": "Ti dages safarirejse i Kenya med dyreliv i fire nationalparker og et besøg på Karen Blixens farm. Alle måltider og parkgebyrer er med, og der er dansk rejseleder.",
+    "terms": "Rejsen garanteres ved 10 deltagere. Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af siden. Kenya kræver eTA (ca. 30 USD) og obligatorisk sundhedsforsikring (ca. 50 USD), som bestilles online.",
+    "departureDate": "2027-02-26",
+    "nights": 8,
+    "days": 10,
+    "board": "Helpension",
+    "soloType": "tillaeg",
+    "soloPriceDKK": 40990,
+    "soloPriceBasis": "stated",
+    "priceIsFrom": true,
+    "soloNote": "Enkeltværelse koster 40.990 kr. mod 35.990 kr. i dobbeltværelse (tillæg 5.000 kr.) på den billigste afgang.",
+    "sourceUrl": "https://www.stjernegaard-rejser.dk/kenya/rejser/karen-blixens-kenya/priser-og-datoer/",
+    "priceCheckedDate": "2026-11-27",
+    "flightIncluded": true,
+    "departures": [
+      {
+        "date": "2027-02-26",
+        "priceDKK": 40990
+      },
+      {
+        "date": "2027-10-05",
+        "priceDKK": 41990
+      }
+    ]
+  },
+  {
+    "id": "stjernegaard-kirgisistan-2027-04-12",
+    "operator": "Stjernegaard Rejser",
+    "title": "På sporet af Silkevejen",
+    "country": "Kirgisistan",
+    "destination": "Almaty, Karakol, Issyk-Kul, Bisjkek, Tasjkent, Bukhara og Samarkand",
+    "tripType": "Rundrejse",
+    "packageType": "Arrangeret rejse",
+    "alternativeDepartures": [],
+    "pricePerPersonDoubleDKK": 31700,
+    "singleSupplementDKK": 5875,
+    "guide": "Dansk rejseleder",
+    "groupSize": "Ikke oplyst",
+    "includes": [
+      "Fly via Istanbul, indenrigsfly og togrejse Tasjkent-Bukhara",
+      "12 overnatninger på hoteller, gæstehus og i jurtelejr",
+      "12 morgenmåltider og 12 middage",
+      "Dansk rejseleder og lokale guider",
+      "Udflugter, entréer, drikkepenge til guider og chauffører"
+    ],
+    "excludes": [
+      "Rejse- og afbestillingsforsikring",
+      "Personlige udgifter og drikkevarer til måltiderne",
+      "Ekspeditionsgebyr 295 kr. pr. ordre",
+      "Øvrige udflugter, der ikke står i programmet"
+    ],
+    "highlights": [
+      "Nat i jurtelejr ved Issyk-Kul",
+      "Ørnejægere og Chon-Kemin Nationalpark",
+      "Bukhara og Samarkand",
+      "Charyn Canyon"
+    ],
+    "itinerary": [],
+    "description": "Fjorten dages rundrejse gennem Kasakhstan, Kirgisistan og Usbekistan med nat i jurt, ørnejægere og Silkevejens gamle byer. Rejsen har dansk rejseleder og halvpension.",
+    "terms": "Rejsen garanteres ved 10 deltagere. Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af siden.",
+    "departureDate": "2027-04-12",
+    "nights": 12,
+    "days": 14,
+    "board": "Halvpension",
+    "soloType": "tillaeg",
+    "soloPriceDKK": 37575,
+    "soloPriceBasis": "stated",
+    "priceIsFrom": true,
+    "soloNote": "Enkeltværelse koster 37.575 kr. mod 31.700 kr. i dobbeltværelse (tillæg 5.875 kr.) på den billigste afgang.",
+    "sourceUrl": "https://www.stjernegaard-rejser.dk/kirgisistan/rejser/paa-sporet-af-silkevejen/priser-og-datoer/",
+    "priceCheckedDate": "2026-11-27",
+    "flightIncluded": true,
+    "departures": [
+      {
+        "date": "2027-04-12",
+        "priceDKK": 37575
+      },
+      {
+        "date": "2027-08-30",
+        "priceDKK": 37575
+      }
+    ]
+  },
+  {
+    "id": "stjernegaard-skotland-2027-04-25",
+    "operator": "Stjernegaard Rejser",
+    "title": "Bonnie Skotland",
+    "country": "Skotland",
+    "destination": "Edinburgh, Aberdeen, Inverness, Isle of Skye og Loch Lomond",
+    "tripType": "Rundrejse",
+    "packageType": "Arrangeret rejse",
+    "alternativeDepartures": [],
+    "pricePerPersonDoubleDKK": 16990,
+    "singleSupplementDKK": 3000,
+    "guide": "Dansk rejseleder",
+    "groupSize": "15-25 deltagere",
+    "includes": [
+      "Fly København-Edinburgh t/r med Norwegian eller SAS",
+      "7 nætter på turistklassehoteller",
+      "7 morgenmåltider og 4 middage",
+      "Dansk rejseleder og transport i egen bus",
+      "Udflugter og entréer, bl.a. whiskydestilleri og slotte",
+      "Afgangen 12. august inkluderer billet til Royal Edinburgh Military Tattoo"
+    ],
+    "excludes": [
+      "Rejse- og afbestillingsforsikring",
+      "Personlige udgifter og drikkevarer til måltiderne",
+      "Ekspeditionsgebyr 295 kr. pr. ordre",
+      "ETA til Storbritannien (16 GBP)"
+    ],
+    "highlights": [
+      "Edinburgh Castle og Royal Mile",
+      "Whiskydestilleri",
+      "Loch Ness og Urquhart Castle",
+      "Isle of Skye"
+    ],
+    "itinerary": [],
+    "description": "Otte dages rundrejse i Skotland fra Edinburgh over Aberdeen og Loch Ness til Isle of Skye. Dansk rejseleder, egen bus og seks afgange fra april til september.",
+    "terms": "Rejsen garanteres ved 15 deltagere. Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af siden. Skotland kræver ETA (ca. 16 GBP).",
+    "departureDate": "2027-04-25",
+    "nights": 7,
+    "days": 8,
+    "board": "Morgenmad",
+    "soloType": "tillaeg",
+    "soloPriceDKK": 19990,
+    "soloPriceBasis": "stated",
+    "priceIsFrom": true,
+    "soloNote": "Enkeltværelse koster 19.990 kr. mod 16.990 kr. i dobbeltværelse (tillæg 3.000 kr.) på den billigste afgang.",
+    "sourceUrl": "https://www.stjernegaard-rejser.dk/skotland/rejser/bonnie-skotland/priser-og-datoer/",
+    "priceCheckedDate": "2026-11-27",
+    "flightIncluded": true,
+    "departures": [
+      {
+        "date": "2027-04-25",
+        "priceDKK": 19990
+      },
+      {
+        "date": "2027-05-29",
+        "priceDKK": 21990
+      },
+      {
+        "date": "2027-07-09",
+        "priceDKK": 23990
+      },
+      {
+        "date": "2027-07-29",
+        "priceDKK": 23990
+      },
+      {
+        "date": "2027-08-12",
+        "priceDKK": 26990
+      },
+      {
+        "date": "2027-09-14",
+        "priceDKK": 22990
+      }
+    ]
+  },
+  {
+    "id": "stjernegaard-argentina-2027-11-05",
+    "operator": "Stjernegaard Rejser",
+    "title": "Patagonien, Iguazúvandfaldene og ikoniske storbyer",
+    "country": "Argentina",
+    "destination": "Santiago, Patagonien, Buenos Aires, Iguazú og Rio de Janeiro",
+    "tripType": "Rundrejse",
+    "packageType": "Arrangeret rejse",
+    "alternativeDepartures": [],
+    "pricePerPersonDoubleDKK": 61990,
+    "singleSupplementDKK": 12745,
+    "guide": "Dansk rejseleder",
+    "groupSize": "15-25 deltagere",
+    "includes": [
+      "Fly København eller Billund til Santiago og Rio de Janeiro hjem via Amsterdam eller Paris",
+      "Fem indenrigsfly i Sydamerika",
+      "17 overnatninger på hoteller",
+      "17 morgenmåltider og enkelte frokoster",
+      "Dansk rejseleder, transport i egen bus, entréer og drikkepenge"
+    ],
+    "excludes": [
+      "Rejse- og afbestillingsforsikring",
+      "Personlige udgifter og drikkevarer til måltiderne",
+      "Ekspeditionsgebyr 295 kr. pr. ordre"
+    ],
+    "highlights": [
+      "Moreno-gletsjeren og El Chaltén",
+      "Iguazúvandfaldene fra både argentinsk og brasiliansk side",
+      "Buenos Aires og Rio de Janeiro",
+      "Sejlads over grænsen mellem Chile og Argentina"
+    ],
+    "itinerary": [],
+    "description": "Tyve dages rundrejse fra Chile gennem Patagonien til Buenos Aires, Iguazú og Rio. Rejsen har dansk rejseleder og kun én afgang i november 2027.",
+    "terms": "Rejsen garanteres ved 15 deltagere. Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af siden. Tangoshow med middag i Buenos Aires kan tilkøbes (965 kr.).",
+    "departureDate": "2027-11-05",
+    "nights": 17,
+    "days": 20,
+    "board": "Morgenmad",
+    "soloType": "tillaeg",
+    "soloPriceDKK": 74735,
+    "soloPriceBasis": "stated",
+    "priceIsFrom": true,
+    "soloNote": "Enkeltværelse koster 74.735 kr. mod 61.990 kr. i dobbeltværelse (tillæg 12.745 kr.) på den billigste afgang.",
+    "sourceUrl": "https://www.stjernegaard-rejser.dk/argentina/rejser/patagonien-iguazuvandfaldene-og-ikoniske-storbyer/priser-og-datoer/",
+    "priceCheckedDate": "2026-11-27",
+    "flightIncluded": true,
+    "departures": [
+      {
+        "date": "2027-11-05",
+        "priceDKK": 74735
+      }
+    ]
+  },
+  {
+    "id": "stjernegaard-kosovo-2027-04-02",
+    "operator": "Stjernegaard Rejser",
+    "title": "En tidsrejse gennem Sydbalkan",
+    "country": "Kosovo",
+    "destination": "Pristina, Ohrid, Tirana, Kotorbugten og Dubrovnik",
+    "tripType": "Kultur & historie",
+    "packageType": "Arrangeret rejse",
+    "alternativeDepartures": [],
+    "pricePerPersonDoubleDKK": 14990,
+    "singleSupplementDKK": 2000,
+    "guide": "Dansk rejseleder",
+    "groupSize": "15-25 deltagere",
+    "includes": [
+      "Fly København-Pristina og Podgorica-København via Wien med Austrian Airlines",
+      "9 nætter på turistklassehoteller",
+      "9 morgenmåltider, 2 frokoster og 2 middage",
+      "Dansk rejseleder samt lokale guider",
+      "Udflugter, entréer og transport i egen bus"
+    ],
+    "excludes": [
+      "Rejse- og afbestillingsforsikring",
+      "Personlige udgifter og drikkevarer til måltiderne",
+      "Ekspeditionsgebyr 295 kr. pr. ordre"
+    ],
+    "highlights": [
+      "Byvandring i Pristina og Prizren",
+      "Ohrid-søen og Sveti Naum",
+      "Tirana og Krujë",
+      "Kotorbugten og udflugt til Dubrovnik"
+    ],
+    "itinerary": [],
+    "description": "Ti dages rundrejse gennem fem lande på Balkan (Kosovo, Nordmakedonien, Albanien, Montenegro og Kroatien) med byvandringer, klostre og kystby. Dansk rejseleder og egen bus.",
+    "terms": "Rejsen garanteres ved 15 deltagere. Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af siden. Rejsen kan ikke forlænges.",
+    "departureDate": "2027-04-02",
+    "nights": 9,
+    "days": 10,
+    "board": "Morgenmad",
+    "soloType": "tillaeg",
+    "soloPriceDKK": 16990,
+    "soloPriceBasis": "stated",
+    "priceIsFrom": true,
+    "soloNote": "Enkeltværelse koster 16.990 kr. mod 14.990 kr. i dobbeltværelse (tillæg 2.000 kr.) på den billigste afgang.",
+    "sourceUrl": "https://www.stjernegaard-rejser.dk/kroatien/rejser-til-kroatien/en-tidsrejse-gennem-sydbalkan/priser-og-datoer/",
+    "priceCheckedDate": "2026-11-27",
+    "flightIncluded": true,
+    "departures": [
+      {
+        "date": "2027-04-02",
+        "priceDKK": 16990
+      }
+    ]
+  },
+  {
+    "id": "stjernegaard-sri-lanka-2027-02-14",
+    "operator": "Stjernegaard Rejser",
+    "title": "Templer, te og safari",
+    "country": "Sri Lanka",
+    "destination": "Sigiriya, Kandy, Nuwara Eliya, Yala og Galle",
+    "tripType": "Rundrejse",
+    "packageType": "Arrangeret rejse",
+    "alternativeDepartures": [],
+    "pricePerPersonDoubleDKK": 24490,
+    "singleSupplementDKK": 6000,
+    "guide": "Dansk rejseleder",
+    "groupSize": "15-25 deltagere",
+    "includes": [
+      "Fly København-Colombo t/r med én mellemlanding",
+      "10 nætter på gode turistklassehoteller",
+      "Morgenmad, frokost og middag på 10 dage",
+      "Dansk rejseleder, engelsktalende lokal guide og togrejse gennem højlandet",
+      "Udflugter, entréer, drikkepenge og bagagehåndtering"
+    ],
+    "excludes": [
+      "Rejse- og afbestillingsforsikring",
+      "Personlige udgifter og drikkevarer til måltiderne",
+      "Ekspeditionsgebyr 295 kr. pr. ordre"
+    ],
+    "highlights": [
+      "Sigiriya Rock Fortress",
+      "Safari i Minneriya og Yala",
+      "Tandtemplet og teplantage",
+      "Togtur gennem højlandet"
+    ],
+    "itinerary": [],
+    "description": "Tretten dages rundrejse i Sri Lanka med templer, teplantager og to safarier. Helpension og dansk rejseleder, og strandforlængelse kan lægges til.",
+    "terms": "Rejsen garanteres ved 15 deltagere. Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af siden. Prisen gælder den 13 dage lange rundrejse. Versionen med tre nætter ved stranden (16 dage) er dyrere, 35.490 kr. i enkeltværelse.",
+    "departureDate": "2027-02-14",
+    "nights": 10,
+    "days": 13,
+    "board": "Helpension",
+    "soloType": "tillaeg",
+    "soloPriceDKK": 30490,
+    "soloPriceBasis": "stated",
+    "priceIsFrom": true,
+    "soloNote": "Enkeltværelse koster 30.490 kr. mod 24.490 kr. i dobbeltværelse (tillæg 6.000 kr.) på den billigste afgang.",
+    "sourceUrl": "https://www.stjernegaard-rejser.dk/sri-lanka/rundrejse-til-sri-lanka/templer-te-og-safari/priser-og-datoer/",
+    "priceCheckedDate": "2026-11-27",
+    "flightIncluded": true,
+    "departures": [
+      {
+        "date": "2027-02-14",
+        "priceDKK": 30490
+      },
+      {
+        "date": "2027-03-21",
+        "priceDKK": 30490
+      }
+    ]
+  },
+  {
+    "id": "stjernegaard-peru-toppen-2027-09-22",
+    "operator": "Stjernegaard Rejser",
+    "title": "Toppen af Peru",
+    "country": "Peru",
+    "destination": "Lima, Arequipa, Titicacasøen, Cusco og Machu Picchu",
+    "tripType": "Rundrejse",
+    "packageType": "Arrangeret rejse",
+    "alternativeDepartures": [],
+    "pricePerPersonDoubleDKK": 37950,
+    "singleSupplementDKK": 6035,
+    "guide": "Dansk rejseleder",
+    "groupSize": "10-25 deltagere",
+    "includes": [
+      "Fly København, Billund eller Aalborg til Lima via Amsterdam med KLM samt Cusco-Lima",
+      "15 overnatninger på hoteller",
+      "15 morgenmåltider, 4 frokoster og 2 middage",
+      "Togrejse over Altiplano fra Puno til Cusco med frokost",
+      "Dansk rejseleder, entréer, drikkepenge og transport i egen bus"
+    ],
+    "excludes": [
+      "Rejse- og afbestillingsforsikring",
+      "Personlige udgifter og drikkevarer til måltiderne",
+      "Ekspeditionsgebyr 295 kr. pr. ordre",
+      "Flyvning over Nazcalinjerne (ca. 120 USD)"
+    ],
+    "highlights": [
+      "Machu Picchu",
+      "Ballestasøerne og Nazcalinjerne",
+      "Colcakløften",
+      "Titicacasøen og Taquile"
+    ],
+    "itinerary": [],
+    "description": "Sytten dages rundrejse i Peru fra Lima over Colcakløften og Titicacasøen til Cusco og Machu Picchu. Otte afgange fra marts til september og dansk rejseleder.",
+    "terms": "Rejsen garanteres ved 10 deltagere. Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af siden. Flyvning over Nazcalinjerne (ca. 120 USD) kan tilkøbes.",
+    "departureDate": "2027-09-22",
+    "nights": 15,
+    "days": 17,
+    "board": "Morgenmad",
+    "soloType": "tillaeg",
+    "soloPriceDKK": 43985,
+    "soloPriceBasis": "stated",
+    "priceIsFrom": true,
+    "soloNote": "Enkeltværelse koster 43.985 kr. mod 37.950 kr. i dobbeltværelse (tillæg 6.035 kr.) på den billigste afgang.",
+    "sourceUrl": "https://www.stjernegaard-rejser.dk/peru/rundrejser-til-peru/toppen-af-peru/priser-og-datoer/",
+    "priceCheckedDate": "2026-11-27",
+    "flightIncluded": true,
+    "departures": [
+      {
+        "date": "2027-03-31",
+        "priceDKK": 44985
+      },
+      {
+        "date": "2027-04-16",
+        "priceDKK": 44985
+      },
+      {
+        "date": "2027-05-03",
+        "priceDKK": 44985
+      },
+      {
+        "date": "2027-07-05",
+        "priceDKK": 47995
+      },
+      {
+        "date": "2027-09-01",
+        "priceDKK": 44985
+      },
+      {
+        "date": "2027-09-08",
+        "priceDKK": 44985
+      },
+      {
+        "date": "2027-09-17",
+        "priceDKK": 44985
+      },
+      {
+        "date": "2027-09-22",
+        "priceDKK": 43985
+      }
+    ]
+  },
+  {
+    "id": "stjernegaard-peru-andesbjergene-2027-09-23",
+    "operator": "Stjernegaard Rejser",
+    "title": "En rejse under himlens tag i Andesbjergene",
+    "country": "Peru",
+    "destination": "Lima, Cusco, La Paz, Uyuni, Atacama, Salta og Buenos Aires",
+    "tripType": "Rundrejse",
+    "packageType": "Arrangeret rejse",
+    "alternativeDepartures": [],
+    "pricePerPersonDoubleDKK": 63900,
+    "singleSupplementDKK": 16070,
+    "guide": "Dansk rejseleder",
+    "groupSize": "10-25 deltagere",
+    "includes": [
+      "Fly København eller Billund via Amsterdam med KLM og flere indenrigsfly",
+      "20 overnatninger på hoteller i Peru, Bolivia, Chile og Argentina",
+      "20 morgenmåltider, 4 frokoster, 3 picnicfrokoster og 4 middage",
+      "4WD-jeeps i saltørkenen, dansk rejseleder og entréer"
+    ],
+    "excludes": [
+      "Rejse- og afbestillingsforsikring",
+      "Personlige udgifter og drikkevarer til måltiderne",
+      "Ekspeditionsgebyr 295 kr. pr. ordre"
+    ],
+    "highlights": [
+      "Machu Picchu og Titicacasøen",
+      "Saltørkenen Salar de Uyuni",
+      "Atacamaørkenen",
+      "Salta og Buenos Aires"
+    ],
+    "itinerary": [],
+    "description": "Toogtyve dages rundrejse gennem fire lande i Andesbjergene, fra Machu Picchu og Titicacasøen over saltørkenen i Bolivia til Buenos Aires. Dansk rejseleder.",
+    "terms": "Rejsen garanteres ved 10 deltagere. Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af siden. Rejsen går i stor højde; kontakt egen læge ved nedsat lungefunktion.",
+    "departureDate": "2027-09-23",
+    "nights": 20,
+    "days": 22,
+    "board": "Morgenmad",
+    "soloType": "tillaeg",
+    "soloPriceDKK": 79970,
+    "soloPriceBasis": "stated",
+    "priceIsFrom": true,
+    "soloNote": "Enkeltværelse koster 79.970 kr. mod 63.900 kr. i dobbeltværelse (tillæg 16.070 kr.) på den billigste afgang.",
+    "sourceUrl": "https://www.stjernegaard-rejser.dk/peru/rundrejser-til-peru/en-rejse-under-himlens-tag-i-andesbjergene/priser-og-datoer/",
+    "priceCheckedDate": "2026-11-27",
+    "flightIncluded": true,
+    "departures": [
+      {
+        "date": "2027-09-23",
+        "priceDKK": 79970
+      }
+    ]
+  },
+  {
+    "id": "stjernegaard-thailand-2027-03-03",
+    "operator": "Stjernegaard Rejser",
+    "title": "På floder gennem Østens mystik",
+    "country": "Thailand",
+    "destination": "Bangkok, Ayutthaya, River Kwai, Chiang Rai og Chiang Mai",
+    "tripType": "Rundrejse",
+    "packageType": "Arrangeret rejse",
+    "alternativeDepartures": [],
+    "pricePerPersonDoubleDKK": 21495,
+    "singleSupplementDKK": 3200,
+    "guide": "Dansk rejseleder",
+    "groupSize": "10-25 deltagere",
+    "includes": [
+      "Fly København-Bangkok via Doha med Qatar samt Bangkok-Chiang Rai og Chiang Mai-Bangkok",
+      "10 nætter på gode turist- og førsteklasseshoteller inkl. morgenmad",
+      "9 frokoster og 8 middage",
+      "Dansktalende rejseleder, bus med aircondition og drikkepenge på hoteller og restauranter",
+      "Udflugter, bl.a. River Kwai, Den Gyldne Trekant og Doi Inthanon"
+    ],
+    "excludes": [
+      "Rejse- og afbestillingsforsikring",
+      "Personlige udgifter og drikkevarer til måltiderne",
+      "Ekspeditionsgebyr 295 kr. pr. ordre",
+      "Drikkepenge til guider og chauffører (ca. 300 kr.)"
+    ],
+    "highlights": [
+      "River Kwai og Dødens Jernbane",
+      "Det hvide tempel Wat Rong Khun",
+      "Sejlads til Den Gyldne Trekant",
+      "Chiang Mai og Doi Inthanon"
+    ],
+    "itinerary": [],
+    "description": "Tretten dages rundrejse i Thailand fra Bangkok til nordens Chiang Rai og Chiang Mai med sejlture, templer og River Kwai. Dansktalende rejseleder og de fleste måltider.",
+    "terms": "Rejsen garanteres ved 10 deltagere. Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af siden. Prisen gælder den 13 dage lange version; nogle afgange sælges også som 17 dage med forlængelse i Hua Hin (dyrere). Kun afgange, der kan bookes direkte, er medtaget.",
+    "departureDate": "2027-03-03",
+    "nights": 10,
+    "days": 13,
+    "board": "Helpension",
+    "soloType": "tillaeg",
+    "soloPriceDKK": 24695,
+    "soloPriceBasis": "stated",
+    "priceIsFrom": true,
+    "soloNote": "Enkeltværelse koster 24.695 kr. mod 21.495 kr. i dobbeltværelse (tillæg 3.200 kr.) på den billigste afgang.",
+    "sourceUrl": "https://www.stjernegaard-rejser.dk/thailand/rundrejser-thailand/paa-floder-gennem-oestens-mystik/priser-og-datoer/",
+    "priceCheckedDate": "2026-11-27",
+    "flightIncluded": true,
+    "departures": [
+      {
+        "date": "2027-01-03",
+        "priceDKK": 25795
+      },
+      {
+        "date": "2027-02-24",
+        "priceDKK": 25795
+      },
+      {
+        "date": "2027-03-03",
+        "priceDKK": 24695
+      },
+      {
+        "date": "2027-03-10",
+        "priceDKK": 24795
+      },
+      {
+        "date": "2027-03-25",
+        "priceDKK": 25795
+      }
+    ]
+  },
+  {
+    "id": "stjernegaard-vestgroenland-2027-05-18",
+    "operator": "Stjernegaard Rejser",
+    "title": "Eventyrlige Vestgrønland",
+    "country": "Grønland",
+    "destination": "Kangerlussuaq, Ilulissat og Nuuk",
+    "tripType": "Rundrejse",
+    "packageType": "Arrangeret rejse",
+    "alternativeDepartures": [],
+    "pricePerPersonDoubleDKK": 31630,
+    "singleSupplementDKK": 7500,
+    "guide": "Dansk rejseleder",
+    "groupSize": "10-23 deltagere",
+    "includes": [
+      "Fly København-Ilulissat-Kangerlussuaq-Nuuk-København med Air Greenland",
+      "6 nætter på hoteller",
+      "6 morgenmåltider og 6 middage samt enkelte frokoster",
+      "Dansk rejseleder og dansktalende lokalguider",
+      "Alle udflugter og transporter, turistskat"
+    ],
+    "excludes": [
+      "Rejse- og afbestillingsforsikring",
+      "Personlige udgifter og drikkevarer til måltiderne",
+      "Ekspeditionsgebyr 295 kr. pr. ordre"
+    ],
+    "highlights": [
+      "Isfjordssejlads i Ilulissat",
+      "Indlandsisen og Russelgletsjeren",
+      "Fjordsejlads og middag i Nuuk",
+      "Sermermiut og Kællingekløften"
+    ],
+    "itinerary": [],
+    "description": "Syv dages rundrejse i Vestgrønland med Ilulissat-isfjorden, indlandsisen og Nuuk. Seks afgange fra maj til september og dansk rejseleder.",
+    "terms": "Rejsen garanteres ved 10 deltagere. Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af siden.",
+    "departureDate": "2027-05-18",
+    "nights": 6,
+    "days": 7,
+    "board": "Halvpension",
+    "soloType": "tillaeg",
+    "soloPriceDKK": 39130,
+    "soloPriceBasis": "stated",
+    "priceIsFrom": true,
+    "soloNote": "Enkeltværelse koster 39.130 kr. mod 31.630 kr. i dobbeltværelse (tillæg 7.500 kr.) på den billigste afgang.",
+    "sourceUrl": "https://www.stjernegaard-rejser.dk/groenland/rejser/eventyrlige-vestgroenland/priser-og-datoer/",
+    "priceCheckedDate": "2026-11-27",
+    "flightIncluded": true,
+    "departures": [
+      {
+        "date": "2027-05-18",
+        "priceDKK": 39130
+      },
+      {
+        "date": "2027-06-08",
+        "priceDKK": 43130
+      },
+      {
+        "date": "2027-06-15",
+        "priceDKK": 42130
+      },
+      {
+        "date": "2027-08-17",
+        "priceDKK": 43130
+      },
+      {
+        "date": "2027-08-31",
+        "priceDKK": 43130
+      },
+      {
+        "date": "2027-09-14",
+        "priceDKK": 42630
+      }
+    ]
+  },
+  {
+    "id": "stjernegaard-groenland-isen-2027-03-31",
+    "operator": "Stjernegaard Rejser",
+    "title": "Eventyr på isen",
+    "country": "Grønland",
+    "destination": "Ilulissat og Kangerlussuaq",
+    "tripType": "Aktiv & vandring",
+    "packageType": "Arrangeret rejse",
+    "alternativeDepartures": [],
+    "pricePerPersonDoubleDKK": 27630,
+    "singleSupplementDKK": 6500,
+    "guide": "Dansk rejseleder",
+    "groupSize": "10-23 deltagere",
+    "includes": [
+      "Fly København-Ilulissat-Kangerlussuaq-København med Air Greenland",
+      "5 nætter på hoteller",
+      "5 morgenmåltider og 5 middage samt 1 frokostsandwich",
+      "Dansk rejseleder og dansktalende lokalguider",
+      "Hundeslædetur, nordlystur og tur til indlandsisen"
+    ],
+    "excludes": [
+      "Rejse- og afbestillingsforsikring",
+      "Personlige udgifter og drikkevarer",
+      "Tilslutningsfly fra Aalborg eller Billund (fra 1.500 kr.)",
+      "Ekspeditionsgebyr 295 kr. pr. ordre"
+    ],
+    "highlights": [
+      "Hundeslædetur i Ilulissat",
+      "Nordlystur i Kangerlussuaq",
+      "Indlandsisen og Russelgletsjeren",
+      "Isfjordssejlads"
+    ],
+    "itinerary": [],
+    "description": "Seks dages vinterrejse til Grønland med hundeslæde, nordlys og indlandsis. Kort rejse med dansk rejseleder og to afgange i marts 2027.",
+    "terms": "Rejsen garanteres ved 10 deltagere. Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af siden. Begge afgange har få ledige pladser. Tilslutningsfly fra Aalborg eller Billund koster fra 1.500 kr.",
+    "departureDate": "2027-03-31",
+    "nights": 5,
+    "days": 6,
+    "board": "Halvpension",
+    "soloType": "tillaeg",
+    "soloPriceDKK": 34130,
+    "soloPriceBasis": "stated",
+    "priceIsFrom": true,
+    "soloNote": "Enkeltværelse koster 34.130 kr. mod 27.630 kr. i dobbeltværelse (tillæg 6.500 kr.) på den billigste afgang.",
+    "sourceUrl": "https://www.stjernegaard-rejser.dk/groenland/rejser/eventyr-paa-isen/priser-og-datoer/",
+    "priceCheckedDate": "2026-11-27",
+    "flightIncluded": true,
+    "departures": [
+      {
+        "date": "2027-03-24",
+        "priceDKK": 35130
+      },
+      {
+        "date": "2027-03-31",
+        "priceDKK": 34130
+      }
+    ]
+  },
+  {
+    "id": "stjernegaard-madagaskar-nord-2027-10-04",
+    "operator": "Stjernegaard Rejser",
+    "title": "Ekspedition i Nordmadagaskar",
+    "country": "Madagaskar",
+    "destination": "Antananarivo, Diego Suarez, Ankarana og Nosy Be",
+    "tripType": "Rundrejse",
+    "packageType": "Arrangeret rejse",
+    "alternativeDepartures": [],
+    "pricePerPersonDoubleDKK": 33990,
+    "singleSupplementDKK": 3000,
+    "guide": "Dansk rejseleder",
+    "groupSize": "10-17 deltagere",
+    "includes": [
+      "Fly København-Antananarivo og Nosy Be-København med Ethiopian Airlines samt indenrigsfly til Diego Suarez",
+      "9 nætter på turistklassehoteller",
+      "Helpension",
+      "Dansk rejseleder og engelsktalende lokalguide",
+      "4WD, bus og båd samt alle udflugter og entréer"
+    ],
+    "excludes": [
+      "Rejse- og afbestillingsforsikring",
+      "Personlige udgifter og drikkevarer til måltiderne",
+      "Ekspeditionsgebyr 295 kr. pr. ordre",
+      "Visum til Madagaskar (10 EUR)"
+    ],
+    "highlights": [
+      "Safari i Ankarana Nationalpark",
+      "Tsingy Rouge",
+      "Regnskovssafari i Amber Mountain",
+      "Snorkling ved Nosy Tanikely"
+    ],
+    "itinerary": [],
+    "description": "Tolv dages ekspeditionsrejse i det nordlige Madagaskar med safari, røde klippeformationer og dage på Nosy Be. Helpension, dansk rejseleder og kun én afgang i oktober 2027.",
+    "terms": "Rejsen garanteres ved 10 deltagere. Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af siden. Visum til Madagaskar (10 EUR) betales ved ankomst. Rejsen kan kombineres med Stjernegaards sydrejse med 10.000 kr. i rabat pr. person.",
+    "departureDate": "2027-10-04",
+    "nights": 9,
+    "days": 12,
+    "board": "Helpension",
+    "soloType": "tillaeg",
+    "soloPriceDKK": 36990,
+    "soloPriceBasis": "stated",
+    "priceIsFrom": true,
+    "soloNote": "Enkeltværelse koster 36.990 kr. mod 33.990 kr. i dobbeltværelse (tillæg 3.000 kr.) på den billigste afgang.",
+    "sourceUrl": "https://www.stjernegaard-rejser.dk/madagaskar/rejser-til-madagaskar/ekspedition-i-nordmadagaskar-en-rejse-i-det-ukendte/priser-og-datoer/",
+    "priceCheckedDate": "2026-11-27",
+    "flightIncluded": true,
+    "departures": [
+      {
+        "date": "2027-10-04",
+        "priceDKK": 36990
+      }
+    ]
+  },
+  {
+    "id": "stjernegaard-bali-sansernes-oe-2027-10-24",
+    "operator": "Stjernegaard Rejser",
+    "title": "På sansernes ø",
+    "country": "Indonesien",
+    "destination": "Candi Dasa, Munduk, Ubud og Sanur",
+    "tripType": "Rundrejse",
+    "packageType": "Arrangeret rejse",
+    "alternativeDepartures": [],
+    "pricePerPersonDoubleDKK": 15995,
+    "singleSupplementDKK": 5000,
+    "guide": "Dansk rejseleder",
+    "groupSize": "10-20 deltagere",
+    "includes": [
+      "Fly København-Bali via Singapore med Singapore Airlines",
+      "12 nætter på turistklassehoteller med morgenmad",
+      "8 frokoster og 6 middage",
+      "Dansktalende rejseleder (dag 2-9) og bus med aircondition",
+      "Udflugter og drikkepenge på hoteller og restauranter"
+    ],
+    "excludes": [
+      "Rejse- og afbestillingsforsikring",
+      "Personlige udgifter og drikkevarer til måltiderne",
+      "Ekspeditionsgebyr 295 kr. pr. ordre",
+      "Visum til Indonesien (ca. 35 USD)",
+      "Turistafgift (ca. 70 kr.)"
+    ],
+    "highlights": [
+      "Risterrasser og Tanah Lot",
+      "Delfinsafari fra outriggerbåd",
+      "Vandring og kanotur ved Munduk",
+      "Ubud og tempelområder"
+    ],
+    "itinerary": [],
+    "description": "Femten dages rundrejse på Bali med templer, risterrasser, delfinsafari og en afslappende dag i Sanur. Dansktalende rejseleder og seks bookbare afgange.",
+    "terms": "Rejsen garanteres ved 10 deltagere. Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af siden. Visum (ca. 35 USD) og turistafgift (ca. 70 kr.) betales på stedet.",
+    "departureDate": "2027-10-24",
+    "nights": 12,
+    "days": 15,
+    "board": "Morgenmad",
+    "soloType": "tillaeg",
+    "soloPriceDKK": 20995,
+    "soloPriceBasis": "stated",
+    "priceIsFrom": true,
+    "soloNote": "Enkeltværelse koster 20.995 kr. mod 15.995 kr. i dobbeltværelse (tillæg 5.000 kr.) på den billigste afgang.",
+    "sourceUrl": "https://www.stjernegaard-rejser.dk/bali/rundrejser-bali/paa-sansernes-oe/priser-og-datoer/",
+    "priceCheckedDate": "2026-11-27",
+    "flightIncluded": true,
+    "departures": [
+      {
+        "date": "2027-03-29",
+        "priceDKK": 21595
+      },
+      {
+        "date": "2027-04-04",
+        "priceDKK": 21795
+      },
+      {
+        "date": "2027-09-05",
+        "priceDKK": 21795
+      },
+      {
+        "date": "2027-10-03",
+        "priceDKK": 21395
+      },
+      {
+        "date": "2027-10-24",
+        "priceDKK": 20995
+      },
+      {
+        "date": "2027-11-07",
+        "priceDKK": 20995
+      }
+    ]
+  },
+  {
+    "id": "stjernegaard-bali-langtid-2027-02-03",
+    "operator": "Stjernegaard Rejser",
+    "title": "Langtidsferie med tid til fordybelse",
+    "country": "Indonesien",
+    "destination": "Sanur, Bali",
+    "tripType": "Solferie",
+    "packageType": "Fly + hotel",
+    "alternativeDepartures": [],
+    "pricePerPersonDoubleDKK": 16995,
+    "singleSupplementDKK": 6500,
+    "guide": "Dansk rejseleder",
+    "groupSize": "10-20 deltagere",
+    "includes": [
+      "Fly København-Denpasar t/r med Singapore Airlines",
+      "Transport mellem lufthavn og hotel i Sanur",
+      "19 nætter på éL Hotel & Resort Bali i Deluxe Room med morgenmad",
+      "15 % rabat på mad og drikke på hotellet",
+      "Udflugtspakke med dansktalende guide kan tilkøbes"
+    ],
+    "excludes": [
+      "Rejse- og afbestillingsforsikring",
+      "Personlige udgifter og drikkevarer til måltiderne",
+      "Ekspeditionsgebyr 295 kr. pr. ordre",
+      "Udflugtspakke med dansktalende guide",
+      "Visum (ca. 35 USD) og turistafgift (ca. 70 kr.)",
+      "Frokost og aftensmad"
+    ],
+    "highlights": [
+      "Tre uger i Sanur ved stranden",
+      "Mulighed for udflugtspakke med dansktalende guide"
+    ],
+    "itinerary": [],
+    "description": "Treugers ferie i Sanur på Bali med morgenmad, strand og masser af tid til sig selv. Udflugtspakken med dansktalende guide kan tilkøbes.",
+    "terms": "Rejsen garanteres ved 10 deltagere. Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af siden. Udflugtspakke med guide er ikke med i prisen.",
+    "departureDate": "2027-02-03",
+    "nights": 19,
+    "days": 22,
+    "board": "Morgenmad",
+    "soloType": "tillaeg",
+    "soloPriceDKK": 23495,
+    "soloPriceBasis": "stated",
+    "priceIsFrom": true,
+    "soloNote": "Enkeltværelse koster 23.495 kr. mod 16.995 kr. i dobbeltværelse (tillæg 6.500 kr.) på den billigste afgang.",
+    "sourceUrl": "https://www.stjernegaard-rejser.dk/bali/rejser/langtidsferie-med-tid-til-fordybelse/priser-og-datoer/",
+    "priceCheckedDate": "2026-11-27",
+    "flightIncluded": true,
+    "departures": [
+      {
+        "date": "2027-02-03",
+        "priceDKK": 23495
+      },
+      {
+        "date": "2027-02-25",
+        "priceDKK": 23495
+      }
+    ]
+  },
+  {
+    "id": "albatros-peru-2027-03-17",
+    "operator": "Albatros",
+    "title": "Pragtfulde Peru - ferie alene i fællesskab",
+    "country": "Peru",
+    "destination": "Lima, Cusco, Den Hellige Dal, Machu Picchu og Titicacasøen",
+    "tripType": "Rundrejse",
+    "packageType": "Arrangeret rejse",
+    "alternativeDepartures": [],
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": 0,
+    "guide": "Dansk rejseleder",
+    "groupSize": "Maks. 25 deltagere, minimum 15",
+    "includes": [
+      "Dansk rejseleder",
+      "Fly Danmark-Lima t/r med mellemlanding samt Lima-Cusco og Juliaca-Lima",
+      "Indkvartering på turistklassehoteller i enkeltværelse",
+      "Morgenmad alle dage og frokost på 7 dage",
+      "Udflugter ifølge program",
+      "Skatter og afgifter"
+    ],
+    "excludes": [
+      "Afbestillingsforsikring ved sygdom (7 % af rejsens pris)",
+      "Rejseforsikring",
+      "Andre måltider (150-200 kr. pr. dag)",
+      "Drikkevarer",
+      "Drikkepenge til chauffører og lokale guider (ca. 50 USD)",
+      "Udflugt til Regnbuebjerget (1.298 kr.)"
+    ],
+    "highlights": [
+      "Machu Picchu",
+      "Cusco og Den Hellige Dal",
+      "Titicacasøen med sivøerne",
+      "Smagsprøver på det peruvianske køkken"
+    ],
+    "itinerary": [],
+    "description": "Tretten dages rundrejse i Peru for solorejsende med dansk rejseleder, enkeltværelse og afgange fra København og Billund. Turen går fra Lima til Cusco, Machu Picchu og Titicacasøen.",
+    "terms": "Rejsen kræver minimum 15 deltagere og aflyses ellers typisk 4-6 uger før afrejse, hvorefter prisen refunderes. Deltagere skal kunne gå selv og være i normal form; rejsen går i stor højde. Afbestillingsregler fremgår ikke af siden.",
+    "departureDate": "2027-03-17",
+    "nights": null,
+    "days": 13,
+    "board": "Morgenmad",
+    "soloType": "ingen-tillaeg",
+    "soloPriceDKK": 36998,
+    "soloPriceBasis": "stated",
+    "priceIsFrom": true,
+    "soloNote": "Kun enkeltværelser på rejsen, og det koster ikke ekstra - rejsen er lavet til solorejsende.",
+    "sourceUrl": "https://www.albatros.dk/rejser/pragtfulde-peru-ferie-alene-i-faellesskab",
+    "priceCheckedDate": "2026-11-27",
+    "flightIncluded": true,
+    "departures": [
+      {
+        "date": "2027-03-17",
+        "priceDKK": 36998
+      },
+      {
+        "date": "2027-10-26",
+        "priceDKK": 36998
+      }
+    ]
+  },
+  {
+    "id": "albatros-indien-2027-03-06",
+    "operator": "Albatros",
+    "title": "Magiske Indien - ferie alene i fællesskab",
+    "country": "Indien",
+    "destination": "Delhi, Jaipur, Pushkar og Agra",
+    "tripType": "Kultur & historie",
+    "packageType": "Arrangeret rejse",
+    "alternativeDepartures": [],
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": 0,
+    "guide": "Dansk rejseleder",
+    "groupSize": "Minimum 15 deltagere",
+    "includes": [
+      "Dansk rejseleder",
+      "Fly København-Delhi via Helsinki t/r",
+      "Indkvartering på gode hoteller i enkeltværelse",
+      "Helpension",
+      "Udflugter ifølge program",
+      "Skatter og afgifter"
+    ],
+    "excludes": [
+      "Sygeafbestillingsforsikring (7 % af rejsens pris)",
+      "Rejseforsikring",
+      "Visum til Indien",
+      "Drikkevarer",
+      "Drikkepenge til guide, chauffør og assistent (ca. 40 USD)"
+    ],
+    "highlights": [
+      "Taj Mahal",
+      "Den lyserøde by Jaipur og Amber Fort",
+      "Pilgrimsbyen Pushkar",
+      "Håndværksbesøg i Rajasthan"
+    ],
+    "itinerary": [],
+    "description": "Ni dages kulturrejse i Nordindien gennem Delhi, Jaipur og Agra for solorejsende. Enkeltværelse, helpension og dansk rejseleder, og rejsen har 4,7 i gæstevurdering.",
+    "terms": "Rejsen kræver minimum 15 deltagere og aflyses ellers typisk 4-6 uger før afrejse, hvorefter prisen refunderes. Kun afgangen 6. marts 2027 er åben; januar- og februarafgangene er udsolgt. Visum til Indien kræves.",
+    "departureDate": "2027-03-06",
+    "nights": null,
+    "days": 9,
+    "board": "Helpension",
+    "soloType": "ingen-tillaeg",
+    "soloPriceDKK": 13998,
+    "soloPriceBasis": "stated",
+    "priceIsFrom": true,
+    "soloNote": "Kun enkeltværelser på rejsen, og det koster ikke ekstra - rejsen er lavet til solorejsende.",
+    "sourceUrl": "https://www.albatros.dk/rejser/magiske-indien-ferie-alene-i-faelleskab",
+    "priceCheckedDate": "2026-11-27",
+    "flightIncluded": true,
+    "departures": [
+      {
+        "date": "2027-03-06",
+        "priceDKK": 13998
+      }
+    ]
+  },
+  {
+    "id": "albatros-malaysia-borneo-2027-09-26",
+    "operator": "Albatros",
+    "title": "Malaysia & Borneo - rejs alene i fællesskab",
+    "country": "Malaysia",
+    "destination": "Kuala Lumpur, Kuching, Bako, Melaka",
+    "tripType": "Rundrejse",
+    "departureDate": "2027-09-26",
+    "alternativeDepartures": [],
+    "nights": null,
+    "days": 12,
+    "board": "Halvpension",
+    "soloType": "ingen-tillaeg",
+    "soloPriceDKK": 25998,
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": 0,
+    "priceIsFrom": false,
+    "soloNote": "Prisen er for enkeltværelse; der er ikke tillæg for at rejse alene.",
+    "guide": "Dansk rejseleder",
+    "groupSize": "Maks. 25 deltagere (min. 15)",
+    "flightIncluded": true,
+    "includes": [
+      "Dansk rejseleder",
+      "Fly København-Kuala Lumpur samt Kuala Lumpur-Kuching",
+      "Hoteller i enkeltværelser",
+      "Morgenmad dagligt samt udvalgte frokoster og middage",
+      "Udflugter og transport",
+      "Skatter og afgifter"
+    ],
+    "excludes": [
+      "Afbestillingsforsikring (7 % af rejsens pris)",
+      "Årsrejseforsikring/seniorrejseforsikring",
+      "Valgfri aftenudflugt (598 kr.)",
+      "Drikkepenge ca. 300 kr."
+    ],
+    "highlights": [
+      "Orangutanger ved Semenggoh",
+      "Næsenaber i Bako Nationalpark",
+      "Besøg i iban-langhuse",
+      "Kuala Lumpur og Melaka"
+    ],
+    "itinerary": [],
+    "description": "En tolv dages rundrejse i Malaysia og Borneo for solorejsende med natur, byer og kulturmøder. Prisen gælder eget værelse.",
+    "terms": "Minimum antal deltagere kræves (typisk aflysning 4-6 uger før afrejse, hvorefter rejsens pris refunderes). Depositum og afbestillingsregler fremgår ikke af rejsesiden; der henvises til Albatros' almindelige bestemmelser.",
+    "sourceUrl": "https://www.albatros.dk/rejser/malaysia-og-borneo-rejs-alene-i-faellesskab",
+    "priceCheckedDate": "2026-11-27",
+    "packageType": "Arrangeret rejse"
   }
 ]
