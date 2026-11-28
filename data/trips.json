@@ -952,7 +952,7 @@
     "description": "Seks dage i Barcelona omkring nytår for solorejsende, med dansk rejseleder, hotel i Eixample og nytårsmiddag. Dagsoversigten på siden er muligvis forskudt en dag.",
     "terms": "Afbestilling skriftligt: mere end 90 dage før afrejse mistes depositum på 4.500 kr.; inden for 90 dage mistes hele rejsens pris.",
     "sourceUrl": "https://nadana.dk/nytaarsrejse-til-barcalona/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Fly + hotel"
   },
   {
@@ -965,7 +965,7 @@
     "groupSize": null,
     "alternativeDepartures": [],
     "packageType": "Arrangeret rejse",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "itinerary": [
       {
         "day": 1,
@@ -1022,7 +1022,7 @@
     "country": "Sri Lanka",
     "destination": "Kandy, Ella, Yala og sydkysten",
     "tripType": "Rundrejse",
-    "departureDate": "2027-01-09",
+    "departureDate": "2027-02-06",
     "alternativeDepartures": [],
     "nights": 15,
     "days": 17,
@@ -1033,7 +1033,7 @@
     "pricePerPersonDoubleDKK": 22950,
     "singleSupplementDKK": 6000,
     "priceIsFrom": true,
-    "soloNote": "Tillæg for enkeltværelse er 6.000 kr.; solopris 28.950 kr. er beregnet ud fra 22.950 kr. på 9. januar plus tillæg. Tilmeldingsfrist 23. november 2026.",
+    "soloNote": "Tillæg for enkeltværelse er 6.000 kr.; solopris er beregnet ud fra dobbeltværelsespris plus tillæg (22.950 kr. + 6.000 kr. = 28.950 kr. for 6. februar). 9. januar-afgangen er nu kun på forespørgsel og er udeladt.",
     "guide": null,
     "groupSize": null,
     "flightIncluded": true,
@@ -1089,16 +1089,16 @@
     "description": "Fastprisrejse i Sri Lanka med kultur, tog, safari og afslutning på stranden. Der er ingen fast dansk rejseleder, men man deler transport og udflugter med andre gæster.",
     "terms": "Depositum 2.500 kr. pr. person. Kun muligt hvis flyet også bookes hos Jysk Rejsebureau. Ikke en gruppetur. Ikke egnet for gangbesværede.",
     "sourceUrl": "https://www.jysk-rejsebureau.dk/sri-lanka/faerdigpakket-rejse/sri-lanka-rundrejse-safari-og-strandferie/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Arrangeret rejse",
     "departures": [
       {
-        "date": "2027-01-09",
+        "date": "2027-02-06",
         "priceDKK": 28950
       },
       {
         "date": "2027-02-13",
-        "priceDKK": 28950
+        "priceDKK": 30450
       },
       {
         "date": "2027-03-18",
@@ -1164,7 +1164,7 @@
     "description": "Syv nætter med all inclusive på Sal for solorejsende, der gerne vil have selskab. Gruppen mødes til velkomstmøde og fælles middage, og en halvdagstur på øen er med.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/kap-verde-25jan-2027",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Fly + hotel"
   },
   {
@@ -1222,7 +1222,7 @@
     "description": "En lille gruppe på højst 12 rejser sammen med dansk rejseleder gennem det sydlige Vietnam. Eget værelse er med i prisen. Fra-pris 22.999 kr.; antal dage fremstår modstridende på siden.",
     "terms": "Depositum 4.500 kr. Afbestilling skriftligt: mere end 90 dage før afrejse mistes depositum; under 90 dage før mistes hele rejsens pris.",
     "sourceUrl": "https://nadana.dk/vietnam-2027/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Arrangeret rejse"
   },
   {
@@ -1298,7 +1298,7 @@
     "description": "Femten dages rundrejse i Mexico med togtur gennem Kobberkløften og kulturbyerne Oaxaca og Puebla. Kun morgenmad er inkluderet, så der er plads til at spise selv. Enkeltværelsestillægget er det højeste blandt de mindre rejser.",
     "terms": "Booking via knappen på siden. Ikke egnet for gangbesværede.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/mexico/rejser/mexicos-hjerte-og-togrejse-gennem-kobberkloeften/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Arrangeret rejse"
   },
   {
@@ -1365,7 +1365,7 @@
     "description": "Fem dage i Istanbul for solorejsende med dansk rejseleder, hotel i Sultanahmet og et fælles program med de store seværdigheder.",
     "terms": "Depositum 4.500 kr. Afbestilling mere end 90 dage før afrejse mistes depositum; inden for 90 dage mistes hele rejsens pris.",
     "sourceUrl": "https://nadana.dk/istanbul/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Fly + hotel"
   },
   {
@@ -1378,7 +1378,7 @@
     "groupSize": null,
     "alternativeDepartures": [],
     "packageType": "Arrangeret rejse",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "itinerary": [
       {
         "day": 1,
@@ -1494,7 +1494,7 @@
     "description": "En uge på Madeira med halvpension og direkte fly fra København. Hotellet ligger i Caniço, og der er fælles måltider og aftenunderholdning på hotellet. Siden er uklar om værelsestypen, så den bør bekræftes hos Spies.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/madeira-29mar-2027",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Fly + hotel"
   },
   {
@@ -1563,7 +1563,7 @@
     "description": "Tretten dages naturrejse til det nordlige Madagaskar med lemurer, nationalparker og afslutning på Nosy Be. Gruppen er lille (10-17), og rejsen kræver normal kondition.",
     "terms": "Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af siden.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/madagaskar/rejser/madagaskar-lemurernes-land/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Arrangeret rejse"
   },
   {
@@ -1645,7 +1645,7 @@
     "description": "Seksten dages rundrejse i Himalaya-kongeriget med få, små grupper og dansk rejseleder. Rejsen går gennem de vestlige og centrale dale med klostre, fæstninger og vandreture. Tillægget for eneværelse er moderat i forhold til rejsens pris.",
     "terms": "Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af rejsesiden.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/bhutan/rejser/tordendragens-kongerige/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Arrangeret rejse",
     "departures": [
       {
@@ -1737,7 +1737,7 @@
     "description": "En uges social ferie i Albufeira for dem, der rejser alene, med dansk rejseleder, fælles middage og valgfrie udflugter mod særskilt betaling.",
     "terms": "Depositum 4.500 kr. Afbestilling skriftligt: mere end 90 dage før afrejse mistes depositum; under 90 dage før mistes hele rejsens pris.",
     "sourceUrl": "https://nadana.dk/algarve-portugal-2027/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Fly + hotel",
     "departures": [
       {
@@ -1760,7 +1760,7 @@
     "groupSize": null,
     "alternativeDepartures": [],
     "packageType": "Arrangeret rejse",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "itinerary": [
       {
         "day": 1,
@@ -1892,7 +1892,7 @@
     "description": "Femten dages rundrejse med dansk rejseleder gennem Japans klassiske steder og mindre besøgte egne som Tottori og Matsue. Rejsen kombinerer storbyerne med ryokan, slotte og kunst. Gruppen er på 15-25 personer, så der er gode muligheder for at falde i snak.",
     "terms": "Booking via knappen på siden; ekspeditionsgebyr 295 kr. pr. ordre. Detaljerede afbestillingsregler fremgår ikke af rejsesiden. Ikke egnet for gangbesværede.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/japan/rejser/kejserens-japan/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Arrangeret rejse",
     "departures": [
       {
@@ -2037,7 +2037,7 @@
     "description": "Solorejse til Gran Canaria, hvor alle bor i egen lejlighed på et voksenhotel. Halvpension og en heldagsudflugt til øens indre er med i prisen.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/gran-canaria-14-april2027",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Fly + hotel"
   },
   {
@@ -2114,7 +2114,7 @@
     "groupSize": null,
     "alternativeDepartures": [],
     "packageType": "Arrangeret rejse",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "itinerary": [
       {
         "day": 1,
@@ -2225,7 +2225,7 @@
     "description": "En uge i Ayia Napa for solorejsende med halvpension og en heldagsudflugt til bjerglandsbyer og vingård. Siden nævner ved en fejl også et hotel på Lesbos, så hotellet bør bekræftes.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/cypern-19-apr-2027",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Fly + hotel"
   },
   {
@@ -2472,7 +2472,7 @@
     "description": "Syv nætter på Kreta med enkel all inclusive og afrejse fra Aalborg. Siden er uklar om værelsestypen (nævner også en to-rums lejlighed), så den bør bekræftes hos Spies.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/kreta-6maj2027",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Fly + hotel"
   },
   {
@@ -2493,7 +2493,7 @@
     "pricePerPersonDoubleDKK": 23950,
     "singleSupplementDKK": 5000,
     "priceIsFrom": true,
-    "soloNote": "Tillæg for enkeltværelse er 5.000 kr.; solopris 28.950 kr. er beregnet ud fra 23.950 kr. plus tillæg. Marts-afgangen koster 29.950 kr. pr. person i dobbeltværelse.",
+    "soloNote": "Tillæg for enkeltværelse er 5.000 kr.; solopris 28.950 kr. er beregnet ud fra 23.950 kr. plus tillæg. Marts-afgangen (22. marts) er kun på forespørgsel og er udeladt.",
     "guide": null,
     "groupSize": null,
     "flightIncluded": true,
@@ -2555,13 +2555,9 @@
     "description": "Fastprisrejse med fly, hoteller og tog, men uden fast gruppe eller dansk rejseleder, så man bestemmer selv tempoet. Passer til dem, der gerne rejser alene og selv vil styre dagene. Siden har en mulig fejl i antal nætter i Osaka.",
     "terms": "Depositum 2.500 kr. for at reservere pladsen. Hotel og aktiviteter kan kun købes sammen med fly via Jysk Rejsebureau. Ikke en gruppetur; program- og prisændringer forbeholdes.",
     "sourceUrl": "https://www.jysk-rejsebureau.dk/japan/faerdigpakket-rejse/japan-tokyo-kyoto-og-idyllisk-natur/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Arrangeret rejse",
     "departures": [
-      {
-        "date": "2027-03-22",
-        "priceDKK": 34950
-      },
       {
         "date": "2027-05-07",
         "priceDKK": 28950
@@ -2629,7 +2625,7 @@
     "description": "Uge i Rhodos by i eget værelse med halvpension. Gruppen får en smagsudflugt med olivenolie og vin. Ældre Sagen-medlemmer kan få 250 kr. i rabat.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/rhodos-09maj-2027",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Fly + hotel"
   },
   {
@@ -2689,7 +2685,7 @@
     "description": "Uge i Puerto de Mogán for solorejsende med halvpension og en heldagsudflugt gennem øens bjerge. Hotellet har spa og aktivitetsprogram.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/gran-canaria-19maj2027",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Fly + hotel"
   },
   {
@@ -2750,7 +2746,7 @@
     "description": "Samme koncept som aprilafgangen: en uge i Ayia Napa som solorejsende med halvpension og en bjergudflugt. Siden er uklar om værelsestypen, så bekræft ved booking.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/cypern-24-maj-2027",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Fly + hotel"
   },
   {
@@ -2811,7 +2807,7 @@
     "description": "En uge på Sunprime Atlantic View i Playa del Inglés for solorejsende, med halvpension, fællesspisning ved reserverede borde og en heldagsudflugt i øens bjerge.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløbet forfalder 40 dage før afrejse. Afbestillingsvilkår fremgår ikke af siden.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/gran-canaria-26-maj2027",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Fly + hotel"
   },
   {
@@ -2858,7 +2854,7 @@
     "description": "En uges social ferie på Samos for dem, der rejser alene, med dansk rejseleder og et lille fælles program. Fra-pris 8.899 kr. for den billigste afgang; op til 9.999 kr. i højsæsonen.",
     "terms": "Depositum 4.500 kr. Afbestilling skriftligt: mere end 90 dage før afrejse mistes depositum; under 90 dage før mistes hele rejsens pris.",
     "sourceUrl": "https://nadana.dk/samos-2027/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Fly + hotel",
     "departures": [
       {
@@ -2993,7 +2989,7 @@
     "description": "En uge på Sunprime Atlantic View i Playa del Inglés for solorejsende, med halvpension, fællesspisning ved reserverede borde og en heldagsudflugt i øens bjerge.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløbet forfalder 40 dage før afrejse. Afbestillingsvilkår fremgår ikke af siden.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/gran-canaria-2-juni2027",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Fly + hotel"
   },
   {
@@ -3073,7 +3069,7 @@
     "description": "Tretten dages rundrejse gennem Mongoliets stepper og Gobi med ger-overnatninger og dansk rejseleder. Siden oplyser, at programmet og priser for 2027 stadig kan ændre sig. Tillægget for eneværelse er relativt højt.",
     "terms": "Siden angiver, at priser og nyt dagsprogram stadig færdiggøres. Booking via knappen. Ikke egnet for gangbesværede. Bemærk datoafvigelse (16. vs. 17. august) på siden.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/mongoliet/rejser/eventyrlige-mongoliet/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Arrangeret rejse",
     "departures": [
       {
@@ -3144,7 +3140,7 @@
     "description": "August-afgang til voksenhotel på Gran Canaria, hvor alle bor alene i egen lejlighed med halvpension. Afrejse også fra Aalborg.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/gran-canaria-18aug2027",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Fly + hotel"
   },
   {
@@ -3217,7 +3213,7 @@
     "description": "Seksten dages rundrejse i Kina med mange afgange, helpension og dansk rejseleder. Gruppen er på 10-25 deltagere. Mange afgange gør det let at finde en dato, der passer.",
     "terms": "Booking via knappen på siden. Visumregler for 2027 er endnu ikke afklaret. Ikke egnet for gangbesværede.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/kina/rejser-til-kina/eventyrlige-kina/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Arrangeret rejse",
     "departures": [
       {
@@ -3239,6 +3235,50 @@
       {
         "date": "2027-10-13",
         "priceDKK": 29100
+      },
+      {
+        "date": "2028-04-03",
+        "priceDKK": 30110
+      },
+      {
+        "date": "2028-04-10",
+        "priceDKK": 30110
+      },
+      {
+        "date": "2028-05-08",
+        "priceDKK": 29110
+      },
+      {
+        "date": "2028-05-15",
+        "priceDKK": 30110
+      },
+      {
+        "date": "2028-08-28",
+        "priceDKK": 30110
+      },
+      {
+        "date": "2028-09-04",
+        "priceDKK": 30110
+      },
+      {
+        "date": "2028-09-11",
+        "priceDKK": 30110
+      },
+      {
+        "date": "2028-09-18",
+        "priceDKK": 30110
+      },
+      {
+        "date": "2028-10-09",
+        "priceDKK": 30110
+      },
+      {
+        "date": "2028-10-16",
+        "priceDKK": 30110
+      },
+      {
+        "date": "2028-10-23",
+        "priceDKK": 29110
       }
     ]
   },
@@ -3308,7 +3348,7 @@
     "description": "Elleve dages rundrejse langs Grønlands vestkyst med isfjord, hovedstad og de norrøne spor i syd. Dansk rejseleder og en gruppe på højst 23. Prisen er høj, og enkeltværelsestillægget er også stort.",
     "terms": "Booking via knappen på siden. Ikke egnet for gangbesværede.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/groenland/rejser/inuitkultur-fjord-og-vikingespor-den-store-groenlandsrejse/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Arrangeret rejse",
     "departures": [
       {
@@ -3379,7 +3419,7 @@
     "description": "Uge på Rhodos i oktober for solorejsende med halvpension og en smagsudflugt. Prisen er baseret på alenebrug af dobbeltværelse.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/rhodos-3okt-2027",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Fly + hotel"
   },
   {
@@ -3440,7 +3480,7 @@
     "description": "En uge i Ayia Napa som solorejsende med halvpension og bjergudflugt til Troodos. Afrejse fra København. Siden er uklar om værelsestypen (enkeltbrug af dobbeltværelse mod pool), så bekræft ved booking.",
     "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
     "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/cypern-4-oktober-2027",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Fly + hotel"
   },
   {
@@ -3515,7 +3555,7 @@
     "description": "To uger i Nordvietnam for solorejsende med dansk rejseleder: Hanoi, Ninh Binh, krydstogt i Ha Long Bay og afslapning på Cat Ba. Siden har enkelte uoverensstemmelser om antal nætter og flyvetider.",
     "terms": "Depositum 4.500 kr. Afbestilling skriftligt: mere end 90 dage før afrejse mistes depositum; inden for 90 dage mistes hele rejsens pris. Flytider er ikke offentliggjort endnu.",
     "sourceUrl": "https://nadana.dk/nord-vietnam-2027/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Arrangeret rejse"
   },
   {
@@ -3587,7 +3627,7 @@
     "description": "Ni dages rundrejse i Oman med helpension og dansk rejseleder, der kombinerer byliv i Muscat med bjerge, forter og ørken. Rejsen er velegnet til alenerejsende, der vil have et fuldt program og en lille gruppe.",
     "terms": "Booking via knappen på siden. Ikke egnet for gangbesværede. Afbestillingsvilkår fremgår ikke af siden.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/oman/rejser/fortryllende-oman/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Arrangeret rejse"
   },
   {
@@ -3633,7 +3673,7 @@
     "description": "Ti dage på safarilodge i Greater Kruger for solorejsende i lille gruppe. Alt er inkluderet, og der er ingen tillæg for eget værelse.",
     "terms": "Depositum/afbestilling for 2027 er ikke angivet på siden.",
     "sourceUrl": "https://nadana.dk/sydafrika-2027/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Arrangeret rejse"
   },
   {
@@ -3671,7 +3711,7 @@
     "description": "Hele den norske kyst frem og tilbage på 12 dage med anløb af 34 havne. Singletilbuddet giver egen kahyt uden det sædvanlige tillæg på udvalgte afgange.",
     "terms": "Depositum 10 %. Kun nye bookinger; tilbuddet gælder til 30. november 2026. Konkrete afgangsdatoer fremgår ikke af siden.",
     "sourceUrl": "https://www.hurtigruten.com/da-dk/tilbud/rejs-alene-uden-tillaeg",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Arrangeret rejse"
   },
   {
@@ -3709,7 +3749,7 @@
     "description": "Elleve dages rundrejse Bergen-Kirkenes-Trondheim med fuld forplejning. Det er uklart om alle afgange er omfattet af singletilbuddet.",
     "terms": "Depositum 10 %. Kun nye bookinger; tilbuddet gælder til 30. november 2026. Konkrete afgangsdatoer fremgår ikke af siden.",
     "sourceUrl": "https://www.hurtigruten.com/da-dk/tilbud/rejs-alene-uden-tillaeg",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Arrangeret rejse"
   },
   {
@@ -3747,7 +3787,7 @@
     "description": "Syv dage nordover fra Bergen til Kirkenes med fuld forplejning. Egen kahyt uden tillæg på udvalgte afgange.",
     "terms": "Depositum 10 %. Kun nye bookinger; tilbuddet gælder til 30. november 2026. Konkrete afgangsdatoer fremgår ikke af siden.",
     "sourceUrl": "https://www.hurtigruten.com/da-dk/tilbud/rejs-alene-uden-tillaeg",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Arrangeret rejse"
   },
   {
@@ -3785,7 +3825,7 @@
     "description": "Seks dage sydover fra Kirkenes til Bergen med fuld forplejning. Egen kahyt uden tillæg på udvalgte afgange; en af de billigste måder at sejle alene på.",
     "terms": "Depositum 10 %. Kun nye bookinger; tilbuddet gælder til 30. november 2026. Konkrete afgangsdatoer fremgår ikke af siden.",
     "sourceUrl": "https://www.hurtigruten.com/da-dk/tilbud/rejs-alene-uden-tillaeg",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Arrangeret rejse"
   },
   {
@@ -3823,7 +3863,7 @@
     "description": "Femten dages vinterrejse fra Oslo til Nordkap og retur, all inclusive. Siden nævner kun 'udvalgte Signature-rejser', så om tilbuddet gælder skal bekræftes.",
     "terms": "Depositum 10 %. Kun nye bookinger; tilbuddet gælder til 30. november 2026. Konkrete afgangsdatoer fremgår ikke af siden.",
     "sourceUrl": "https://www.hurtigruten.com/da-dk/tilbud/rejs-alene-uden-tillaeg",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Arrangeret rejse"
   },
   {
@@ -3892,7 +3932,7 @@
     "description": "Sommerrejse til det centrale Vietnam for solorejsende med dansk rejseleder: Hoi An, Hue og badebyen Da Nang med både program og frie dage.",
     "terms": "Depositum 4.500 kr. Afbestilling skriftligt: mere end 90 dage før afrejse mistes depositum; inden for 90 dage mistes hele rejsens pris.",
     "sourceUrl": "https://nadana.dk/centralvietnam/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "packageType": "Arrangeret rejse"
   },
   {
@@ -3905,7 +3945,7 @@
     "groupSize": null,
     "alternativeDepartures": [],
     "packageType": "Arrangeret rejse",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "itinerary": [
       {
         "day": 1,
@@ -3986,7 +4026,7 @@
     "groupSize": null,
     "alternativeDepartures": [],
     "packageType": "Arrangeret rejse",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "itinerary": [
       {
         "day": 1,
@@ -4055,7 +4095,7 @@
     "groupSize": null,
     "alternativeDepartures": [],
     "packageType": "Arrangeret rejse",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "itinerary": [
       {
         "day": 1,
@@ -4113,7 +4153,7 @@
     "groupSize": null,
     "alternativeDepartures": [],
     "packageType": "Arrangeret rejse",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "itinerary": [
       {
         "day": 1,
@@ -4178,7 +4218,7 @@
     "groupSize": null,
     "alternativeDepartures": [],
     "packageType": "Arrangeret rejse",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "itinerary": [
       {
         "day": 1,
@@ -4246,7 +4286,7 @@
     "groupSize": null,
     "alternativeDepartures": [],
     "packageType": "Arrangeret rejse",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "itinerary": [
       {
         "day": 1,
@@ -4304,7 +4344,7 @@
     "groupSize": null,
     "alternativeDepartures": [],
     "packageType": "Arrangeret rejse",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "itinerary": [
       {
         "day": 1,
@@ -4397,7 +4437,7 @@
     "priceIsFrom": true,
     "soloNote": "Enkeltværelse koster 49.990 kr. mod 44.990 kr. i dobbeltværelse (tillæg 5.000 kr.) på den billigste afgang.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/nepal/rejser/himalayas-hjerte/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "flightIncluded": true,
     "departures": [
       {
@@ -4455,7 +4495,7 @@
     "priceIsFrom": true,
     "soloNote": "Enkeltværelse koster 40.990 kr. mod 35.990 kr. i dobbeltværelse (tillæg 5.000 kr.) på den billigste afgang.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/kenya/rejser/karen-blixens-kenya/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "flightIncluded": true,
     "departures": [
       {
@@ -4513,7 +4553,7 @@
     "priceIsFrom": true,
     "soloNote": "Enkeltværelse koster 37.575 kr. mod 31.700 kr. i dobbeltværelse (tillæg 5.875 kr.) på den billigste afgang.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/kirgisistan/rejser/paa-sporet-af-silkevejen/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "flightIncluded": true,
     "departures": [
       {
@@ -4572,7 +4612,7 @@
     "priceIsFrom": true,
     "soloNote": "Enkeltværelse koster 19.990 kr. mod 16.990 kr. i dobbeltværelse (tillæg 3.000 kr.) på den billigste afgang.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/skotland/rejser/bonnie-skotland/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "flightIncluded": true,
     "departures": [
       {
@@ -4645,7 +4685,7 @@
     "priceIsFrom": true,
     "soloNote": "Enkeltværelse koster 74.735 kr. mod 61.990 kr. i dobbeltværelse (tillæg 12.745 kr.) på den billigste afgang.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/argentina/rejser/patagonien-iguazuvandfaldene-og-ikoniske-storbyer/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "flightIncluded": true,
     "departures": [
       {
@@ -4698,7 +4738,7 @@
     "priceIsFrom": true,
     "soloNote": "Enkeltværelse koster 16.990 kr. mod 14.990 kr. i dobbeltværelse (tillæg 2.000 kr.) på den billigste afgang.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/kroatien/rejser-til-kroatien/en-tidsrejse-gennem-sydbalkan/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "flightIncluded": true,
     "departures": [
       {
@@ -4751,7 +4791,7 @@
     "priceIsFrom": true,
     "soloNote": "Enkeltværelse koster 30.490 kr. mod 24.490 kr. i dobbeltværelse (tillæg 6.000 kr.) på den billigste afgang.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/sri-lanka/rundrejse-til-sri-lanka/templer-te-og-safari/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "flightIncluded": true,
     "departures": [
       {
@@ -4809,7 +4849,7 @@
     "priceIsFrom": true,
     "soloNote": "Enkeltværelse koster 43.985 kr. mod 37.950 kr. i dobbeltværelse (tillæg 6.035 kr.) på den billigste afgang.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/peru/rundrejser-til-peru/toppen-af-peru/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "flightIncluded": true,
     "departures": [
       {
@@ -4889,7 +4929,7 @@
     "priceIsFrom": true,
     "soloNote": "Enkeltværelse koster 79.970 kr. mod 63.900 kr. i dobbeltværelse (tillæg 16.070 kr.) på den billigste afgang.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/peru/rundrejser-til-peru/en-rejse-under-himlens-tag-i-andesbjergene/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "flightIncluded": true,
     "departures": [
       {
@@ -4943,11 +4983,23 @@
     "priceIsFrom": true,
     "soloNote": "Enkeltværelse koster 24.695 kr. mod 21.495 kr. i dobbeltværelse (tillæg 3.200 kr.) på den billigste afgang.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/thailand/rundrejser-thailand/paa-floder-gennem-oestens-mystik/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "flightIncluded": true,
     "departures": [
       {
         "date": "2027-01-03",
+        "priceDKK": 25795
+      },
+      {
+        "date": "2027-01-17",
+        "priceDKK": 25795
+      },
+      {
+        "date": "2027-02-07",
+        "priceDKK": 25795
+      },
+      {
+        "date": "2027-02-10",
         "priceDKK": 25795
       },
       {
@@ -5012,7 +5064,7 @@
     "priceIsFrom": true,
     "soloNote": "Enkeltværelse koster 39.130 kr. mod 31.630 kr. i dobbeltværelse (tillæg 7.500 kr.) på den billigste afgang.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/groenland/rejser/eventyrlige-vestgroenland/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "flightIncluded": true,
     "departures": [
       {
@@ -5086,7 +5138,7 @@
     "priceIsFrom": true,
     "soloNote": "Enkeltværelse koster 34.130 kr. mod 27.630 kr. i dobbeltværelse (tillæg 6.500 kr.) på den billigste afgang.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/groenland/rejser/eventyr-paa-isen/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "flightIncluded": true,
     "departures": [
       {
@@ -5144,7 +5196,7 @@
     "priceIsFrom": true,
     "soloNote": "Enkeltværelse koster 36.990 kr. mod 33.990 kr. i dobbeltværelse (tillæg 3.000 kr.) på den billigste afgang.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/madagaskar/rejser-til-madagaskar/ekspedition-i-nordmadagaskar-en-rejse-i-det-ukendte/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "flightIncluded": true,
     "departures": [
       {
@@ -5199,7 +5251,7 @@
     "priceIsFrom": true,
     "soloNote": "Enkeltværelse koster 20.995 kr. mod 15.995 kr. i dobbeltværelse (tillæg 5.000 kr.) på den billigste afgang.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/bali/rundrejser-bali/paa-sansernes-oe/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "flightIncluded": true,
     "departures": [
       {
@@ -5273,7 +5325,7 @@
     "priceIsFrom": true,
     "soloNote": "Enkeltværelse koster 23.495 kr. mod 16.995 kr. i dobbeltværelse (tillæg 6.500 kr.) på den billigste afgang.",
     "sourceUrl": "https://www.stjernegaard-rejser.dk/bali/rejser/langtidsferie-med-tid-til-fordybelse/priser-og-datoer/",
-    "priceCheckedDate": "2026-11-27",
+    "priceCheckedDate": "2026-11-28",
     "flightIncluded": true,
     "departures": [
       {
@@ -5451,5 +5503,295 @@
     "sourceUrl": "https://www.albatros.dk/rejser/malaysia-og-borneo-rejs-alene-i-faellesskab",
     "priceCheckedDate": "2026-11-27",
     "packageType": "Arrangeret rejse"
+  },
+  {
+    "id": "spies-gran-canaria-2027-01-07",
+    "operator": "Spies",
+    "title": "Ferie alene på Gran Canaria (Puerto de Mogán)",
+    "country": "Spanien",
+    "destination": "Puerto de Mogán, Gran Canaria",
+    "tripType": "Solferie",
+    "departureDate": "2027-01-07",
+    "alternativeDepartures": [],
+    "nights": 7,
+    "days": 8,
+    "board": "Halvpension",
+    "soloType": "solo-gruppe",
+    "soloPriceDKK": 12995,
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": false,
+    "soloNote": "Prisen er opgivet for én person i dobbeltværelse til alenebrug (enkeltværelsesbasis). Rejsen er for solorejsende i en gruppe på samme hotel. På listen er der kun 1 plads tilbage.",
+    "guide": "Skandinavisktalende rejseleder/guide med velkomstmøde og fællesspisning",
+    "groupSize": null,
+    "flightIncluded": true,
+    "includes": [
+      "Returfly med Sunclass Airlines (København eller Billund)",
+      "15 kg indchecket bagage og 5 kg håndbagage",
+      "Bustransfer mellem lufthavn og hotel",
+      "Ophold på Cordial Mogán Playa, dobbeltværelse til alenebrug",
+      "Halvpension (morgenmad og aftensmad i hotellets buffetrestaurant)",
+      "Markedsudflugt til Puerto de Mogán med dansk guide"
+    ],
+    "excludes": [
+      "Valgfri flymåltid 238 kr. (retur)",
+      "Afbestillingsforsikring (valgfri): 399 kr.",
+      "Rejseforsikring (valgfri): 350 kr.",
+      "Valgfrie udflugter"
+    ],
+    "highlights": [
+      "Hotel tæt på havnen i Puerto de Mogán",
+      "Inkluderet markedsudflugt med dansk guide",
+      "Fællesspisning med reserverede borde"
+    ],
+    "itinerary": [
+      {
+        "day": "Dag 1",
+        "title": "Ankomst, transfer til hotel og velkomstmøde kl. 18"
+      },
+      {
+        "day": "Dag 2",
+        "title": "Inkluderet markedsudflugt"
+      },
+      {
+        "day": "Dag 3-7",
+        "title": "Fridage og valgfrie udflugter (Las Palmas, Guayadeque m.fl.)"
+      },
+      {
+        "day": "Dag 8",
+        "title": "Udtjekning og hjemrejse"
+      }
+    ],
+    "description": "En uge i Puerto de Mogán for solorejsende med halvpension og en inkluderet markedsudflugt. Afrejse fra København eller Billund.",
+    "terms": "1.500 kr. i depositum ved tilmelding; restbeløb forfalder 40 dage før afrejse.",
+    "sourceUrl": "https://www.spies.dk/grupperejser/ferie-alene-sammen-med-andre/gran-canaria-7jan2027",
+    "priceCheckedDate": "2026-11-28",
+    "packageType": "Fly + hotel"
+  },
+  {
+    "operator": "Egons Rejser",
+    "soloType": "solo-gruppe",
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": false,
+    "groupSize": null,
+    "alternativeDepartures": [],
+    "packageType": "Arrangeret rejse",
+    "priceCheckedDate": "2026-11-28",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Udrejse, færge til Rostock, Stralsund og Rügen"
+      },
+      {
+        "day": 2,
+        "title": "Sassnitz, Kap Arkona og Vitt"
+      },
+      {
+        "day": 3,
+        "title": "Putbus, Rasender Roland, Sellin, Binz og Prora"
+      },
+      {
+        "day": 4,
+        "title": "Rostock og hjemrejse"
+      }
+    ],
+    "id": "egons-ruegen-2027-10-24",
+    "title": "Ferie alene - Rügen, hvor havet, historien og hyggen mødes",
+    "country": "Tyskland",
+    "destination": "Rügen",
+    "tripType": "Busrejse",
+    "departureDate": "2027-10-24",
+    "nights": 3,
+    "days": 4,
+    "board": "Halvpension",
+    "soloPriceDKK": 5598,
+    "flightIncluded": false,
+    "guide": "Dansk rejseleder",
+    "soloNote": "Målrettet solorejsende; prisen gælder enkeltværelse.",
+    "includes": [
+      "Bustur i 4-stjernet turistbus og færge Gedser-Rostock",
+      "3 nætter i enkeltværelse på Parkhotel Rügen",
+      "3 x morgenmad og 3 x middag inkl. 2 drikke",
+      "Byvandringer i Stralsund, Sassnitz og Rostock",
+      "Tur med Kap-Arkona-Bahn og veterantoget Rasender Roland",
+      "Besøg i Sellin og Binz og entré til Dokumentationszentrum Prora",
+      "Rejsegarantifondsafgift"
+    ],
+    "excludes": [
+      "Frokostbuffet på færgen kan tilkøbes ved booking (199 kr. pr. dag)"
+    ],
+    "highlights": [
+      "Rasender Roland",
+      "Kap Arkona",
+      "Badebyerne Sellin og Binz"
+    ],
+    "description": "Fire dages efterårsrejse til Rügen for solorejsende, med eget værelse. Normalpris 5.598 kr. (5.199 kr. for Ældre Sagen-medlemmer).",
+    "terms": "Booking via Egons Rejser tlf. 70 20 18 47. Afbestillingsregler fremgår ikke af rejsesiden; se Egons rejsebetingelser.",
+    "sourceUrl": "https://egonsrejser.dk/rejse/ferie-alene-rugen-hvor-havet-historien-og-hyggen-moedes/"
+  },
+  {
+    "id": "stjernegaard-jordan-2027-03-14",
+    "operator": "Stjernegaard Rejser",
+    "title": "Et historisk vingesus - rundrejse i Jordan",
+    "country": "Jordan",
+    "destination": "Madaba, Petra, Wadi Rum og Aqaba",
+    "tripType": "Kultur & historie",
+    "packageType": "Arrangeret rejse",
+    "alternativeDepartures": [],
+    "pricePerPersonDoubleDKK": 15790,
+    "singleSupplementDKK": 2100,
+    "guide": "Dansk rejseleder",
+    "groupSize": "15-25 deltagere",
+    "includes": [
+      "Dansk rejseleder",
+      "Halvpension (morgenmad og aftensmad)",
+      "7 overnatninger, bl.a. i Madaba, Petra, Wadi Rum og Aqaba",
+      "4WD-tur i Wadi Rum og nat i beduinlejr"
+    ],
+    "excludes": [],
+    "highlights": [
+      "Umm Qais og Jerash",
+      "Madabas mosaikkort og Bjerget Nebo",
+      "Petra (2 nætter)",
+      "Wadi Rum i 4WD med stjernehimmel",
+      "Badning i Det Døde Hav"
+    ],
+    "itinerary": [],
+    "description": "Otte dages rundrejse i Jordan med dansk rejseleder, fra romerruiner og korsfarerborge til Petra, ørkenen i Wadi Rum og Det Røde Hav.",
+    "terms": "Fly er ikke nævnt på rejsesiden. Se dagsprogram og vilkår hos Stjernegaard ved booking.",
+    "departureDate": "2027-03-14",
+    "nights": 7,
+    "days": 8,
+    "board": "Halvpension",
+    "soloType": "tillaeg",
+    "soloPriceDKK": 17890,
+    "soloPriceBasis": "stated",
+    "priceIsFrom": true,
+    "soloNote": "Enkeltværelse 17.890 kr. mod 15.790 kr. i dobbeltværelse (tillæg 2.100 kr.). Samme pris på alle tre afgange.",
+    "sourceUrl": "https://www.stjernegaard-rejser.dk/jordan/rejser/et-historisk-vingesus/priser-og-datoer/",
+    "priceCheckedDate": "2026-11-28",
+    "flightIncluded": null,
+    "departures": [
+      {
+        "date": "2027-03-14",
+        "priceDKK": 17890
+      },
+      {
+        "date": "2027-09-12",
+        "priceDKK": 17890
+      },
+      {
+        "date": "2027-10-17",
+        "priceDKK": 17890
+      }
+    ]
+  },
+  {
+    "id": "stjernegaard-australien-2027-03-15",
+    "operator": "Stjernegaard Rejser",
+    "title": "På eventyr i Australien",
+    "country": "Australien",
+    "destination": "Melbourne, Great Ocean Road, Adelaide, Uluru, Cairns og Sydney",
+    "tripType": "Rundrejse",
+    "packageType": "Arrangeret rejse",
+    "alternativeDepartures": [],
+    "pricePerPersonDoubleDKK": 64990,
+    "singleSupplementDKK": 13000,
+    "guide": "Dansk rejseleder",
+    "groupSize": "15-25 deltagere",
+    "includes": [
+      "Erfaren dansk rejseleder",
+      "Alle udflugter ifølge programmet",
+      "Indenrigsfly mellem de store afstande (jf. siden)"
+    ],
+    "excludes": [],
+    "highlights": [
+      "Yarra Valley og Phillip Island",
+      "Great Ocean Road og Twelve Apostles",
+      "Uluru og Kings Canyon",
+      "Great Barrier Reef ved Cairns",
+      "Sydney med Operahuset og Blue Mountains"
+    ],
+    "itinerary": [],
+    "description": "22 dages rundrejse gennem Australien med dansk rejseleder, fra Melbourne og Great Ocean Road over Uluru til Barrier Reef og Sydney.",
+    "terms": "Rejsesiden oplyser ikke, om international flyrejse er inkluderet, eller hvilke måltider der er med. Dagsprogram og vilkår findes hos Stjernegaard. Øvrige afgange (okt. 2027 - feb. 2028) afventer pris og program.",
+    "departureDate": "2027-03-15",
+    "nights": null,
+    "days": 22,
+    "board": "Ukendt",
+    "soloType": "tillaeg",
+    "soloPriceDKK": 77990,
+    "soloPriceBasis": "stated",
+    "priceIsFrom": true,
+    "soloNote": "Enkeltværelse 77.990 kr. mod 64.990 kr. i dobbeltværelse (tillæg 13.000 kr.). Afgangen 15. marts 2027 er garanteret.",
+    "sourceUrl": "https://www.stjernegaard-rejser.dk/australien/rundrejser-i-australien/paa-eventyr-i-australien/priser-og-datoer/",
+    "priceCheckedDate": "2026-11-28",
+    "flightIncluded": null
+  },
+  {
+    "id": "nadana-calabrien-2027-09-27",
+    "operator": "Nadana Tours",
+    "title": "Calabrien, Italien 2027 - en uge i Tropea-området",
+    "country": "Italien",
+    "destination": "Calabrien (Tropea)",
+    "tripType": "Solferie",
+    "packageType": "Fly + hotel",
+    "alternativeDepartures": [],
+    "departureDate": "2027-09-27",
+    "nights": 7,
+    "days": 8,
+    "board": "Morgenmad",
+    "soloType": "ingen-tillaeg",
+    "soloPriceDKK": 10500,
+    "soloPriceBasis": "stated",
+    "pricePerPersonDoubleDKK": null,
+    "singleSupplementDKK": null,
+    "priceIsFrom": false,
+    "soloNote": "Prisen gælder enkeltværelse med morgenmad. Afgangene 4. og 11. oktober (10.799 kr.) har ikke booking-link på siden og er ikke medtaget.",
+    "guide": "Dansk rejseleder",
+    "groupSize": "Maks. 12 deltagere",
+    "flightIncluded": true,
+    "includes": [
+      "Enkeltværelse med morgenmad",
+      "2 fællesmiddage på hotellet",
+      "Transfers",
+      "Fly med bagage (direkte fra Billund eller Aalborg)",
+      "Dansk rejseleder"
+    ],
+    "excludes": [
+      "Øvrige middage",
+      "Valgfrie udflugter (fx Tropea-vandring, vinsmagning og sejltur) betales særskilt"
+    ],
+    "highlights": [
+      "Vandretur i Tropea",
+      "Vin- og olivenolie-smagning",
+      "Sejltur fra Tropea til Capo Vaticano",
+      "Halvdagstur til Pizzo Calabro"
+    ],
+    "itinerary": [
+      {
+        "day": "Mandag",
+        "title": "Ankomst og møde med rejselederen"
+      },
+      {
+        "day": "Tirsdag-lørdag",
+        "title": "Fridage og valgfrie udflugter i Tropea-området"
+      },
+      {
+        "day": "Søndag",
+        "title": "Halvdagstur til Pizzo Calabro"
+      },
+      {
+        "day": "Mandag",
+        "title": "Hjemrejse"
+      }
+    ],
+    "description": "En uge i Calabrien for solorejsende med eget værelse, dansk rejseleder og valgfrie udflugter fra Tropea.",
+    "terms": "Depositum 4.500 kr. Afbestilling mere end 90 dage før afrejse mister depositum; inden for 90 dage mistes hele rejsens pris.",
+    "sourceUrl": "https://nadana.dk/calabrien-italien-2027/",
+    "priceCheckedDate": "2026-11-28"
   }
 ]
